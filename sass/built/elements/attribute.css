@@ -1,0 +1,9 @@
+[href]:empty():before {
+  content: attr("href");
+}
+
+[type]:empty():before {
+  content: attr("type");
+}
+
+/*# sourceMappingURL=attribute.css.map */

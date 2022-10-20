@@ -1,0 +1,4310 @@
+.bordered, .border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #4e5862;
+}
+
+.border-0 {
+  border-width: 0px;
+}
+
+.border-t-0 {
+  border-top-width: 0px;
+}
+
+.active\:border-t-0:active,
+.focus\:border-t-0:focus,
+.hover\:border-t-0:hover {
+  border-top-width: 0px;
+}
+
+.border-l-0 {
+  border-left-width: 0px;
+}
+
+.active\:border-l-0:active,
+.focus\:border-l-0:focus,
+.hover\:border-l-0:hover {
+  border-left-width: 0px;
+}
+
+.border-b-0 {
+  border-bottom-width: 0px;
+}
+
+.active\:border-b-0:active,
+.focus\:border-b-0:focus,
+.hover\:border-b-0:hover {
+  border-bottom-width: 0px;
+}
+
+.border-r-0 {
+  border-right-width: 0px;
+}
+
+.active\:border-r-0:active,
+.focus\:border-r-0:focus,
+.hover\:border-r-0:hover {
+  border-right-width: 0px;
+}
+
+.border-tl-0 {
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+
+.active\:border-tl-0:active,
+.focus\:border-tl-0:focus,
+.hover\:border-tl-0:hover {
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+
+.border-tr-0 {
+  border-top-width: 0px;
+  border-right-width: 0px;
+}
+
+.active\:border-tr-0:active,
+.focus\:border-tr-0:focus,
+.hover\:border-tr-0:hover {
+  border-top-width: 0px;
+  border-right-width: 0px;
+}
+
+.border-bl-0 {
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.active\:border-bl-0:active,
+.focus\:border-bl-0:focus,
+.hover\:border-bl-0:hover {
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.border-br-0 {
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+}
+
+.active\:border-br-0:active,
+.focus\:border-br-0:focus,
+.hover\:border-br-0:hover {
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+}
+
+.border-x-0 {
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.active\:border-x-0:active,
+.focus\:border-x-0:focus,
+.hover\:border-x-0:hover {
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.border-y-0 {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.active\:border-y-0:active,
+.focus\:border-y-0:focus,
+.hover\:border-y-0:hover {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.border-t-1 {
+  border-top-width: 1px;
+}
+
+.active\:border-t-1:active,
+.focus\:border-t-1:focus,
+.hover\:border-t-1:hover {
+  border-top-width: 1px;
+}
+
+.border-l-1 {
+  border-left-width: 1px;
+}
+
+.active\:border-l-1:active,
+.focus\:border-l-1:focus,
+.hover\:border-l-1:hover {
+  border-left-width: 1px;
+}
+
+.border-b-1 {
+  border-bottom-width: 1px;
+}
+
+.active\:border-b-1:active,
+.focus\:border-b-1:focus,
+.hover\:border-b-1:hover {
+  border-bottom-width: 1px;
+}
+
+.border-r-1 {
+  border-right-width: 1px;
+}
+
+.active\:border-r-1:active,
+.focus\:border-r-1:focus,
+.hover\:border-r-1:hover {
+  border-right-width: 1px;
+}
+
+.border-tl-1 {
+  border-top-width: 1px;
+  border-left-width: 1px;
+}
+
+.active\:border-tl-1:active,
+.focus\:border-tl-1:focus,
+.hover\:border-tl-1:hover {
+  border-top-width: 1px;
+  border-left-width: 1px;
+}
+
+.border-tr-1 {
+  border-top-width: 1px;
+  border-right-width: 1px;
+}
+
+.active\:border-tr-1:active,
+.focus\:border-tr-1:focus,
+.hover\:border-tr-1:hover {
+  border-top-width: 1px;
+  border-right-width: 1px;
+}
+
+.border-bl-1 {
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+.active\:border-bl-1:active,
+.focus\:border-bl-1:focus,
+.hover\:border-bl-1:hover {
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+.border-br-1 {
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+}
+
+.active\:border-br-1:active,
+.focus\:border-br-1:focus,
+.hover\:border-br-1:hover {
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+}
+
+.border-x-1 {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+.active\:border-x-1:active,
+.focus\:border-x-1:focus,
+.hover\:border-x-1:hover {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+.border-y-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.active\:border-y-1:active,
+.focus\:border-y-1:focus,
+.hover\:border-y-1:hover {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
+}
+
+.active\:border-t-2:active,
+.focus\:border-t-2:focus,
+.hover\:border-t-2:hover {
+  border-top-width: 2px;
+}
+
+.border-l-2 {
+  border-left-width: 2px;
+}
+
+.active\:border-l-2:active,
+.focus\:border-l-2:focus,
+.hover\:border-l-2:hover {
+  border-left-width: 2px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.active\:border-b-2:active,
+.focus\:border-b-2:focus,
+.hover\:border-b-2:hover {
+  border-bottom-width: 2px;
+}
+
+.border-r-2 {
+  border-right-width: 2px;
+}
+
+.active\:border-r-2:active,
+.focus\:border-r-2:focus,
+.hover\:border-r-2:hover {
+  border-right-width: 2px;
+}
+
+.border-tl-2 {
+  border-top-width: 2px;
+  border-left-width: 2px;
+}
+
+.active\:border-tl-2:active,
+.focus\:border-tl-2:focus,
+.hover\:border-tl-2:hover {
+  border-top-width: 2px;
+  border-left-width: 2px;
+}
+
+.border-tr-2 {
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
+
+.active\:border-tr-2:active,
+.focus\:border-tr-2:focus,
+.hover\:border-tr-2:hover {
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
+
+.border-bl-2 {
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+}
+
+.active\:border-bl-2:active,
+.focus\:border-bl-2:focus,
+.hover\:border-bl-2:hover {
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+}
+
+.border-br-2 {
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}
+
+.active\:border-br-2:active,
+.focus\:border-br-2:focus,
+.hover\:border-br-2:hover {
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}
+
+.border-x-2 {
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+
+.active\:border-x-2:active,
+.focus\:border-x-2:focus,
+.hover\:border-x-2:hover {
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+
+.border-y-2 {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+
+.active\:border-y-2:active,
+.focus\:border-y-2:focus,
+.hover\:border-y-2:hover {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+
+.border-3 {
+  border-width: 3px;
+}
+
+.border-t-3 {
+  border-top-width: 3px;
+}
+
+.active\:border-t-3:active,
+.focus\:border-t-3:focus,
+.hover\:border-t-3:hover {
+  border-top-width: 3px;
+}
+
+.border-l-3 {
+  border-left-width: 3px;
+}
+
+.active\:border-l-3:active,
+.focus\:border-l-3:focus,
+.hover\:border-l-3:hover {
+  border-left-width: 3px;
+}
+
+.border-b-3 {
+  border-bottom-width: 3px;
+}
+
+.active\:border-b-3:active,
+.focus\:border-b-3:focus,
+.hover\:border-b-3:hover {
+  border-bottom-width: 3px;
+}
+
+.border-r-3 {
+  border-right-width: 3px;
+}
+
+.active\:border-r-3:active,
+.focus\:border-r-3:focus,
+.hover\:border-r-3:hover {
+  border-right-width: 3px;
+}
+
+.border-tl-3 {
+  border-top-width: 3px;
+  border-left-width: 3px;
+}
+
+.active\:border-tl-3:active,
+.focus\:border-tl-3:focus,
+.hover\:border-tl-3:hover {
+  border-top-width: 3px;
+  border-left-width: 3px;
+}
+
+.border-tr-3 {
+  border-top-width: 3px;
+  border-right-width: 3px;
+}
+
+.active\:border-tr-3:active,
+.focus\:border-tr-3:focus,
+.hover\:border-tr-3:hover {
+  border-top-width: 3px;
+  border-right-width: 3px;
+}
+
+.border-bl-3 {
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+}
+
+.active\:border-bl-3:active,
+.focus\:border-bl-3:focus,
+.hover\:border-bl-3:hover {
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+}
+
+.border-br-3 {
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+}
+
+.active\:border-br-3:active,
+.focus\:border-br-3:focus,
+.hover\:border-br-3:hover {
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+}
+
+.border-x-3 {
+  border-left-width: 3px;
+  border-right-width: 3px;
+}
+
+.active\:border-x-3:active,
+.focus\:border-x-3:focus,
+.hover\:border-x-3:hover {
+  border-left-width: 3px;
+  border-right-width: 3px;
+}
+
+.border-y-3 {
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+}
+
+.active\:border-y-3:active,
+.focus\:border-y-3:focus,
+.hover\:border-y-3:hover {
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
+}
+
+.active\:border-t-4:active,
+.focus\:border-t-4:focus,
+.hover\:border-t-4:hover {
+  border-top-width: 4px;
+}
+
+.border-l-4 {
+  border-left-width: 4px;
+}
+
+.active\:border-l-4:active,
+.focus\:border-l-4:focus,
+.hover\:border-l-4:hover {
+  border-left-width: 4px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.active\:border-b-4:active,
+.focus\:border-b-4:focus,
+.hover\:border-b-4:hover {
+  border-bottom-width: 4px;
+}
+
+.border-r-4 {
+  border-right-width: 4px;
+}
+
+.active\:border-r-4:active,
+.focus\:border-r-4:focus,
+.hover\:border-r-4:hover {
+  border-right-width: 4px;
+}
+
+.border-tl-4 {
+  border-top-width: 4px;
+  border-left-width: 4px;
+}
+
+.active\:border-tl-4:active,
+.focus\:border-tl-4:focus,
+.hover\:border-tl-4:hover {
+  border-top-width: 4px;
+  border-left-width: 4px;
+}
+
+.border-tr-4 {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+
+.active\:border-tr-4:active,
+.focus\:border-tr-4:focus,
+.hover\:border-tr-4:hover {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+
+.border-bl-4 {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+
+.active\:border-bl-4:active,
+.focus\:border-bl-4:focus,
+.hover\:border-bl-4:hover {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+
+.border-br-4 {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.active\:border-br-4:active,
+.focus\:border-br-4:focus,
+.hover\:border-br-4:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.border-x-4 {
+  border-left-width: 4px;
+  border-right-width: 4px;
+}
+
+.active\:border-x-4:active,
+.focus\:border-x-4:focus,
+.hover\:border-x-4:hover {
+  border-left-width: 4px;
+  border-right-width: 4px;
+}
+
+.border-y-4 {
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+}
+
+.active\:border-y-4:active,
+.focus\:border-y-4:focus,
+.hover\:border-y-4:hover {
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+}
+
+.border-5 {
+  border-width: 5px;
+}
+
+.border-t-5 {
+  border-top-width: 5px;
+}
+
+.active\:border-t-5:active,
+.focus\:border-t-5:focus,
+.hover\:border-t-5:hover {
+  border-top-width: 5px;
+}
+
+.border-l-5 {
+  border-left-width: 5px;
+}
+
+.active\:border-l-5:active,
+.focus\:border-l-5:focus,
+.hover\:border-l-5:hover {
+  border-left-width: 5px;
+}
+
+.border-b-5 {
+  border-bottom-width: 5px;
+}
+
+.active\:border-b-5:active,
+.focus\:border-b-5:focus,
+.hover\:border-b-5:hover {
+  border-bottom-width: 5px;
+}
+
+.border-r-5 {
+  border-right-width: 5px;
+}
+
+.active\:border-r-5:active,
+.focus\:border-r-5:focus,
+.hover\:border-r-5:hover {
+  border-right-width: 5px;
+}
+
+.border-tl-5 {
+  border-top-width: 5px;
+  border-left-width: 5px;
+}
+
+.active\:border-tl-5:active,
+.focus\:border-tl-5:focus,
+.hover\:border-tl-5:hover {
+  border-top-width: 5px;
+  border-left-width: 5px;
+}
+
+.border-tr-5 {
+  border-top-width: 5px;
+  border-right-width: 5px;
+}
+
+.active\:border-tr-5:active,
+.focus\:border-tr-5:focus,
+.hover\:border-tr-5:hover {
+  border-top-width: 5px;
+  border-right-width: 5px;
+}
+
+.border-bl-5 {
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+}
+
+.active\:border-bl-5:active,
+.focus\:border-bl-5:focus,
+.hover\:border-bl-5:hover {
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+}
+
+.border-br-5 {
+  border-bottom-width: 5px;
+  border-right-width: 5px;
+}
+
+.active\:border-br-5:active,
+.focus\:border-br-5:focus,
+.hover\:border-br-5:hover {
+  border-bottom-width: 5px;
+  border-right-width: 5px;
+}
+
+.border-x-5 {
+  border-left-width: 5px;
+  border-right-width: 5px;
+}
+
+.active\:border-x-5:active,
+.focus\:border-x-5:focus,
+.hover\:border-x-5:hover {
+  border-left-width: 5px;
+  border-right-width: 5px;
+}
+
+.border-y-5 {
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+}
+
+.active\:border-y-5:active,
+.focus\:border-y-5:focus,
+.hover\:border-y-5:hover {
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+}
+
+.border-primary {
+  border-color: #007cde;
+}
+.border-primary-100 {
+  border-color: #0070c8;
+}
+.border-primary-200 {
+  border-color: #0063b2;
+}
+.border-primary-300 {
+  border-color: #00579b;
+}
+.border-primary-400 {
+  border-color: #004a85;
+}
+.border-primary-500 {
+  border-color: #003e6f;
+}
+.border-primary-600 {
+  border-color: #003259;
+}
+.border-primary-700 {
+  border-color: #002543;
+}
+.border-primary-800 {
+  border-color: #00192c;
+}
+.border-primary-900 {
+  border-color: #000c16;
+}
+
+.border-secondary {
+  border-color: #333;
+}
+.border-secondary-100 {
+  border-color: #2e2e2e;
+}
+.border-secondary-200 {
+  border-color: #292929;
+}
+.border-secondary-300 {
+  border-color: #242424;
+}
+.border-secondary-400 {
+  border-color: #1f1f1f;
+}
+.border-secondary-500 {
+  border-color: #1a1a1a;
+}
+.border-secondary-600 {
+  border-color: #141414;
+}
+.border-secondary-700 {
+  border-color: #0f0f0f;
+}
+.border-secondary-800 {
+  border-color: #0a0a0a;
+}
+.border-secondary-900 {
+  border-color: #050505;
+}
+
+.border-success {
+  border-color: #198754;
+}
+.border-success-100 {
+  border-color: #177a4c;
+}
+.border-success-200 {
+  border-color: #146c43;
+}
+.border-success-300 {
+  border-color: #125f3b;
+}
+.border-success-400 {
+  border-color: #0f5132;
+}
+.border-success-500 {
+  border-color: #0d442a;
+}
+.border-success-600 {
+  border-color: #0a3622;
+}
+.border-success-700 {
+  border-color: #082919;
+}
+.border-success-800 {
+  border-color: #051b11;
+}
+.border-success-900 {
+  border-color: #030e08;
+}
+
+.border-info {
+  border-color: #0dcaf0;
+}
+.border-info-100 {
+  border-color: #0cb6d8;
+}
+.border-info-200 {
+  border-color: #0aa2c0;
+}
+.border-info-300 {
+  border-color: #098da8;
+}
+.border-info-400 {
+  border-color: #087990;
+}
+.border-info-500 {
+  border-color: #076578;
+}
+.border-info-600 {
+  border-color: #055160;
+}
+.border-info-700 {
+  border-color: #043d48;
+}
+.border-info-800 {
+  border-color: #032830;
+}
+.border-info-900 {
+  border-color: #011418;
+}
+
+.border-warning {
+  border-color: #ffc107;
+}
+.border-warning-100 {
+  border-color: #e6ae06;
+}
+.border-warning-200 {
+  border-color: #cc9a06;
+}
+.border-warning-300 {
+  border-color: #b38705;
+}
+.border-warning-400 {
+  border-color: #997404;
+}
+.border-warning-500 {
+  border-color: #806104;
+}
+.border-warning-600 {
+  border-color: #664d03;
+}
+.border-warning-700 {
+  border-color: #4d3a02;
+}
+.border-warning-800 {
+  border-color: #332701;
+}
+.border-warning-900 {
+  border-color: #1a1301;
+}
+
+.border-danger {
+  border-color: #cd3545;
+}
+.border-danger-100 {
+  border-color: #b9303e;
+}
+.border-danger-200 {
+  border-color: #a42a37;
+}
+.border-danger-300 {
+  border-color: #902530;
+}
+.border-danger-400 {
+  border-color: #7b2029;
+}
+.border-danger-500 {
+  border-color: #671b23;
+}
+.border-danger-600 {
+  border-color: #52151c;
+}
+.border-danger-700 {
+  border-color: #3e1015;
+}
+.border-danger-800 {
+  border-color: #290b0e;
+}
+.border-danger-900 {
+  border-color: #150507;
+}
+
+.border-light {
+  border-color: #f5f5f5;
+}
+.border-light-100 {
+  border-color: #dddddd;
+}
+.border-light-200 {
+  border-color: #c4c4c4;
+}
+.border-light-300 {
+  border-color: #acacac;
+}
+.border-light-400 {
+  border-color: #939393;
+}
+.border-light-500 {
+  border-color: #7b7b7b;
+}
+.border-light-600 {
+  border-color: #626262;
+}
+.border-light-700 {
+  border-color: #4a4a4a;
+}
+.border-light-800 {
+  border-color: #313131;
+}
+.border-light-900 {
+  border-color: #191919;
+}
+
+.border-dark {
+  border-color: #212529;
+}
+.border-dark-100 {
+  border-color: #1e2125;
+}
+.border-dark-200 {
+  border-color: #1a1e21;
+}
+.border-dark-300 {
+  border-color: #171a1d;
+}
+.border-dark-400 {
+  border-color: #141619;
+}
+.border-dark-500 {
+  border-color: #111315;
+}
+.border-dark-600 {
+  border-color: #0d0f10;
+}
+.border-dark-700 {
+  border-color: #0a0b0c;
+}
+.border-dark-800 {
+  border-color: #070708;
+}
+.border-dark-900 {
+  border-color: #030404;
+}
+
+.border-red {
+  border-color: #f00;
+}
+.border-red-100 {
+  border-color: #e60000;
+}
+.border-red-200 {
+  border-color: #cc0000;
+}
+.border-red-300 {
+  border-color: #b30000;
+}
+.border-red-400 {
+  border-color: #990000;
+}
+.border-red-500 {
+  border-color: maroon;
+}
+.border-red-600 {
+  border-color: #660000;
+}
+.border-red-700 {
+  border-color: #4d0000;
+}
+.border-red-800 {
+  border-color: #330000;
+}
+.border-red-900 {
+  border-color: #1a0000;
+}
+
+.border-green {
+  border-color: #0f0;
+}
+.border-green-100 {
+  border-color: #00e600;
+}
+.border-green-200 {
+  border-color: #00cc00;
+}
+.border-green-300 {
+  border-color: #00b300;
+}
+.border-green-400 {
+  border-color: #009900;
+}
+.border-green-500 {
+  border-color: green;
+}
+.border-green-600 {
+  border-color: #006600;
+}
+.border-green-700 {
+  border-color: #004d00;
+}
+.border-green-800 {
+  border-color: #003300;
+}
+.border-green-900 {
+  border-color: #001a00;
+}
+
+.border-blue {
+  border-color: #00f;
+}
+.border-blue-100 {
+  border-color: #0000e6;
+}
+.border-blue-200 {
+  border-color: #0000cc;
+}
+.border-blue-300 {
+  border-color: #0000b3;
+}
+.border-blue-400 {
+  border-color: #000099;
+}
+.border-blue-500 {
+  border-color: navy;
+}
+.border-blue-600 {
+  border-color: #000066;
+}
+.border-blue-700 {
+  border-color: #00004d;
+}
+.border-blue-800 {
+  border-color: #000033;
+}
+.border-blue-900 {
+  border-color: #00001a;
+}
+
+.border-black {
+  border-color: #000;
+}
+.border-black-100 {
+  border-color: black;
+}
+.border-black-200 {
+  border-color: black;
+}
+.border-black-300 {
+  border-color: black;
+}
+.border-black-400 {
+  border-color: black;
+}
+.border-black-500 {
+  border-color: black;
+}
+.border-black-600 {
+  border-color: black;
+}
+.border-black-700 {
+  border-color: black;
+}
+.border-black-800 {
+  border-color: black;
+}
+.border-black-900 {
+  border-color: black;
+}
+
+.border-white {
+  border-color: #fff;
+}
+.border-white-100 {
+  border-color: #e6e6e6;
+}
+.border-white-200 {
+  border-color: #cccccc;
+}
+.border-white-300 {
+  border-color: #b3b3b3;
+}
+.border-white-400 {
+  border-color: #999999;
+}
+.border-white-500 {
+  border-color: gray;
+}
+.border-white-600 {
+  border-color: #666666;
+}
+.border-white-700 {
+  border-color: #4d4d4d;
+}
+.border-white-800 {
+  border-color: #333333;
+}
+.border-white-900 {
+  border-color: #1a1a1a;
+}
+
+.active\:border-primary:active,
+.focus\:border-primary:focus,
+.hover\:border-primary:hover {
+  border-color: #007cde;
+}
+
+.active\:border-primary-100:active,
+.focus\:border-primary-100:focus,
+.hover\:border-primary-100:hover {
+  border-color: #0070c8;
+}
+
+.active\:border-primary-200:active,
+.focus\:border-primary-200:focus,
+.hover\:border-primary-200:hover {
+  border-color: #0063b2;
+}
+
+.active\:border-primary-300:active,
+.focus\:border-primary-300:focus,
+.hover\:border-primary-300:hover {
+  border-color: #00579b;
+}
+
+.active\:border-primary-400:active,
+.focus\:border-primary-400:focus,
+.hover\:border-primary-400:hover {
+  border-color: #004a85;
+}
+
+.active\:border-primary-500:active,
+.focus\:border-primary-500:focus,
+.hover\:border-primary-500:hover {
+  border-color: #003e6f;
+}
+
+.active\:border-primary-600:active,
+.focus\:border-primary-600:focus,
+.hover\:border-primary-600:hover {
+  border-color: #003259;
+}
+
+.active\:border-primary-700:active,
+.focus\:border-primary-700:focus,
+.hover\:border-primary-700:hover {
+  border-color: #002543;
+}
+
+.active\:border-primary-800:active,
+.focus\:border-primary-800:focus,
+.hover\:border-primary-800:hover {
+  border-color: #00192c;
+}
+
+.active\:border-primary-900:active,
+.focus\:border-primary-900:focus,
+.hover\:border-primary-900:hover {
+  border-color: #000c16;
+}
+
+.active\:border-secondary:active,
+.focus\:border-secondary:focus,
+.hover\:border-secondary:hover {
+  border-color: #333;
+}
+
+.active\:border-secondary-100:active,
+.focus\:border-secondary-100:focus,
+.hover\:border-secondary-100:hover {
+  border-color: #2e2e2e;
+}
+
+.active\:border-secondary-200:active,
+.focus\:border-secondary-200:focus,
+.hover\:border-secondary-200:hover {
+  border-color: #292929;
+}
+
+.active\:border-secondary-300:active,
+.focus\:border-secondary-300:focus,
+.hover\:border-secondary-300:hover {
+  border-color: #242424;
+}
+
+.active\:border-secondary-400:active,
+.focus\:border-secondary-400:focus,
+.hover\:border-secondary-400:hover {
+  border-color: #1f1f1f;
+}
+
+.active\:border-secondary-500:active,
+.focus\:border-secondary-500:focus,
+.hover\:border-secondary-500:hover {
+  border-color: #1a1a1a;
+}
+
+.active\:border-secondary-600:active,
+.focus\:border-secondary-600:focus,
+.hover\:border-secondary-600:hover {
+  border-color: #141414;
+}
+
+.active\:border-secondary-700:active,
+.focus\:border-secondary-700:focus,
+.hover\:border-secondary-700:hover {
+  border-color: #0f0f0f;
+}
+
+.active\:border-secondary-800:active,
+.focus\:border-secondary-800:focus,
+.hover\:border-secondary-800:hover {
+  border-color: #0a0a0a;
+}
+
+.active\:border-secondary-900:active,
+.focus\:border-secondary-900:focus,
+.hover\:border-secondary-900:hover {
+  border-color: #050505;
+}
+
+.active\:border-success:active,
+.focus\:border-success:focus,
+.hover\:border-success:hover {
+  border-color: #198754;
+}
+
+.active\:border-success-100:active,
+.focus\:border-success-100:focus,
+.hover\:border-success-100:hover {
+  border-color: #177a4c;
+}
+
+.active\:border-success-200:active,
+.focus\:border-success-200:focus,
+.hover\:border-success-200:hover {
+  border-color: #146c43;
+}
+
+.active\:border-success-300:active,
+.focus\:border-success-300:focus,
+.hover\:border-success-300:hover {
+  border-color: #125f3b;
+}
+
+.active\:border-success-400:active,
+.focus\:border-success-400:focus,
+.hover\:border-success-400:hover {
+  border-color: #0f5132;
+}
+
+.active\:border-success-500:active,
+.focus\:border-success-500:focus,
+.hover\:border-success-500:hover {
+  border-color: #0d442a;
+}
+
+.active\:border-success-600:active,
+.focus\:border-success-600:focus,
+.hover\:border-success-600:hover {
+  border-color: #0a3622;
+}
+
+.active\:border-success-700:active,
+.focus\:border-success-700:focus,
+.hover\:border-success-700:hover {
+  border-color: #082919;
+}
+
+.active\:border-success-800:active,
+.focus\:border-success-800:focus,
+.hover\:border-success-800:hover {
+  border-color: #051b11;
+}
+
+.active\:border-success-900:active,
+.focus\:border-success-900:focus,
+.hover\:border-success-900:hover {
+  border-color: #030e08;
+}
+
+.active\:border-info:active,
+.focus\:border-info:focus,
+.hover\:border-info:hover {
+  border-color: #0dcaf0;
+}
+
+.active\:border-info-100:active,
+.focus\:border-info-100:focus,
+.hover\:border-info-100:hover {
+  border-color: #0cb6d8;
+}
+
+.active\:border-info-200:active,
+.focus\:border-info-200:focus,
+.hover\:border-info-200:hover {
+  border-color: #0aa2c0;
+}
+
+.active\:border-info-300:active,
+.focus\:border-info-300:focus,
+.hover\:border-info-300:hover {
+  border-color: #098da8;
+}
+
+.active\:border-info-400:active,
+.focus\:border-info-400:focus,
+.hover\:border-info-400:hover {
+  border-color: #087990;
+}
+
+.active\:border-info-500:active,
+.focus\:border-info-500:focus,
+.hover\:border-info-500:hover {
+  border-color: #076578;
+}
+
+.active\:border-info-600:active,
+.focus\:border-info-600:focus,
+.hover\:border-info-600:hover {
+  border-color: #055160;
+}
+
+.active\:border-info-700:active,
+.focus\:border-info-700:focus,
+.hover\:border-info-700:hover {
+  border-color: #043d48;
+}
+
+.active\:border-info-800:active,
+.focus\:border-info-800:focus,
+.hover\:border-info-800:hover {
+  border-color: #032830;
+}
+
+.active\:border-info-900:active,
+.focus\:border-info-900:focus,
+.hover\:border-info-900:hover {
+  border-color: #011418;
+}
+
+.active\:border-warning:active,
+.focus\:border-warning:focus,
+.hover\:border-warning:hover {
+  border-color: #ffc107;
+}
+
+.active\:border-warning-100:active,
+.focus\:border-warning-100:focus,
+.hover\:border-warning-100:hover {
+  border-color: #e6ae06;
+}
+
+.active\:border-warning-200:active,
+.focus\:border-warning-200:focus,
+.hover\:border-warning-200:hover {
+  border-color: #cc9a06;
+}
+
+.active\:border-warning-300:active,
+.focus\:border-warning-300:focus,
+.hover\:border-warning-300:hover {
+  border-color: #b38705;
+}
+
+.active\:border-warning-400:active,
+.focus\:border-warning-400:focus,
+.hover\:border-warning-400:hover {
+  border-color: #997404;
+}
+
+.active\:border-warning-500:active,
+.focus\:border-warning-500:focus,
+.hover\:border-warning-500:hover {
+  border-color: #806104;
+}
+
+.active\:border-warning-600:active,
+.focus\:border-warning-600:focus,
+.hover\:border-warning-600:hover {
+  border-color: #664d03;
+}
+
+.active\:border-warning-700:active,
+.focus\:border-warning-700:focus,
+.hover\:border-warning-700:hover {
+  border-color: #4d3a02;
+}
+
+.active\:border-warning-800:active,
+.focus\:border-warning-800:focus,
+.hover\:border-warning-800:hover {
+  border-color: #332701;
+}
+
+.active\:border-warning-900:active,
+.focus\:border-warning-900:focus,
+.hover\:border-warning-900:hover {
+  border-color: #1a1301;
+}
+
+.active\:border-danger:active,
+.focus\:border-danger:focus,
+.hover\:border-danger:hover {
+  border-color: #cd3545;
+}
+
+.active\:border-danger-100:active,
+.focus\:border-danger-100:focus,
+.hover\:border-danger-100:hover {
+  border-color: #b9303e;
+}
+
+.active\:border-danger-200:active,
+.focus\:border-danger-200:focus,
+.hover\:border-danger-200:hover {
+  border-color: #a42a37;
+}
+
+.active\:border-danger-300:active,
+.focus\:border-danger-300:focus,
+.hover\:border-danger-300:hover {
+  border-color: #902530;
+}
+
+.active\:border-danger-400:active,
+.focus\:border-danger-400:focus,
+.hover\:border-danger-400:hover {
+  border-color: #7b2029;
+}
+
+.active\:border-danger-500:active,
+.focus\:border-danger-500:focus,
+.hover\:border-danger-500:hover {
+  border-color: #671b23;
+}
+
+.active\:border-danger-600:active,
+.focus\:border-danger-600:focus,
+.hover\:border-danger-600:hover {
+  border-color: #52151c;
+}
+
+.active\:border-danger-700:active,
+.focus\:border-danger-700:focus,
+.hover\:border-danger-700:hover {
+  border-color: #3e1015;
+}
+
+.active\:border-danger-800:active,
+.focus\:border-danger-800:focus,
+.hover\:border-danger-800:hover {
+  border-color: #290b0e;
+}
+
+.active\:border-danger-900:active,
+.focus\:border-danger-900:focus,
+.hover\:border-danger-900:hover {
+  border-color: #150507;
+}
+
+.active\:border-light:active,
+.focus\:border-light:focus,
+.hover\:border-light:hover {
+  border-color: #f5f5f5;
+}
+
+.active\:border-light-100:active,
+.focus\:border-light-100:focus,
+.hover\:border-light-100:hover {
+  border-color: #dddddd;
+}
+
+.active\:border-light-200:active,
+.focus\:border-light-200:focus,
+.hover\:border-light-200:hover {
+  border-color: #c4c4c4;
+}
+
+.active\:border-light-300:active,
+.focus\:border-light-300:focus,
+.hover\:border-light-300:hover {
+  border-color: #acacac;
+}
+
+.active\:border-light-400:active,
+.focus\:border-light-400:focus,
+.hover\:border-light-400:hover {
+  border-color: #939393;
+}
+
+.active\:border-light-500:active,
+.focus\:border-light-500:focus,
+.hover\:border-light-500:hover {
+  border-color: #7b7b7b;
+}
+
+.active\:border-light-600:active,
+.focus\:border-light-600:focus,
+.hover\:border-light-600:hover {
+  border-color: #626262;
+}
+
+.active\:border-light-700:active,
+.focus\:border-light-700:focus,
+.hover\:border-light-700:hover {
+  border-color: #4a4a4a;
+}
+
+.active\:border-light-800:active,
+.focus\:border-light-800:focus,
+.hover\:border-light-800:hover {
+  border-color: #313131;
+}
+
+.active\:border-light-900:active,
+.focus\:border-light-900:focus,
+.hover\:border-light-900:hover {
+  border-color: #191919;
+}
+
+.active\:border-dark:active,
+.focus\:border-dark:focus,
+.hover\:border-dark:hover {
+  border-color: #212529;
+}
+
+.active\:border-dark-100:active,
+.focus\:border-dark-100:focus,
+.hover\:border-dark-100:hover {
+  border-color: #1e2125;
+}
+
+.active\:border-dark-200:active,
+.focus\:border-dark-200:focus,
+.hover\:border-dark-200:hover {
+  border-color: #1a1e21;
+}
+
+.active\:border-dark-300:active,
+.focus\:border-dark-300:focus,
+.hover\:border-dark-300:hover {
+  border-color: #171a1d;
+}
+
+.active\:border-dark-400:active,
+.focus\:border-dark-400:focus,
+.hover\:border-dark-400:hover {
+  border-color: #141619;
+}
+
+.active\:border-dark-500:active,
+.focus\:border-dark-500:focus,
+.hover\:border-dark-500:hover {
+  border-color: #111315;
+}
+
+.active\:border-dark-600:active,
+.focus\:border-dark-600:focus,
+.hover\:border-dark-600:hover {
+  border-color: #0d0f10;
+}
+
+.active\:border-dark-700:active,
+.focus\:border-dark-700:focus,
+.hover\:border-dark-700:hover {
+  border-color: #0a0b0c;
+}
+
+.active\:border-dark-800:active,
+.focus\:border-dark-800:focus,
+.hover\:border-dark-800:hover {
+  border-color: #070708;
+}
+
+.active\:border-dark-900:active,
+.focus\:border-dark-900:focus,
+.hover\:border-dark-900:hover {
+  border-color: #030404;
+}
+
+.active\:border-red:active,
+.focus\:border-red:focus,
+.hover\:border-red:hover {
+  border-color: #f00;
+}
+
+.active\:border-red-100:active,
+.focus\:border-red-100:focus,
+.hover\:border-red-100:hover {
+  border-color: #e60000;
+}
+
+.active\:border-red-200:active,
+.focus\:border-red-200:focus,
+.hover\:border-red-200:hover {
+  border-color: #cc0000;
+}
+
+.active\:border-red-300:active,
+.focus\:border-red-300:focus,
+.hover\:border-red-300:hover {
+  border-color: #b30000;
+}
+
+.active\:border-red-400:active,
+.focus\:border-red-400:focus,
+.hover\:border-red-400:hover {
+  border-color: #990000;
+}
+
+.active\:border-red-500:active,
+.focus\:border-red-500:focus,
+.hover\:border-red-500:hover {
+  border-color: maroon;
+}
+
+.active\:border-red-600:active,
+.focus\:border-red-600:focus,
+.hover\:border-red-600:hover {
+  border-color: #660000;
+}
+
+.active\:border-red-700:active,
+.focus\:border-red-700:focus,
+.hover\:border-red-700:hover {
+  border-color: #4d0000;
+}
+
+.active\:border-red-800:active,
+.focus\:border-red-800:focus,
+.hover\:border-red-800:hover {
+  border-color: #330000;
+}
+
+.active\:border-red-900:active,
+.focus\:border-red-900:focus,
+.hover\:border-red-900:hover {
+  border-color: #1a0000;
+}
+
+.active\:border-green:active,
+.focus\:border-green:focus,
+.hover\:border-green:hover {
+  border-color: #0f0;
+}
+
+.active\:border-green-100:active,
+.focus\:border-green-100:focus,
+.hover\:border-green-100:hover {
+  border-color: #00e600;
+}
+
+.active\:border-green-200:active,
+.focus\:border-green-200:focus,
+.hover\:border-green-200:hover {
+  border-color: #00cc00;
+}
+
+.active\:border-green-300:active,
+.focus\:border-green-300:focus,
+.hover\:border-green-300:hover {
+  border-color: #00b300;
+}
+
+.active\:border-green-400:active,
+.focus\:border-green-400:focus,
+.hover\:border-green-400:hover {
+  border-color: #009900;
+}
+
+.active\:border-green-500:active,
+.focus\:border-green-500:focus,
+.hover\:border-green-500:hover {
+  border-color: green;
+}
+
+.active\:border-green-600:active,
+.focus\:border-green-600:focus,
+.hover\:border-green-600:hover {
+  border-color: #006600;
+}
+
+.active\:border-green-700:active,
+.focus\:border-green-700:focus,
+.hover\:border-green-700:hover {
+  border-color: #004d00;
+}
+
+.active\:border-green-800:active,
+.focus\:border-green-800:focus,
+.hover\:border-green-800:hover {
+  border-color: #003300;
+}
+
+.active\:border-green-900:active,
+.focus\:border-green-900:focus,
+.hover\:border-green-900:hover {
+  border-color: #001a00;
+}
+
+.active\:border-blue:active,
+.focus\:border-blue:focus,
+.hover\:border-blue:hover {
+  border-color: #00f;
+}
+
+.active\:border-blue-100:active,
+.focus\:border-blue-100:focus,
+.hover\:border-blue-100:hover {
+  border-color: #0000e6;
+}
+
+.active\:border-blue-200:active,
+.focus\:border-blue-200:focus,
+.hover\:border-blue-200:hover {
+  border-color: #0000cc;
+}
+
+.active\:border-blue-300:active,
+.focus\:border-blue-300:focus,
+.hover\:border-blue-300:hover {
+  border-color: #0000b3;
+}
+
+.active\:border-blue-400:active,
+.focus\:border-blue-400:focus,
+.hover\:border-blue-400:hover {
+  border-color: #000099;
+}
+
+.active\:border-blue-500:active,
+.focus\:border-blue-500:focus,
+.hover\:border-blue-500:hover {
+  border-color: navy;
+}
+
+.active\:border-blue-600:active,
+.focus\:border-blue-600:focus,
+.hover\:border-blue-600:hover {
+  border-color: #000066;
+}
+
+.active\:border-blue-700:active,
+.focus\:border-blue-700:focus,
+.hover\:border-blue-700:hover {
+  border-color: #00004d;
+}
+
+.active\:border-blue-800:active,
+.focus\:border-blue-800:focus,
+.hover\:border-blue-800:hover {
+  border-color: #000033;
+}
+
+.active\:border-blue-900:active,
+.focus\:border-blue-900:focus,
+.hover\:border-blue-900:hover {
+  border-color: #00001a;
+}
+
+.active\:border-black:active,
+.focus\:border-black:focus,
+.hover\:border-black:hover {
+  border-color: #000;
+}
+
+.active\:border-black-100:active,
+.focus\:border-black-100:focus,
+.hover\:border-black-100:hover {
+  border-color: black;
+}
+
+.active\:border-black-200:active,
+.focus\:border-black-200:focus,
+.hover\:border-black-200:hover {
+  border-color: black;
+}
+
+.active\:border-black-300:active,
+.focus\:border-black-300:focus,
+.hover\:border-black-300:hover {
+  border-color: black;
+}
+
+.active\:border-black-400:active,
+.focus\:border-black-400:focus,
+.hover\:border-black-400:hover {
+  border-color: black;
+}
+
+.active\:border-black-500:active,
+.focus\:border-black-500:focus,
+.hover\:border-black-500:hover {
+  border-color: black;
+}
+
+.active\:border-black-600:active,
+.focus\:border-black-600:focus,
+.hover\:border-black-600:hover {
+  border-color: black;
+}
+
+.active\:border-black-700:active,
+.focus\:border-black-700:focus,
+.hover\:border-black-700:hover {
+  border-color: black;
+}
+
+.active\:border-black-800:active,
+.focus\:border-black-800:focus,
+.hover\:border-black-800:hover {
+  border-color: black;
+}
+
+.active\:border-black-900:active,
+.focus\:border-black-900:focus,
+.hover\:border-black-900:hover {
+  border-color: black;
+}
+
+.active\:border-white:active,
+.focus\:border-white:focus,
+.hover\:border-white:hover {
+  border-color: #fff;
+}
+
+.active\:border-white-100:active,
+.focus\:border-white-100:focus,
+.hover\:border-white-100:hover {
+  border-color: #e6e6e6;
+}
+
+.active\:border-white-200:active,
+.focus\:border-white-200:focus,
+.hover\:border-white-200:hover {
+  border-color: #cccccc;
+}
+
+.active\:border-white-300:active,
+.focus\:border-white-300:focus,
+.hover\:border-white-300:hover {
+  border-color: #b3b3b3;
+}
+
+.active\:border-white-400:active,
+.focus\:border-white-400:focus,
+.hover\:border-white-400:hover {
+  border-color: #999999;
+}
+
+.active\:border-white-500:active,
+.focus\:border-white-500:focus,
+.hover\:border-white-500:hover {
+  border-color: gray;
+}
+
+.active\:border-white-600:active,
+.focus\:border-white-600:focus,
+.hover\:border-white-600:hover {
+  border-color: #666666;
+}
+
+.active\:border-white-700:active,
+.focus\:border-white-700:focus,
+.hover\:border-white-700:hover {
+  border-color: #4d4d4d;
+}
+
+.active\:border-white-800:active,
+.focus\:border-white-800:focus,
+.hover\:border-white-800:hover {
+  border-color: #333333;
+}
+
+.active\:border-white-900:active,
+.focus\:border-white-900:focus,
+.hover\:border-white-900:hover {
+  border-color: #1a1a1a;
+}
+
+.solid-border {
+  border-style: solid;
+}
+.solid-border:not([class*=border-]) {
+  border: 1px solid #4e5862;
+}
+
+.active\:solid-border:active,
+.focus\:solid-border:focus,
+.hover\:solid-border:hover {
+  border: 1px solid #4e5862;
+}
+
+.dashed-border {
+  border-style: dashed;
+}
+.dashed-border:not([class*=border-]) {
+  border: 1px dashed #4e5862;
+}
+
+.active\:dashed-border:active,
+.focus\:dashed-border:focus,
+.hover\:dashed-border:hover {
+  border: 1px dashed #4e5862;
+}
+
+.dotted-border {
+  border-style: dotted;
+}
+.dotted-border:not([class*=border-]) {
+  border: 1px dotted #4e5862;
+}
+
+.active\:dotted-border:active,
+.focus\:dotted-border:focus,
+.hover\:dotted-border:hover {
+  border: 1px dotted #4e5862;
+}
+
+.double-border {
+  border-style: double;
+}
+.double-border:not([class*=border-]) {
+  border: 1px double #4e5862;
+}
+
+.active\:double-border:active,
+.focus\:double-border:focus,
+.hover\:double-border:hover {
+  border: 1px double #4e5862;
+}
+
+.hidden-border {
+  border-style: hidden;
+}
+.hidden-border:not([class*=border-]) {
+  border: 1px hidden #4e5862;
+}
+
+.active\:hidden-border:active,
+.focus\:hidden-border:focus,
+.hover\:hidden-border:hover {
+  border: 1px hidden #4e5862;
+}
+
+.inset-border {
+  border-style: inset;
+}
+.inset-border:not([class*=border-]) {
+  border: 1px inset #4e5862;
+}
+
+.active\:inset-border:active,
+.focus\:inset-border:focus,
+.hover\:inset-border:hover {
+  border: 1px inset #4e5862;
+}
+
+.groove-border {
+  border-style: groove;
+}
+.groove-border:not([class*=border-]) {
+  border: 1px groove #4e5862;
+}
+
+.active\:groove-border:active,
+.focus\:groove-border:focus,
+.hover\:groove-border:hover {
+  border: 1px groove #4e5862;
+}
+
+.no-border {
+  border-width: 0px;
+  border-style: none;
+}
+
+.active\:no-border:active,
+.focus\:no-border:focus,
+.hover\:no-border:hover {
+  border-width: 0px;
+  border-style: none;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.rounded-l {
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.rounded-b {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.rounded-tl {
+  border-top-left-radius: 0.25rem;
+}
+
+.active\:rounded-tl:active,
+.focus\:rounded-tl:focus,
+.hover\:rounded-tl:hover {
+  border-top-left-radius: 0.25rem;
+}
+
+.rounded-tr {
+  border-top-right-radius: 0.25rem;
+}
+
+.active\:rounded-tr:active,
+.focus\:rounded-tr:focus,
+.hover\:rounded-tr:hover {
+  border-top-right-radius: 0.25rem;
+}
+
+.rounded-bl {
+  border-bottom-left-radius: 0.25rem;
+}
+
+.active\:rounded-bl:active,
+.focus\:rounded-bl:focus,
+.hover\:rounded-bl:hover {
+  border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-br {
+  border-bottom-right-radius: 0.25rem;
+}
+
+.active\:rounded-br:active,
+.focus\:rounded-br:focus,
+.hover\:rounded-br:hover {
+  border-bottom-right-radius: 0.25rem;
+}
+
+.rounded-square {
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.active\:rounded-square:active,
+.focus\:rounded-square:focus,
+.hover\:rounded-square:hover {
+  border-radius: 0;
+}
+
+.rounded-tl-square {
+  border-top-left-radius: 0;
+}
+
+.active\:rounded-tl-square:active,
+.focus\:rounded-tl-square:focus,
+.hover\:rounded-tl-square:hover {
+  border-top-left-radius: 0;
+}
+
+.rounded-tr-square {
+  border-top-right-radius: 0;
+}
+
+.active\:rounded-tr-square:active,
+.focus\:rounded-tr-square:focus,
+.hover\:rounded-tr-square:hover {
+  border-top-right-radius: 0;
+}
+
+.rounded-bl-square {
+  border-bottom-left-radius: 0;
+}
+
+.active\:rounded-bl-square:active,
+.focus\:rounded-bl-square:focus,
+.hover\:rounded-bl-square:hover {
+  border-bottom-left-radius: 0;
+}
+
+.rounded-br-square {
+  border-bottom-right-radius: 0;
+}
+
+.active\:rounded-br-square:active,
+.focus\:rounded-br-square:focus,
+.hover\:rounded-br-square:hover {
+  border-bottom-right-radius: 0;
+}
+
+.rounded-t-square {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.rounded-t-square {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.active\:rounded-t-square:active,
+.focus\:rounded-t-square:focus,
+.hover\:rounded-t-square:hover {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.rounded-r-square {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rounded-r-square {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.active\:rounded-r-square:active,
+.focus\:rounded-r-square:focus,
+.hover\:rounded-r-square:hover {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rounded-l-square {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.rounded-l-square {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.active\:rounded-l-square:active,
+.focus\:rounded-l-square:focus,
+.hover\:rounded-l-square:hover {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.rounded-b-square {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rounded-b-square {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.active\:rounded-b-square:active,
+.focus\:rounded-b-square:focus,
+.hover\:rounded-b-square:hover {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.active\:rounded-circle:active,
+.focus\:rounded-circle:focus,
+.hover\:rounded-circle:hover {
+  border-radius: 50%;
+}
+
+.rounded-tl-circle {
+  border-top-left-radius: 50%;
+}
+
+.active\:rounded-tl-circle:active,
+.focus\:rounded-tl-circle:focus,
+.hover\:rounded-tl-circle:hover {
+  border-top-left-radius: 50%;
+}
+
+.rounded-tr-circle {
+  border-top-right-radius: 50%;
+}
+
+.active\:rounded-tr-circle:active,
+.focus\:rounded-tr-circle:focus,
+.hover\:rounded-tr-circle:hover {
+  border-top-right-radius: 50%;
+}
+
+.rounded-bl-circle {
+  border-bottom-left-radius: 50%;
+}
+
+.active\:rounded-bl-circle:active,
+.focus\:rounded-bl-circle:focus,
+.hover\:rounded-bl-circle:hover {
+  border-bottom-left-radius: 50%;
+}
+
+.rounded-br-circle {
+  border-bottom-right-radius: 50%;
+}
+
+.active\:rounded-br-circle:active,
+.focus\:rounded-br-circle:focus,
+.hover\:rounded-br-circle:hover {
+  border-bottom-right-radius: 50%;
+}
+
+.rounded-t-circle {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.rounded-t-circle {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.active\:rounded-t-circle:active,
+.focus\:rounded-t-circle:focus,
+.hover\:rounded-t-circle:hover {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.rounded-r-circle {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.rounded-r-circle {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.active\:rounded-r-circle:active,
+.focus\:rounded-r-circle:focus,
+.hover\:rounded-r-circle:hover {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.rounded-l-circle {
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.rounded-l-circle {
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.active\:rounded-l-circle:active,
+.focus\:rounded-l-circle:focus,
+.hover\:rounded-l-circle:hover {
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.rounded-b-circle {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.rounded-b-circle {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.active\:rounded-b-circle:active,
+.focus\:rounded-b-circle:focus,
+.hover\:rounded-b-circle:hover {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.rounded-full {
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.active\:rounded-full:active,
+.focus\:rounded-full:focus,
+.hover\:rounded-full:hover {
+  border-radius: 999px;
+}
+
+.rounded-tl-full {
+  border-top-left-radius: 999px;
+}
+
+.active\:rounded-tl-full:active,
+.focus\:rounded-tl-full:focus,
+.hover\:rounded-tl-full:hover {
+  border-top-left-radius: 999px;
+}
+
+.rounded-tr-full {
+  border-top-right-radius: 999px;
+}
+
+.active\:rounded-tr-full:active,
+.focus\:rounded-tr-full:focus,
+.hover\:rounded-tr-full:hover {
+  border-top-right-radius: 999px;
+}
+
+.rounded-bl-full {
+  border-bottom-left-radius: 999px;
+}
+
+.active\:rounded-bl-full:active,
+.focus\:rounded-bl-full:focus,
+.hover\:rounded-bl-full:hover {
+  border-bottom-left-radius: 999px;
+}
+
+.rounded-br-full {
+  border-bottom-right-radius: 999px;
+}
+
+.active\:rounded-br-full:active,
+.focus\:rounded-br-full:focus,
+.hover\:rounded-br-full:hover {
+  border-bottom-right-radius: 999px;
+}
+
+.rounded-t-full {
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+}
+
+.rounded-t-full {
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+}
+
+.active\:rounded-t-full:active,
+.focus\:rounded-t-full:focus,
+.hover\:rounded-t-full:hover {
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+}
+
+.rounded-r-full {
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.rounded-r-full {
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.active\:rounded-r-full:active,
+.focus\:rounded-r-full:focus,
+.hover\:rounded-r-full:hover {
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.rounded-l-full {
+  border-bottom-left-radius: 999px;
+  border-top-left-radius: 999px;
+}
+
+.rounded-l-full {
+  border-bottom-left-radius: 999px;
+  border-top-left-radius: 999px;
+}
+
+.active\:rounded-l-full:active,
+.focus\:rounded-l-full:focus,
+.hover\:rounded-l-full:hover {
+  border-bottom-left-radius: 999px;
+  border-top-left-radius: 999px;
+}
+
+.rounded-b-full {
+  border-bottom-left-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.rounded-b-full {
+  border-bottom-left-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.active\:rounded-b-full:active,
+.focus\:rounded-b-full:focus,
+.hover\:rounded-b-full:hover {
+  border-bottom-left-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.rounded-pill {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.active\:rounded-pill:active,
+.focus\:rounded-pill:focus,
+.hover\:rounded-pill:hover {
+  border-radius: 0.75rem;
+}
+
+.rounded-tl-pill {
+  border-top-left-radius: 0.75rem;
+}
+
+.active\:rounded-tl-pill:active,
+.focus\:rounded-tl-pill:focus,
+.hover\:rounded-tl-pill:hover {
+  border-top-left-radius: 0.75rem;
+}
+
+.rounded-tr-pill {
+  border-top-right-radius: 0.75rem;
+}
+
+.active\:rounded-tr-pill:active,
+.focus\:rounded-tr-pill:focus,
+.hover\:rounded-tr-pill:hover {
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-bl-pill {
+  border-bottom-left-radius: 0.75rem;
+}
+
+.active\:rounded-bl-pill:active,
+.focus\:rounded-bl-pill:focus,
+.hover\:rounded-bl-pill:hover {
+  border-bottom-left-radius: 0.75rem;
+}
+
+.rounded-br-pill {
+  border-bottom-right-radius: 0.75rem;
+}
+
+.active\:rounded-br-pill:active,
+.focus\:rounded-br-pill:focus,
+.hover\:rounded-br-pill:hover {
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-t-pill {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-t-pill {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.active\:rounded-t-pill:active,
+.focus\:rounded-t-pill:focus,
+.hover\:rounded-t-pill:hover {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-r-pill {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-r-pill {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.active\:rounded-r-pill:active,
+.focus\:rounded-r-pill:focus,
+.hover\:rounded-r-pill:hover {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-l-pill {
+  border-bottom-left-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+}
+
+.rounded-l-pill {
+  border-bottom-left-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+}
+
+.active\:rounded-l-pill:active,
+.focus\:rounded-l-pill:focus,
+.hover\:rounded-l-pill:hover {
+  border-bottom-left-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+}
+
+.rounded-b-pill {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-b-pill {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.active\:rounded-b-pill:active,
+.focus\:rounded-b-pill:focus,
+.hover\:rounded-b-pill:hover {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-0 {
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.active\:rounded-0:active,
+.focus\:rounded-0:focus,
+.hover\:rounded-0:hover {
+  border-radius: 0;
+}
+
+.rounded-tl-0 {
+  border-top-left-radius: 0;
+}
+
+.active\:rounded-tl-0:active,
+.focus\:rounded-tl-0:focus,
+.hover\:rounded-tl-0:hover {
+  border-top-left-radius: 0;
+}
+
+.rounded-tr-0 {
+  border-top-right-radius: 0;
+}
+
+.active\:rounded-tr-0:active,
+.focus\:rounded-tr-0:focus,
+.hover\:rounded-tr-0:hover {
+  border-top-right-radius: 0;
+}
+
+.rounded-bl-0 {
+  border-bottom-left-radius: 0;
+}
+
+.active\:rounded-bl-0:active,
+.focus\:rounded-bl-0:focus,
+.hover\:rounded-bl-0:hover {
+  border-bottom-left-radius: 0;
+}
+
+.rounded-br-0 {
+  border-bottom-right-radius: 0;
+}
+
+.active\:rounded-br-0:active,
+.focus\:rounded-br-0:focus,
+.hover\:rounded-br-0:hover {
+  border-bottom-right-radius: 0;
+}
+
+.rounded-t-0 {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.rounded-t-0 {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.active\:rounded-t-0:active,
+.focus\:rounded-t-0:focus,
+.hover\:rounded-t-0:hover {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.rounded-r-0 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rounded-r-0 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.active\:rounded-r-0:active,
+.focus\:rounded-r-0:focus,
+.hover\:rounded-r-0:hover {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rounded-l-0 {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.rounded-l-0 {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.active\:rounded-l-0:active,
+.focus\:rounded-l-0:focus,
+.hover\:rounded-l-0:hover {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.rounded-b-0 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rounded-b-0 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.active\:rounded-b-0:active,
+.focus\:rounded-b-0:focus,
+.hover\:rounded-b-0:hover {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rounded-25 {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.active\:rounded-25:active,
+.focus\:rounded-25:focus,
+.hover\:rounded-25:hover {
+  border-radius: 25px;
+}
+
+.rounded-tl-25 {
+  border-top-left-radius: 25px;
+}
+
+.active\:rounded-tl-25:active,
+.focus\:rounded-tl-25:focus,
+.hover\:rounded-tl-25:hover {
+  border-top-left-radius: 25px;
+}
+
+.rounded-tr-25 {
+  border-top-right-radius: 25px;
+}
+
+.active\:rounded-tr-25:active,
+.focus\:rounded-tr-25:focus,
+.hover\:rounded-tr-25:hover {
+  border-top-right-radius: 25px;
+}
+
+.rounded-bl-25 {
+  border-bottom-left-radius: 25px;
+}
+
+.active\:rounded-bl-25:active,
+.focus\:rounded-bl-25:focus,
+.hover\:rounded-bl-25:hover {
+  border-bottom-left-radius: 25px;
+}
+
+.rounded-br-25 {
+  border-bottom-right-radius: 25px;
+}
+
+.active\:rounded-br-25:active,
+.focus\:rounded-br-25:focus,
+.hover\:rounded-br-25:hover {
+  border-bottom-right-radius: 25px;
+}
+
+.rounded-t-25 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.rounded-t-25 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.active\:rounded-t-25:active,
+.focus\:rounded-t-25:focus,
+.hover\:rounded-t-25:hover {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.rounded-r-25 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.rounded-r-25 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.active\:rounded-r-25:active,
+.focus\:rounded-r-25:focus,
+.hover\:rounded-r-25:hover {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.rounded-l-25 {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.rounded-l-25 {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.active\:rounded-l-25:active,
+.focus\:rounded-l-25:focus,
+.hover\:rounded-l-25:hover {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.rounded-b-25 {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.rounded-b-25 {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.active\:rounded-b-25:active,
+.focus\:rounded-b-25:focus,
+.hover\:rounded-b-25:hover {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.rounded-50 {
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.active\:rounded-50:active,
+.focus\:rounded-50:focus,
+.hover\:rounded-50:hover {
+  border-radius: 50px;
+}
+
+.rounded-tl-50 {
+  border-top-left-radius: 50px;
+}
+
+.active\:rounded-tl-50:active,
+.focus\:rounded-tl-50:focus,
+.hover\:rounded-tl-50:hover {
+  border-top-left-radius: 50px;
+}
+
+.rounded-tr-50 {
+  border-top-right-radius: 50px;
+}
+
+.active\:rounded-tr-50:active,
+.focus\:rounded-tr-50:focus,
+.hover\:rounded-tr-50:hover {
+  border-top-right-radius: 50px;
+}
+
+.rounded-bl-50 {
+  border-bottom-left-radius: 50px;
+}
+
+.active\:rounded-bl-50:active,
+.focus\:rounded-bl-50:focus,
+.hover\:rounded-bl-50:hover {
+  border-bottom-left-radius: 50px;
+}
+
+.rounded-br-50 {
+  border-bottom-right-radius: 50px;
+}
+
+.active\:rounded-br-50:active,
+.focus\:rounded-br-50:focus,
+.hover\:rounded-br-50:hover {
+  border-bottom-right-radius: 50px;
+}
+
+.rounded-t-50 {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.rounded-t-50 {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.active\:rounded-t-50:active,
+.focus\:rounded-t-50:focus,
+.hover\:rounded-t-50:hover {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.rounded-r-50 {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.rounded-r-50 {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.active\:rounded-r-50:active,
+.focus\:rounded-r-50:focus,
+.hover\:rounded-r-50:hover {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.rounded-l-50 {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.rounded-l-50 {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.active\:rounded-l-50:active,
+.focus\:rounded-l-50:focus,
+.hover\:rounded-l-50:hover {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.rounded-b-50 {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.rounded-b-50 {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.active\:rounded-b-50:active,
+.focus\:rounded-b-50:focus,
+.hover\:rounded-b-50:hover {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.rounded-100 {
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.active\:rounded-100:active,
+.focus\:rounded-100:focus,
+.hover\:rounded-100:hover {
+  border-radius: 100px;
+}
+
+.rounded-tl-100 {
+  border-top-left-radius: 100px;
+}
+
+.active\:rounded-tl-100:active,
+.focus\:rounded-tl-100:focus,
+.hover\:rounded-tl-100:hover {
+  border-top-left-radius: 100px;
+}
+
+.rounded-tr-100 {
+  border-top-right-radius: 100px;
+}
+
+.active\:rounded-tr-100:active,
+.focus\:rounded-tr-100:focus,
+.hover\:rounded-tr-100:hover {
+  border-top-right-radius: 100px;
+}
+
+.rounded-bl-100 {
+  border-bottom-left-radius: 100px;
+}
+
+.active\:rounded-bl-100:active,
+.focus\:rounded-bl-100:focus,
+.hover\:rounded-bl-100:hover {
+  border-bottom-left-radius: 100px;
+}
+
+.rounded-br-100 {
+  border-bottom-right-radius: 100px;
+}
+
+.active\:rounded-br-100:active,
+.focus\:rounded-br-100:focus,
+.hover\:rounded-br-100:hover {
+  border-bottom-right-radius: 100px;
+}
+
+.rounded-t-100 {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.rounded-t-100 {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.active\:rounded-t-100:active,
+.focus\:rounded-t-100:focus,
+.hover\:rounded-t-100:hover {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.rounded-r-100 {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.rounded-r-100 {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.active\:rounded-r-100:active,
+.focus\:rounded-r-100:focus,
+.hover\:rounded-r-100:hover {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.rounded-l-100 {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.rounded-l-100 {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.active\:rounded-l-100:active,
+.focus\:rounded-l-100:focus,
+.hover\:rounded-l-100:hover {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.rounded-b-100 {
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.rounded-b-100 {
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.active\:rounded-b-100:active,
+.focus\:rounded-b-100:focus,
+.hover\:rounded-b-100:hover {
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.active\:rounded-t:active,
+.focus\:rounded-t:focus,
+.hover\:rounded-t:hover {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.active\:rounded-r:active,
+.focus\:rounded-r:focus,
+.hover\:rounded-r:hover {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.rounded-l {
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.active\:rounded-l:active,
+.focus\:rounded-l:focus,
+.hover\:rounded-l:hover {
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.rounded-b {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.active\:rounded-b:active,
+.focus\:rounded-b:focus,
+.hover\:rounded-b:hover {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.outline {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #007cde;
+}
+.outline-0 {
+  border-width: 0px;
+}
+.outline-1 {
+  border-width: 1px;
+}
+.outline-2 {
+  border-width: 2px;
+}
+.outline-3 {
+  border-width: 3px;
+}
+.outline-4 {
+  border-width: 4px;
+}
+.outline-5 {
+  border-width: 5px;
+}
+
+[class*=outline-] {
+  border-style: solid;
+}
+
+.outline-primary {
+  border-color: #007cde;
+}
+.outline-primary-100 {
+  border-color: #0070c8;
+}
+.outline-primary-200 {
+  border-color: #0063b2;
+}
+.outline-primary-300 {
+  border-color: #00579b;
+}
+.outline-primary-400 {
+  border-color: #004a85;
+}
+.outline-primary-500 {
+  border-color: #003e6f;
+}
+.outline-primary-600 {
+  border-color: #003259;
+}
+.outline-primary-700 {
+  border-color: #002543;
+}
+.outline-primary-800 {
+  border-color: #00192c;
+}
+.outline-primary-900 {
+  border-color: #000c16;
+}
+
+.outline-secondary {
+  border-color: #333;
+}
+.outline-secondary-100 {
+  border-color: #2e2e2e;
+}
+.outline-secondary-200 {
+  border-color: #292929;
+}
+.outline-secondary-300 {
+  border-color: #242424;
+}
+.outline-secondary-400 {
+  border-color: #1f1f1f;
+}
+.outline-secondary-500 {
+  border-color: #1a1a1a;
+}
+.outline-secondary-600 {
+  border-color: #141414;
+}
+.outline-secondary-700 {
+  border-color: #0f0f0f;
+}
+.outline-secondary-800 {
+  border-color: #0a0a0a;
+}
+.outline-secondary-900 {
+  border-color: #050505;
+}
+
+.outline-success {
+  border-color: #198754;
+}
+.outline-success-100 {
+  border-color: #177a4c;
+}
+.outline-success-200 {
+  border-color: #146c43;
+}
+.outline-success-300 {
+  border-color: #125f3b;
+}
+.outline-success-400 {
+  border-color: #0f5132;
+}
+.outline-success-500 {
+  border-color: #0d442a;
+}
+.outline-success-600 {
+  border-color: #0a3622;
+}
+.outline-success-700 {
+  border-color: #082919;
+}
+.outline-success-800 {
+  border-color: #051b11;
+}
+.outline-success-900 {
+  border-color: #030e08;
+}
+
+.outline-info {
+  border-color: #0dcaf0;
+}
+.outline-info-100 {
+  border-color: #0cb6d8;
+}
+.outline-info-200 {
+  border-color: #0aa2c0;
+}
+.outline-info-300 {
+  border-color: #098da8;
+}
+.outline-info-400 {
+  border-color: #087990;
+}
+.outline-info-500 {
+  border-color: #076578;
+}
+.outline-info-600 {
+  border-color: #055160;
+}
+.outline-info-700 {
+  border-color: #043d48;
+}
+.outline-info-800 {
+  border-color: #032830;
+}
+.outline-info-900 {
+  border-color: #011418;
+}
+
+.outline-warning {
+  border-color: #ffc107;
+}
+.outline-warning-100 {
+  border-color: #e6ae06;
+}
+.outline-warning-200 {
+  border-color: #cc9a06;
+}
+.outline-warning-300 {
+  border-color: #b38705;
+}
+.outline-warning-400 {
+  border-color: #997404;
+}
+.outline-warning-500 {
+  border-color: #806104;
+}
+.outline-warning-600 {
+  border-color: #664d03;
+}
+.outline-warning-700 {
+  border-color: #4d3a02;
+}
+.outline-warning-800 {
+  border-color: #332701;
+}
+.outline-warning-900 {
+  border-color: #1a1301;
+}
+
+.outline-danger {
+  border-color: #cd3545;
+}
+.outline-danger-100 {
+  border-color: #b9303e;
+}
+.outline-danger-200 {
+  border-color: #a42a37;
+}
+.outline-danger-300 {
+  border-color: #902530;
+}
+.outline-danger-400 {
+  border-color: #7b2029;
+}
+.outline-danger-500 {
+  border-color: #671b23;
+}
+.outline-danger-600 {
+  border-color: #52151c;
+}
+.outline-danger-700 {
+  border-color: #3e1015;
+}
+.outline-danger-800 {
+  border-color: #290b0e;
+}
+.outline-danger-900 {
+  border-color: #150507;
+}
+
+.outline-light {
+  border-color: #f5f5f5;
+}
+.outline-light-100 {
+  border-color: #dddddd;
+}
+.outline-light-200 {
+  border-color: #c4c4c4;
+}
+.outline-light-300 {
+  border-color: #acacac;
+}
+.outline-light-400 {
+  border-color: #939393;
+}
+.outline-light-500 {
+  border-color: #7b7b7b;
+}
+.outline-light-600 {
+  border-color: #626262;
+}
+.outline-light-700 {
+  border-color: #4a4a4a;
+}
+.outline-light-800 {
+  border-color: #313131;
+}
+.outline-light-900 {
+  border-color: #191919;
+}
+
+.outline-dark {
+  border-color: #212529;
+}
+.outline-dark-100 {
+  border-color: #1e2125;
+}
+.outline-dark-200 {
+  border-color: #1a1e21;
+}
+.outline-dark-300 {
+  border-color: #171a1d;
+}
+.outline-dark-400 {
+  border-color: #141619;
+}
+.outline-dark-500 {
+  border-color: #111315;
+}
+.outline-dark-600 {
+  border-color: #0d0f10;
+}
+.outline-dark-700 {
+  border-color: #0a0b0c;
+}
+.outline-dark-800 {
+  border-color: #070708;
+}
+.outline-dark-900 {
+  border-color: #030404;
+}
+
+.outline-red {
+  border-color: #f00;
+}
+.outline-red-100 {
+  border-color: #e60000;
+}
+.outline-red-200 {
+  border-color: #cc0000;
+}
+.outline-red-300 {
+  border-color: #b30000;
+}
+.outline-red-400 {
+  border-color: #990000;
+}
+.outline-red-500 {
+  border-color: maroon;
+}
+.outline-red-600 {
+  border-color: #660000;
+}
+.outline-red-700 {
+  border-color: #4d0000;
+}
+.outline-red-800 {
+  border-color: #330000;
+}
+.outline-red-900 {
+  border-color: #1a0000;
+}
+
+.outline-green {
+  border-color: #0f0;
+}
+.outline-green-100 {
+  border-color: #00e600;
+}
+.outline-green-200 {
+  border-color: #00cc00;
+}
+.outline-green-300 {
+  border-color: #00b300;
+}
+.outline-green-400 {
+  border-color: #009900;
+}
+.outline-green-500 {
+  border-color: green;
+}
+.outline-green-600 {
+  border-color: #006600;
+}
+.outline-green-700 {
+  border-color: #004d00;
+}
+.outline-green-800 {
+  border-color: #003300;
+}
+.outline-green-900 {
+  border-color: #001a00;
+}
+
+.outline-blue {
+  border-color: #00f;
+}
+.outline-blue-100 {
+  border-color: #0000e6;
+}
+.outline-blue-200 {
+  border-color: #0000cc;
+}
+.outline-blue-300 {
+  border-color: #0000b3;
+}
+.outline-blue-400 {
+  border-color: #000099;
+}
+.outline-blue-500 {
+  border-color: navy;
+}
+.outline-blue-600 {
+  border-color: #000066;
+}
+.outline-blue-700 {
+  border-color: #00004d;
+}
+.outline-blue-800 {
+  border-color: #000033;
+}
+.outline-blue-900 {
+  border-color: #00001a;
+}
+
+.outline-black {
+  border-color: #000;
+}
+.outline-black-100 {
+  border-color: black;
+}
+.outline-black-200 {
+  border-color: black;
+}
+.outline-black-300 {
+  border-color: black;
+}
+.outline-black-400 {
+  border-color: black;
+}
+.outline-black-500 {
+  border-color: black;
+}
+.outline-black-600 {
+  border-color: black;
+}
+.outline-black-700 {
+  border-color: black;
+}
+.outline-black-800 {
+  border-color: black;
+}
+.outline-black-900 {
+  border-color: black;
+}
+
+.outline-white {
+  border-color: #fff;
+}
+.outline-white-100 {
+  border-color: #e6e6e6;
+}
+.outline-white-200 {
+  border-color: #cccccc;
+}
+.outline-white-300 {
+  border-color: #b3b3b3;
+}
+.outline-white-400 {
+  border-color: #999999;
+}
+.outline-white-500 {
+  border-color: gray;
+}
+.outline-white-600 {
+  border-color: #666666;
+}
+.outline-white-700 {
+  border-color: #4d4d4d;
+}
+.outline-white-800 {
+  border-color: #333333;
+}
+.outline-white-900 {
+  border-color: #1a1a1a;
+}
+
+.active\:outline-primary:active,
+.focus\:outline-primary:focus,
+.hover\:outline-primary:hover {
+  border-color: #007cde;
+}
+
+.active\:outline-primary-100:active,
+.focus\:outline-primary-100:focus,
+.hover\:outline-primary-100:hover {
+  border-color: #0070c8;
+}
+
+.active\:outline-primary-200:active,
+.focus\:outline-primary-200:focus,
+.hover\:outline-primary-200:hover {
+  border-color: #0063b2;
+}
+
+.active\:outline-primary-300:active,
+.focus\:outline-primary-300:focus,
+.hover\:outline-primary-300:hover {
+  border-color: #00579b;
+}
+
+.active\:outline-primary-400:active,
+.focus\:outline-primary-400:focus,
+.hover\:outline-primary-400:hover {
+  border-color: #004a85;
+}
+
+.active\:outline-primary-500:active,
+.focus\:outline-primary-500:focus,
+.hover\:outline-primary-500:hover {
+  border-color: #003e6f;
+}
+
+.active\:outline-primary-600:active,
+.focus\:outline-primary-600:focus,
+.hover\:outline-primary-600:hover {
+  border-color: #003259;
+}
+
+.active\:outline-primary-700:active,
+.focus\:outline-primary-700:focus,
+.hover\:outline-primary-700:hover {
+  border-color: #002543;
+}
+
+.active\:outline-primary-800:active,
+.focus\:outline-primary-800:focus,
+.hover\:outline-primary-800:hover {
+  border-color: #00192c;
+}
+
+.active\:outline-primary-900:active,
+.focus\:outline-primary-900:focus,
+.hover\:outline-primary-900:hover {
+  border-color: #000c16;
+}
+
+.active\:outline-secondary:active,
+.focus\:outline-secondary:focus,
+.hover\:outline-secondary:hover {
+  border-color: #333;
+}
+
+.active\:outline-secondary-100:active,
+.focus\:outline-secondary-100:focus,
+.hover\:outline-secondary-100:hover {
+  border-color: #2e2e2e;
+}
+
+.active\:outline-secondary-200:active,
+.focus\:outline-secondary-200:focus,
+.hover\:outline-secondary-200:hover {
+  border-color: #292929;
+}
+
+.active\:outline-secondary-300:active,
+.focus\:outline-secondary-300:focus,
+.hover\:outline-secondary-300:hover {
+  border-color: #242424;
+}
+
+.active\:outline-secondary-400:active,
+.focus\:outline-secondary-400:focus,
+.hover\:outline-secondary-400:hover {
+  border-color: #1f1f1f;
+}
+
+.active\:outline-secondary-500:active,
+.focus\:outline-secondary-500:focus,
+.hover\:outline-secondary-500:hover {
+  border-color: #1a1a1a;
+}
+
+.active\:outline-secondary-600:active,
+.focus\:outline-secondary-600:focus,
+.hover\:outline-secondary-600:hover {
+  border-color: #141414;
+}
+
+.active\:outline-secondary-700:active,
+.focus\:outline-secondary-700:focus,
+.hover\:outline-secondary-700:hover {
+  border-color: #0f0f0f;
+}
+
+.active\:outline-secondary-800:active,
+.focus\:outline-secondary-800:focus,
+.hover\:outline-secondary-800:hover {
+  border-color: #0a0a0a;
+}
+
+.active\:outline-secondary-900:active,
+.focus\:outline-secondary-900:focus,
+.hover\:outline-secondary-900:hover {
+  border-color: #050505;
+}
+
+.active\:outline-success:active,
+.focus\:outline-success:focus,
+.hover\:outline-success:hover {
+  border-color: #198754;
+}
+
+.active\:outline-success-100:active,
+.focus\:outline-success-100:focus,
+.hover\:outline-success-100:hover {
+  border-color: #177a4c;
+}
+
+.active\:outline-success-200:active,
+.focus\:outline-success-200:focus,
+.hover\:outline-success-200:hover {
+  border-color: #146c43;
+}
+
+.active\:outline-success-300:active,
+.focus\:outline-success-300:focus,
+.hover\:outline-success-300:hover {
+  border-color: #125f3b;
+}
+
+.active\:outline-success-400:active,
+.focus\:outline-success-400:focus,
+.hover\:outline-success-400:hover {
+  border-color: #0f5132;
+}
+
+.active\:outline-success-500:active,
+.focus\:outline-success-500:focus,
+.hover\:outline-success-500:hover {
+  border-color: #0d442a;
+}
+
+.active\:outline-success-600:active,
+.focus\:outline-success-600:focus,
+.hover\:outline-success-600:hover {
+  border-color: #0a3622;
+}
+
+.active\:outline-success-700:active,
+.focus\:outline-success-700:focus,
+.hover\:outline-success-700:hover {
+  border-color: #082919;
+}
+
+.active\:outline-success-800:active,
+.focus\:outline-success-800:focus,
+.hover\:outline-success-800:hover {
+  border-color: #051b11;
+}
+
+.active\:outline-success-900:active,
+.focus\:outline-success-900:focus,
+.hover\:outline-success-900:hover {
+  border-color: #030e08;
+}
+
+.active\:outline-info:active,
+.focus\:outline-info:focus,
+.hover\:outline-info:hover {
+  border-color: #0dcaf0;
+}
+
+.active\:outline-info-100:active,
+.focus\:outline-info-100:focus,
+.hover\:outline-info-100:hover {
+  border-color: #0cb6d8;
+}
+
+.active\:outline-info-200:active,
+.focus\:outline-info-200:focus,
+.hover\:outline-info-200:hover {
+  border-color: #0aa2c0;
+}
+
+.active\:outline-info-300:active,
+.focus\:outline-info-300:focus,
+.hover\:outline-info-300:hover {
+  border-color: #098da8;
+}
+
+.active\:outline-info-400:active,
+.focus\:outline-info-400:focus,
+.hover\:outline-info-400:hover {
+  border-color: #087990;
+}
+
+.active\:outline-info-500:active,
+.focus\:outline-info-500:focus,
+.hover\:outline-info-500:hover {
+  border-color: #076578;
+}
+
+.active\:outline-info-600:active,
+.focus\:outline-info-600:focus,
+.hover\:outline-info-600:hover {
+  border-color: #055160;
+}
+
+.active\:outline-info-700:active,
+.focus\:outline-info-700:focus,
+.hover\:outline-info-700:hover {
+  border-color: #043d48;
+}
+
+.active\:outline-info-800:active,
+.focus\:outline-info-800:focus,
+.hover\:outline-info-800:hover {
+  border-color: #032830;
+}
+
+.active\:outline-info-900:active,
+.focus\:outline-info-900:focus,
+.hover\:outline-info-900:hover {
+  border-color: #011418;
+}
+
+.active\:outline-warning:active,
+.focus\:outline-warning:focus,
+.hover\:outline-warning:hover {
+  border-color: #ffc107;
+}
+
+.active\:outline-warning-100:active,
+.focus\:outline-warning-100:focus,
+.hover\:outline-warning-100:hover {
+  border-color: #e6ae06;
+}
+
+.active\:outline-warning-200:active,
+.focus\:outline-warning-200:focus,
+.hover\:outline-warning-200:hover {
+  border-color: #cc9a06;
+}
+
+.active\:outline-warning-300:active,
+.focus\:outline-warning-300:focus,
+.hover\:outline-warning-300:hover {
+  border-color: #b38705;
+}
+
+.active\:outline-warning-400:active,
+.focus\:outline-warning-400:focus,
+.hover\:outline-warning-400:hover {
+  border-color: #997404;
+}
+
+.active\:outline-warning-500:active,
+.focus\:outline-warning-500:focus,
+.hover\:outline-warning-500:hover {
+  border-color: #806104;
+}
+
+.active\:outline-warning-600:active,
+.focus\:outline-warning-600:focus,
+.hover\:outline-warning-600:hover {
+  border-color: #664d03;
+}
+
+.active\:outline-warning-700:active,
+.focus\:outline-warning-700:focus,
+.hover\:outline-warning-700:hover {
+  border-color: #4d3a02;
+}
+
+.active\:outline-warning-800:active,
+.focus\:outline-warning-800:focus,
+.hover\:outline-warning-800:hover {
+  border-color: #332701;
+}
+
+.active\:outline-warning-900:active,
+.focus\:outline-warning-900:focus,
+.hover\:outline-warning-900:hover {
+  border-color: #1a1301;
+}
+
+.active\:outline-danger:active,
+.focus\:outline-danger:focus,
+.hover\:outline-danger:hover {
+  border-color: #cd3545;
+}
+
+.active\:outline-danger-100:active,
+.focus\:outline-danger-100:focus,
+.hover\:outline-danger-100:hover {
+  border-color: #b9303e;
+}
+
+.active\:outline-danger-200:active,
+.focus\:outline-danger-200:focus,
+.hover\:outline-danger-200:hover {
+  border-color: #a42a37;
+}
+
+.active\:outline-danger-300:active,
+.focus\:outline-danger-300:focus,
+.hover\:outline-danger-300:hover {
+  border-color: #902530;
+}
+
+.active\:outline-danger-400:active,
+.focus\:outline-danger-400:focus,
+.hover\:outline-danger-400:hover {
+  border-color: #7b2029;
+}
+
+.active\:outline-danger-500:active,
+.focus\:outline-danger-500:focus,
+.hover\:outline-danger-500:hover {
+  border-color: #671b23;
+}
+
+.active\:outline-danger-600:active,
+.focus\:outline-danger-600:focus,
+.hover\:outline-danger-600:hover {
+  border-color: #52151c;
+}
+
+.active\:outline-danger-700:active,
+.focus\:outline-danger-700:focus,
+.hover\:outline-danger-700:hover {
+  border-color: #3e1015;
+}
+
+.active\:outline-danger-800:active,
+.focus\:outline-danger-800:focus,
+.hover\:outline-danger-800:hover {
+  border-color: #290b0e;
+}
+
+.active\:outline-danger-900:active,
+.focus\:outline-danger-900:focus,
+.hover\:outline-danger-900:hover {
+  border-color: #150507;
+}
+
+.active\:outline-light:active,
+.focus\:outline-light:focus,
+.hover\:outline-light:hover {
+  border-color: #f5f5f5;
+}
+
+.active\:outline-light-100:active,
+.focus\:outline-light-100:focus,
+.hover\:outline-light-100:hover {
+  border-color: #dddddd;
+}
+
+.active\:outline-light-200:active,
+.focus\:outline-light-200:focus,
+.hover\:outline-light-200:hover {
+  border-color: #c4c4c4;
+}
+
+.active\:outline-light-300:active,
+.focus\:outline-light-300:focus,
+.hover\:outline-light-300:hover {
+  border-color: #acacac;
+}
+
+.active\:outline-light-400:active,
+.focus\:outline-light-400:focus,
+.hover\:outline-light-400:hover {
+  border-color: #939393;
+}
+
+.active\:outline-light-500:active,
+.focus\:outline-light-500:focus,
+.hover\:outline-light-500:hover {
+  border-color: #7b7b7b;
+}
+
+.active\:outline-light-600:active,
+.focus\:outline-light-600:focus,
+.hover\:outline-light-600:hover {
+  border-color: #626262;
+}
+
+.active\:outline-light-700:active,
+.focus\:outline-light-700:focus,
+.hover\:outline-light-700:hover {
+  border-color: #4a4a4a;
+}
+
+.active\:outline-light-800:active,
+.focus\:outline-light-800:focus,
+.hover\:outline-light-800:hover {
+  border-color: #313131;
+}
+
+.active\:outline-light-900:active,
+.focus\:outline-light-900:focus,
+.hover\:outline-light-900:hover {
+  border-color: #191919;
+}
+
+.active\:outline-dark:active,
+.focus\:outline-dark:focus,
+.hover\:outline-dark:hover {
+  border-color: #212529;
+}
+
+.active\:outline-dark-100:active,
+.focus\:outline-dark-100:focus,
+.hover\:outline-dark-100:hover {
+  border-color: #1e2125;
+}
+
+.active\:outline-dark-200:active,
+.focus\:outline-dark-200:focus,
+.hover\:outline-dark-200:hover {
+  border-color: #1a1e21;
+}
+
+.active\:outline-dark-300:active,
+.focus\:outline-dark-300:focus,
+.hover\:outline-dark-300:hover {
+  border-color: #171a1d;
+}
+
+.active\:outline-dark-400:active,
+.focus\:outline-dark-400:focus,
+.hover\:outline-dark-400:hover {
+  border-color: #141619;
+}
+
+.active\:outline-dark-500:active,
+.focus\:outline-dark-500:focus,
+.hover\:outline-dark-500:hover {
+  border-color: #111315;
+}
+
+.active\:outline-dark-600:active,
+.focus\:outline-dark-600:focus,
+.hover\:outline-dark-600:hover {
+  border-color: #0d0f10;
+}
+
+.active\:outline-dark-700:active,
+.focus\:outline-dark-700:focus,
+.hover\:outline-dark-700:hover {
+  border-color: #0a0b0c;
+}
+
+.active\:outline-dark-800:active,
+.focus\:outline-dark-800:focus,
+.hover\:outline-dark-800:hover {
+  border-color: #070708;
+}
+
+.active\:outline-dark-900:active,
+.focus\:outline-dark-900:focus,
+.hover\:outline-dark-900:hover {
+  border-color: #030404;
+}
+
+.active\:outline-red:active,
+.focus\:outline-red:focus,
+.hover\:outline-red:hover {
+  border-color: #f00;
+}
+
+.active\:outline-red-100:active,
+.focus\:outline-red-100:focus,
+.hover\:outline-red-100:hover {
+  border-color: #e60000;
+}
+
+.active\:outline-red-200:active,
+.focus\:outline-red-200:focus,
+.hover\:outline-red-200:hover {
+  border-color: #cc0000;
+}
+
+.active\:outline-red-300:active,
+.focus\:outline-red-300:focus,
+.hover\:outline-red-300:hover {
+  border-color: #b30000;
+}
+
+.active\:outline-red-400:active,
+.focus\:outline-red-400:focus,
+.hover\:outline-red-400:hover {
+  border-color: #990000;
+}
+
+.active\:outline-red-500:active,
+.focus\:outline-red-500:focus,
+.hover\:outline-red-500:hover {
+  border-color: maroon;
+}
+
+.active\:outline-red-600:active,
+.focus\:outline-red-600:focus,
+.hover\:outline-red-600:hover {
+  border-color: #660000;
+}
+
+.active\:outline-red-700:active,
+.focus\:outline-red-700:focus,
+.hover\:outline-red-700:hover {
+  border-color: #4d0000;
+}
+
+.active\:outline-red-800:active,
+.focus\:outline-red-800:focus,
+.hover\:outline-red-800:hover {
+  border-color: #330000;
+}
+
+.active\:outline-red-900:active,
+.focus\:outline-red-900:focus,
+.hover\:outline-red-900:hover {
+  border-color: #1a0000;
+}
+
+.active\:outline-green:active,
+.focus\:outline-green:focus,
+.hover\:outline-green:hover {
+  border-color: #0f0;
+}
+
+.active\:outline-green-100:active,
+.focus\:outline-green-100:focus,
+.hover\:outline-green-100:hover {
+  border-color: #00e600;
+}
+
+.active\:outline-green-200:active,
+.focus\:outline-green-200:focus,
+.hover\:outline-green-200:hover {
+  border-color: #00cc00;
+}
+
+.active\:outline-green-300:active,
+.focus\:outline-green-300:focus,
+.hover\:outline-green-300:hover {
+  border-color: #00b300;
+}
+
+.active\:outline-green-400:active,
+.focus\:outline-green-400:focus,
+.hover\:outline-green-400:hover {
+  border-color: #009900;
+}
+
+.active\:outline-green-500:active,
+.focus\:outline-green-500:focus,
+.hover\:outline-green-500:hover {
+  border-color: green;
+}
+
+.active\:outline-green-600:active,
+.focus\:outline-green-600:focus,
+.hover\:outline-green-600:hover {
+  border-color: #006600;
+}
+
+.active\:outline-green-700:active,
+.focus\:outline-green-700:focus,
+.hover\:outline-green-700:hover {
+  border-color: #004d00;
+}
+
+.active\:outline-green-800:active,
+.focus\:outline-green-800:focus,
+.hover\:outline-green-800:hover {
+  border-color: #003300;
+}
+
+.active\:outline-green-900:active,
+.focus\:outline-green-900:focus,
+.hover\:outline-green-900:hover {
+  border-color: #001a00;
+}
+
+.active\:outline-blue:active,
+.focus\:outline-blue:focus,
+.hover\:outline-blue:hover {
+  border-color: #00f;
+}
+
+.active\:outline-blue-100:active,
+.focus\:outline-blue-100:focus,
+.hover\:outline-blue-100:hover {
+  border-color: #0000e6;
+}
+
+.active\:outline-blue-200:active,
+.focus\:outline-blue-200:focus,
+.hover\:outline-blue-200:hover {
+  border-color: #0000cc;
+}
+
+.active\:outline-blue-300:active,
+.focus\:outline-blue-300:focus,
+.hover\:outline-blue-300:hover {
+  border-color: #0000b3;
+}
+
+.active\:outline-blue-400:active,
+.focus\:outline-blue-400:focus,
+.hover\:outline-blue-400:hover {
+  border-color: #000099;
+}
+
+.active\:outline-blue-500:active,
+.focus\:outline-blue-500:focus,
+.hover\:outline-blue-500:hover {
+  border-color: navy;
+}
+
+.active\:outline-blue-600:active,
+.focus\:outline-blue-600:focus,
+.hover\:outline-blue-600:hover {
+  border-color: #000066;
+}
+
+.active\:outline-blue-700:active,
+.focus\:outline-blue-700:focus,
+.hover\:outline-blue-700:hover {
+  border-color: #00004d;
+}
+
+.active\:outline-blue-800:active,
+.focus\:outline-blue-800:focus,
+.hover\:outline-blue-800:hover {
+  border-color: #000033;
+}
+
+.active\:outline-blue-900:active,
+.focus\:outline-blue-900:focus,
+.hover\:outline-blue-900:hover {
+  border-color: #00001a;
+}
+
+.active\:outline-black:active,
+.focus\:outline-black:focus,
+.hover\:outline-black:hover {
+  border-color: #000;
+}
+
+.active\:outline-black-100:active,
+.focus\:outline-black-100:focus,
+.hover\:outline-black-100:hover {
+  border-color: black;
+}
+
+.active\:outline-black-200:active,
+.focus\:outline-black-200:focus,
+.hover\:outline-black-200:hover {
+  border-color: black;
+}
+
+.active\:outline-black-300:active,
+.focus\:outline-black-300:focus,
+.hover\:outline-black-300:hover {
+  border-color: black;
+}
+
+.active\:outline-black-400:active,
+.focus\:outline-black-400:focus,
+.hover\:outline-black-400:hover {
+  border-color: black;
+}
+
+.active\:outline-black-500:active,
+.focus\:outline-black-500:focus,
+.hover\:outline-black-500:hover {
+  border-color: black;
+}
+
+.active\:outline-black-600:active,
+.focus\:outline-black-600:focus,
+.hover\:outline-black-600:hover {
+  border-color: black;
+}
+
+.active\:outline-black-700:active,
+.focus\:outline-black-700:focus,
+.hover\:outline-black-700:hover {
+  border-color: black;
+}
+
+.active\:outline-black-800:active,
+.focus\:outline-black-800:focus,
+.hover\:outline-black-800:hover {
+  border-color: black;
+}
+
+.active\:outline-black-900:active,
+.focus\:outline-black-900:focus,
+.hover\:outline-black-900:hover {
+  border-color: black;
+}
+
+.active\:outline-white:active,
+.focus\:outline-white:focus,
+.hover\:outline-white:hover {
+  border-color: #fff;
+}
+
+.active\:outline-white-100:active,
+.focus\:outline-white-100:focus,
+.hover\:outline-white-100:hover {
+  border-color: #e6e6e6;
+}
+
+.active\:outline-white-200:active,
+.focus\:outline-white-200:focus,
+.hover\:outline-white-200:hover {
+  border-color: #cccccc;
+}
+
+.active\:outline-white-300:active,
+.focus\:outline-white-300:focus,
+.hover\:outline-white-300:hover {
+  border-color: #b3b3b3;
+}
+
+.active\:outline-white-400:active,
+.focus\:outline-white-400:focus,
+.hover\:outline-white-400:hover {
+  border-color: #999999;
+}
+
+.active\:outline-white-500:active,
+.focus\:outline-white-500:focus,
+.hover\:outline-white-500:hover {
+  border-color: gray;
+}
+
+.active\:outline-white-600:active,
+.focus\:outline-white-600:focus,
+.hover\:outline-white-600:hover {
+  border-color: #666666;
+}
+
+.active\:outline-white-700:active,
+.focus\:outline-white-700:focus,
+.hover\:outline-white-700:hover {
+  border-color: #4d4d4d;
+}
+
+.active\:outline-white-800:active,
+.focus\:outline-white-800:focus,
+.hover\:outline-white-800:hover {
+  border-color: #333333;
+}
+
+.active\:outline-white-900:active,
+.focus\:outline-white-900:focus,
+.hover\:outline-white-900:hover {
+  border-color: #1a1a1a;
+}
+
+.active\:outline-0:active,
+.focus\:outline-0:focus,
+.hover\:outline-0:hover {
+  border-width: 0px;
+}
+
+.active\:outline-1:active,
+.focus\:outline-1:focus,
+.hover\:outline-1:hover {
+  border-width: 1px;
+}
+
+.active\:outline-2:active,
+.focus\:outline-2:focus,
+.hover\:outline-2:hover {
+  border-width: 2px;
+}
+
+.active\:outline-3:active,
+.focus\:outline-3:focus,
+.hover\:outline-3:hover {
+  border-width: 3px;
+}
+
+.active\:outline-4:active,
+.focus\:outline-4:focus,
+.hover\:outline-4:hover {
+  border-width: 4px;
+}
+
+.active\:outline-5:active,
+.focus\:outline-5:focus,
+.hover\:outline-5:hover {
+  border-width: 5px;
+}
+
+.no-outline {
+  border-width: 0px;
+  border-style: none !important;
+}
+
+/*# sourceMappingURL=border.css.map */

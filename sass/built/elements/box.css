@@ -1,0 +1,16 @@
+.box {
+  display: block;
+}
+.box:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+/*# sourceMappingURL=box.css.map */

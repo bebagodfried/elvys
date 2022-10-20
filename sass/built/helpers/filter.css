@@ -1,0 +1,2121 @@
+.blur-0 {
+  filter: blur(0em);
+}
+
+.active\:blur-0:active,
+.focus\:blur-0:focus,
+.hover\:blur-0:hover {
+  filter: blur(0em);
+}
+
+.blur-10 {
+  filter: blur(0.25em);
+}
+
+.active\:blur-10:active,
+.focus\:blur-10:focus,
+.hover\:blur-10:hover {
+  filter: blur(0.25em);
+}
+
+.blur-20 {
+  filter: blur(0.5em);
+}
+
+.active\:blur-20:active,
+.focus\:blur-20:focus,
+.hover\:blur-20:hover {
+  filter: blur(0.5em);
+}
+
+.blur-30 {
+  filter: blur(1em);
+}
+
+.active\:blur-30:active,
+.focus\:blur-30:focus,
+.hover\:blur-30:hover {
+  filter: blur(1em);
+}
+
+.blur-40 {
+  filter: blur(1.5em);
+}
+
+.active\:blur-40:active,
+.focus\:blur-40:focus,
+.hover\:blur-40:hover {
+  filter: blur(1.5em);
+}
+
+.blur-50 {
+  filter: blur(2em);
+}
+
+.active\:blur-50:active,
+.focus\:blur-50:focus,
+.hover\:blur-50:hover {
+  filter: blur(2em);
+}
+
+.blur-60 {
+  filter: blur(2.5em);
+}
+
+.active\:blur-60:active,
+.focus\:blur-60:focus,
+.hover\:blur-60:hover {
+  filter: blur(2.5em);
+}
+
+.blur-70 {
+  filter: blur(3em);
+}
+
+.active\:blur-70:active,
+.focus\:blur-70:focus,
+.hover\:blur-70:hover {
+  filter: blur(3em);
+}
+
+.blur-80 {
+  filter: blur(3.5em);
+}
+
+.active\:blur-80:active,
+.focus\:blur-80:focus,
+.hover\:blur-80:hover {
+  filter: blur(3.5em);
+}
+
+.blur-90 {
+  filter: blur(4em);
+}
+
+.active\:blur-90:active,
+.focus\:blur-90:focus,
+.hover\:blur-90:hover {
+  filter: blur(4em);
+}
+
+.blur-100 {
+  filter: blur(4.5em);
+}
+
+.active\:blur-100:active,
+.focus\:blur-100:focus,
+.hover\:blur-100:hover {
+  filter: blur(4.5em);
+}
+
+.brightness-0 {
+  filter: brightness(0);
+}
+
+.active\:brightness-0:active,
+.focus\:brightness-0:focus,
+.hover\:brightness-0:hover {
+  filter: brightness(0);
+}
+
+.brightness-10 {
+  filter: brightness(0.1);
+}
+
+.active\:brightness-10:active,
+.focus\:brightness-10:focus,
+.hover\:brightness-10:hover {
+  filter: brightness(0.1);
+}
+
+.brightness-20 {
+  filter: brightness(0.2);
+}
+
+.active\:brightness-20:active,
+.focus\:brightness-20:focus,
+.hover\:brightness-20:hover {
+  filter: brightness(0.2);
+}
+
+.brightness-30 {
+  filter: brightness(0.3);
+}
+
+.active\:brightness-30:active,
+.focus\:brightness-30:focus,
+.hover\:brightness-30:hover {
+  filter: brightness(0.3);
+}
+
+.brightness-40 {
+  filter: brightness(0.4);
+}
+
+.active\:brightness-40:active,
+.focus\:brightness-40:focus,
+.hover\:brightness-40:hover {
+  filter: brightness(0.4);
+}
+
+.brightness-50 {
+  filter: brightness(0.5);
+}
+
+.active\:brightness-50:active,
+.focus\:brightness-50:focus,
+.hover\:brightness-50:hover {
+  filter: brightness(0.5);
+}
+
+.brightness-60 {
+  filter: brightness(0.6);
+}
+
+.active\:brightness-60:active,
+.focus\:brightness-60:focus,
+.hover\:brightness-60:hover {
+  filter: brightness(0.6);
+}
+
+.brightness-70 {
+  filter: brightness(0.7);
+}
+
+.active\:brightness-70:active,
+.focus\:brightness-70:focus,
+.hover\:brightness-70:hover {
+  filter: brightness(0.7);
+}
+
+.brightness-80 {
+  filter: brightness(0.8);
+}
+
+.active\:brightness-80:active,
+.focus\:brightness-80:focus,
+.hover\:brightness-80:hover {
+  filter: brightness(0.8);
+}
+
+.brightness-90 {
+  filter: brightness(0.9);
+}
+
+.active\:brightness-90:active,
+.focus\:brightness-90:focus,
+.hover\:brightness-90:hover {
+  filter: brightness(0.9);
+}
+
+.brightness-100 {
+  filter: brightness(1);
+}
+
+.active\:brightness-100:active,
+.focus\:brightness-100:focus,
+.hover\:brightness-100:hover {
+  filter: brightness(1);
+}
+
+.brightness-210 {
+  filter: brightness(1.1);
+}
+
+.active\:brightness-210:active,
+.focus\:brightness-210:focus,
+.hover\:brightness-210:hover {
+  filter: brightness(1.1);
+}
+
+.brightness-220 {
+  filter: brightness(1.2);
+}
+
+.active\:brightness-220:active,
+.focus\:brightness-220:focus,
+.hover\:brightness-220:hover {
+  filter: brightness(1.2);
+}
+
+.brightness-230 {
+  filter: brightness(1.3);
+}
+
+.active\:brightness-230:active,
+.focus\:brightness-230:focus,
+.hover\:brightness-230:hover {
+  filter: brightness(1.3);
+}
+
+.brightness-240 {
+  filter: brightness(1.4);
+}
+
+.active\:brightness-240:active,
+.focus\:brightness-240:focus,
+.hover\:brightness-240:hover {
+  filter: brightness(1.4);
+}
+
+.brightness-250 {
+  filter: brightness(1.5);
+}
+
+.active\:brightness-250:active,
+.focus\:brightness-250:focus,
+.hover\:brightness-250:hover {
+  filter: brightness(1.5);
+}
+
+.brightness-260 {
+  filter: brightness(1.6);
+}
+
+.active\:brightness-260:active,
+.focus\:brightness-260:focus,
+.hover\:brightness-260:hover {
+  filter: brightness(1.6);
+}
+
+.brightness-270 {
+  filter: brightness(1.7);
+}
+
+.active\:brightness-270:active,
+.focus\:brightness-270:focus,
+.hover\:brightness-270:hover {
+  filter: brightness(1.7);
+}
+
+.brightness-280 {
+  filter: brightness(1.8);
+}
+
+.active\:brightness-280:active,
+.focus\:brightness-280:focus,
+.hover\:brightness-280:hover {
+  filter: brightness(1.8);
+}
+
+.brightness-290 {
+  filter: brightness(1.9);
+}
+
+.active\:brightness-290:active,
+.focus\:brightness-290:focus,
+.hover\:brightness-290:hover {
+  filter: brightness(1.9);
+}
+
+.brightness-200 {
+  filter: brightness(2);
+}
+
+.active\:brightness-200:active,
+.focus\:brightness-200:focus,
+.hover\:brightness-200:hover {
+  filter: brightness(2);
+}
+
+.contraste-0 {
+  filter: contraste(0%);
+}
+
+.active\:contraste-0:active,
+.focus\:contraste-0:focus,
+.hover\:contraste-0:hover {
+  filter: contraste(0%);
+}
+
+.contraste-10 {
+  filter: contraste(10%);
+}
+
+.active\:contraste-10:active,
+.focus\:contraste-10:focus,
+.hover\:contraste-10:hover {
+  filter: contraste(10%);
+}
+
+.contraste-20 {
+  filter: contraste(20%);
+}
+
+.active\:contraste-20:active,
+.focus\:contraste-20:focus,
+.hover\:contraste-20:hover {
+  filter: contraste(20%);
+}
+
+.contraste-30 {
+  filter: contraste(30%);
+}
+
+.active\:contraste-30:active,
+.focus\:contraste-30:focus,
+.hover\:contraste-30:hover {
+  filter: contraste(30%);
+}
+
+.contraste-40 {
+  filter: contraste(40%);
+}
+
+.active\:contraste-40:active,
+.focus\:contraste-40:focus,
+.hover\:contraste-40:hover {
+  filter: contraste(40%);
+}
+
+.contraste-50 {
+  filter: contraste(50%);
+}
+
+.active\:contraste-50:active,
+.focus\:contraste-50:focus,
+.hover\:contraste-50:hover {
+  filter: contraste(50%);
+}
+
+.contraste-60 {
+  filter: contraste(60%);
+}
+
+.active\:contraste-60:active,
+.focus\:contraste-60:focus,
+.hover\:contraste-60:hover {
+  filter: contraste(60%);
+}
+
+.contraste-70 {
+  filter: contraste(70%);
+}
+
+.active\:contraste-70:active,
+.focus\:contraste-70:focus,
+.hover\:contraste-70:hover {
+  filter: contraste(70%);
+}
+
+.contraste-80 {
+  filter: contraste(80%);
+}
+
+.active\:contraste-80:active,
+.focus\:contraste-80:focus,
+.hover\:contraste-80:hover {
+  filter: contraste(80%);
+}
+
+.contraste-90 {
+  filter: contraste(90%);
+}
+
+.active\:contraste-90:active,
+.focus\:contraste-90:focus,
+.hover\:contraste-90:hover {
+  filter: contraste(90%);
+}
+
+.contraste-100 {
+  filter: contraste(100%);
+}
+
+.active\:contraste-100:active,
+.focus\:contraste-100:focus,
+.hover\:contraste-100:hover {
+  filter: contraste(100%);
+}
+
+.grayscale-0 {
+  filter: grayscale(0%);
+}
+
+.active\:grayscale-0:active,
+.focus\:grayscale-0:focus,
+.hover\:grayscale-0:hover {
+  filter: grayscale(0%);
+}
+
+.grayscale-10 {
+  filter: grayscale(10%);
+}
+
+.active\:grayscale-10:active,
+.focus\:grayscale-10:focus,
+.hover\:grayscale-10:hover {
+  filter: grayscale(10%);
+}
+
+.grayscale-20 {
+  filter: grayscale(20%);
+}
+
+.active\:grayscale-20:active,
+.focus\:grayscale-20:focus,
+.hover\:grayscale-20:hover {
+  filter: grayscale(20%);
+}
+
+.grayscale-30 {
+  filter: grayscale(30%);
+}
+
+.active\:grayscale-30:active,
+.focus\:grayscale-30:focus,
+.hover\:grayscale-30:hover {
+  filter: grayscale(30%);
+}
+
+.grayscale-40 {
+  filter: grayscale(40%);
+}
+
+.active\:grayscale-40:active,
+.focus\:grayscale-40:focus,
+.hover\:grayscale-40:hover {
+  filter: grayscale(40%);
+}
+
+.grayscale-50 {
+  filter: grayscale(50%);
+}
+
+.active\:grayscale-50:active,
+.focus\:grayscale-50:focus,
+.hover\:grayscale-50:hover {
+  filter: grayscale(50%);
+}
+
+.grayscale-60 {
+  filter: grayscale(60%);
+}
+
+.active\:grayscale-60:active,
+.focus\:grayscale-60:focus,
+.hover\:grayscale-60:hover {
+  filter: grayscale(60%);
+}
+
+.grayscale-70 {
+  filter: grayscale(70%);
+}
+
+.active\:grayscale-70:active,
+.focus\:grayscale-70:focus,
+.hover\:grayscale-70:hover {
+  filter: grayscale(70%);
+}
+
+.grayscale-80 {
+  filter: grayscale(80%);
+}
+
+.active\:grayscale-80:active,
+.focus\:grayscale-80:focus,
+.hover\:grayscale-80:hover {
+  filter: grayscale(80%);
+}
+
+.grayscale-90 {
+  filter: grayscale(90%);
+}
+
+.active\:grayscale-90:active,
+.focus\:grayscale-90:focus,
+.hover\:grayscale-90:hover {
+  filter: grayscale(90%);
+}
+
+.grayscale-100 {
+  filter: grayscale(100%);
+}
+
+.active\:grayscale-100:active,
+.focus\:grayscale-100:focus,
+.hover\:grayscale-100:hover {
+  filter: grayscale(100%);
+}
+
+.invert-0 {
+  filter: invert(0%);
+}
+
+.active\:invert-0:active,
+.focus\:invert-0:focus,
+.hover\:invert-0:hover {
+  filter: invert(0%);
+}
+
+.invert-10 {
+  filter: invert(10%);
+}
+
+.active\:invert-10:active,
+.focus\:invert-10:focus,
+.hover\:invert-10:hover {
+  filter: invert(10%);
+}
+
+.invert-20 {
+  filter: invert(20%);
+}
+
+.active\:invert-20:active,
+.focus\:invert-20:focus,
+.hover\:invert-20:hover {
+  filter: invert(20%);
+}
+
+.invert-30 {
+  filter: invert(30%);
+}
+
+.active\:invert-30:active,
+.focus\:invert-30:focus,
+.hover\:invert-30:hover {
+  filter: invert(30%);
+}
+
+.invert-40 {
+  filter: invert(40%);
+}
+
+.active\:invert-40:active,
+.focus\:invert-40:focus,
+.hover\:invert-40:hover {
+  filter: invert(40%);
+}
+
+.invert-50 {
+  filter: invert(50%);
+}
+
+.active\:invert-50:active,
+.focus\:invert-50:focus,
+.hover\:invert-50:hover {
+  filter: invert(50%);
+}
+
+.invert-60 {
+  filter: invert(60%);
+}
+
+.active\:invert-60:active,
+.focus\:invert-60:focus,
+.hover\:invert-60:hover {
+  filter: invert(60%);
+}
+
+.invert-70 {
+  filter: invert(70%);
+}
+
+.active\:invert-70:active,
+.focus\:invert-70:focus,
+.hover\:invert-70:hover {
+  filter: invert(70%);
+}
+
+.invert-80 {
+  filter: invert(80%);
+}
+
+.active\:invert-80:active,
+.focus\:invert-80:focus,
+.hover\:invert-80:hover {
+  filter: invert(80%);
+}
+
+.invert-90 {
+  filter: invert(90%);
+}
+
+.active\:invert-90:active,
+.focus\:invert-90:focus,
+.hover\:invert-90:hover {
+  filter: invert(90%);
+}
+
+.invert-100 {
+  filter: invert(100%);
+}
+
+.active\:invert-100:active,
+.focus\:invert-100:focus,
+.hover\:invert-100:hover {
+  filter: invert(100%);
+}
+
+.opacity-0 {
+  filter: opacity(0);
+}
+
+.active\:opacity-0:active,
+.focus\:opacity-0:focus,
+.hover\:opacity-0:hover {
+  filter: opacity(0);
+}
+
+.opacity-10 {
+  filter: opacity(0.1);
+}
+
+.active\:opacity-10:active,
+.focus\:opacity-10:focus,
+.hover\:opacity-10:hover {
+  filter: opacity(0.1);
+}
+
+.opacity-20 {
+  filter: opacity(0.2);
+}
+
+.active\:opacity-20:active,
+.focus\:opacity-20:focus,
+.hover\:opacity-20:hover {
+  filter: opacity(0.2);
+}
+
+.opacity-25 {
+  filter: opacity(0.25);
+}
+
+.active\:opacity-25:active,
+.focus\:opacity-25:focus,
+.hover\:opacity-25:hover {
+  filter: opacity(0.25);
+}
+
+.opacity-30 {
+  filter: opacity(0.3);
+}
+
+.active\:opacity-30:active,
+.focus\:opacity-30:focus,
+.hover\:opacity-30:hover {
+  filter: opacity(0.3);
+}
+
+.opacity-35 {
+  filter: opacity(0.35);
+}
+
+.active\:opacity-35:active,
+.focus\:opacity-35:focus,
+.hover\:opacity-35:hover {
+  filter: opacity(0.35);
+}
+
+.opacity-40 {
+  filter: opacity(0.4);
+}
+
+.active\:opacity-40:active,
+.focus\:opacity-40:focus,
+.hover\:opacity-40:hover {
+  filter: opacity(0.4);
+}
+
+.opacity-45 {
+  filter: opacity(0.45);
+}
+
+.active\:opacity-45:active,
+.focus\:opacity-45:focus,
+.hover\:opacity-45:hover {
+  filter: opacity(0.45);
+}
+
+.opacity-50 {
+  filter: opacity(0.5);
+}
+
+.active\:opacity-50:active,
+.focus\:opacity-50:focus,
+.hover\:opacity-50:hover {
+  filter: opacity(0.5);
+}
+
+.opacity-55 {
+  filter: opacity(0.55);
+}
+
+.active\:opacity-55:active,
+.focus\:opacity-55:focus,
+.hover\:opacity-55:hover {
+  filter: opacity(0.55);
+}
+
+.opacity-60 {
+  filter: opacity(0.6);
+}
+
+.active\:opacity-60:active,
+.focus\:opacity-60:focus,
+.hover\:opacity-60:hover {
+  filter: opacity(0.6);
+}
+
+.opacity-65 {
+  filter: opacity(0.65);
+}
+
+.active\:opacity-65:active,
+.focus\:opacity-65:focus,
+.hover\:opacity-65:hover {
+  filter: opacity(0.65);
+}
+
+.opacity-70 {
+  filter: opacity(0.7);
+}
+
+.active\:opacity-70:active,
+.focus\:opacity-70:focus,
+.hover\:opacity-70:hover {
+  filter: opacity(0.7);
+}
+
+.opacity-75 {
+  filter: opacity(0.75);
+}
+
+.active\:opacity-75:active,
+.focus\:opacity-75:focus,
+.hover\:opacity-75:hover {
+  filter: opacity(0.75);
+}
+
+.opacity-80 {
+  filter: opacity(0.8);
+}
+
+.active\:opacity-80:active,
+.focus\:opacity-80:focus,
+.hover\:opacity-80:hover {
+  filter: opacity(0.8);
+}
+
+.opacity-85 {
+  filter: opacity(0.85);
+}
+
+.active\:opacity-85:active,
+.focus\:opacity-85:focus,
+.hover\:opacity-85:hover {
+  filter: opacity(0.85);
+}
+
+.opacity-90 {
+  filter: opacity(0.9);
+}
+
+.active\:opacity-90:active,
+.focus\:opacity-90:focus,
+.hover\:opacity-90:hover {
+  filter: opacity(0.9);
+}
+
+.opacity-95 {
+  filter: opacity(0.95);
+}
+
+.active\:opacity-95:active,
+.focus\:opacity-95:focus,
+.hover\:opacity-95:hover {
+  filter: opacity(0.95);
+}
+
+.opacity-100 {
+  filter: opacity(1);
+}
+
+.active\:opacity-100:active,
+.focus\:opacity-100:focus,
+.hover\:opacity-100:hover {
+  filter: opacity(1);
+}
+
+.saturate-0 {
+  filter: saturate(0%);
+}
+
+.active\:saturate-0:active,
+.focus\:saturate-0:focus,
+.hover\:saturate-0:hover {
+  filter: saturate(0%);
+}
+
+.saturate-10 {
+  filter: saturate(10%);
+}
+
+.active\:saturate-10:active,
+.focus\:saturate-10:focus,
+.hover\:saturate-10:hover {
+  filter: saturate(10%);
+}
+
+.saturate-20 {
+  filter: saturate(20%);
+}
+
+.active\:saturate-20:active,
+.focus\:saturate-20:focus,
+.hover\:saturate-20:hover {
+  filter: saturate(20%);
+}
+
+.saturate-30 {
+  filter: saturate(30%);
+}
+
+.active\:saturate-30:active,
+.focus\:saturate-30:focus,
+.hover\:saturate-30:hover {
+  filter: saturate(30%);
+}
+
+.saturate-40 {
+  filter: saturate(40%);
+}
+
+.active\:saturate-40:active,
+.focus\:saturate-40:focus,
+.hover\:saturate-40:hover {
+  filter: saturate(40%);
+}
+
+.saturate-50 {
+  filter: saturate(50%);
+}
+
+.active\:saturate-50:active,
+.focus\:saturate-50:focus,
+.hover\:saturate-50:hover {
+  filter: saturate(50%);
+}
+
+.saturate-60 {
+  filter: saturate(60%);
+}
+
+.active\:saturate-60:active,
+.focus\:saturate-60:focus,
+.hover\:saturate-60:hover {
+  filter: saturate(60%);
+}
+
+.saturate-70 {
+  filter: saturate(70%);
+}
+
+.active\:saturate-70:active,
+.focus\:saturate-70:focus,
+.hover\:saturate-70:hover {
+  filter: saturate(70%);
+}
+
+.saturate-80 {
+  filter: saturate(80%);
+}
+
+.active\:saturate-80:active,
+.focus\:saturate-80:focus,
+.hover\:saturate-80:hover {
+  filter: saturate(80%);
+}
+
+.saturate-90 {
+  filter: saturate(90%);
+}
+
+.active\:saturate-90:active,
+.focus\:saturate-90:focus,
+.hover\:saturate-90:hover {
+  filter: saturate(90%);
+}
+
+.saturate-100 {
+  filter: saturate(100%);
+}
+
+.active\:saturate-100:active,
+.focus\:saturate-100:focus,
+.hover\:saturate-100:hover {
+  filter: saturate(100%);
+}
+
+.spia-0 {
+  filter: spia(0%);
+}
+
+.active\:spia-0:active,
+.focus\:spia-0:focus,
+.hover\:spia-0:hover {
+  filter: spia(0%);
+}
+
+.spia-10 {
+  filter: spia(10%);
+}
+
+.active\:spia-10:active,
+.focus\:spia-10:focus,
+.hover\:spia-10:hover {
+  filter: spia(10%);
+}
+
+.spia-20 {
+  filter: spia(20%);
+}
+
+.active\:spia-20:active,
+.focus\:spia-20:focus,
+.hover\:spia-20:hover {
+  filter: spia(20%);
+}
+
+.spia-30 {
+  filter: spia(30%);
+}
+
+.active\:spia-30:active,
+.focus\:spia-30:focus,
+.hover\:spia-30:hover {
+  filter: spia(30%);
+}
+
+.spia-40 {
+  filter: spia(40%);
+}
+
+.active\:spia-40:active,
+.focus\:spia-40:focus,
+.hover\:spia-40:hover {
+  filter: spia(40%);
+}
+
+.spia-50 {
+  filter: spia(50%);
+}
+
+.active\:spia-50:active,
+.focus\:spia-50:focus,
+.hover\:spia-50:hover {
+  filter: spia(50%);
+}
+
+.spia-60 {
+  filter: spia(60%);
+}
+
+.active\:spia-60:active,
+.focus\:spia-60:focus,
+.hover\:spia-60:hover {
+  filter: spia(60%);
+}
+
+.spia-70 {
+  filter: spia(70%);
+}
+
+.active\:spia-70:active,
+.focus\:spia-70:focus,
+.hover\:spia-70:hover {
+  filter: spia(70%);
+}
+
+.spia-80 {
+  filter: spia(80%);
+}
+
+.active\:spia-80:active,
+.focus\:spia-80:focus,
+.hover\:spia-80:hover {
+  filter: spia(80%);
+}
+
+.spia-90 {
+  filter: spia(90%);
+}
+
+.active\:spia-90:active,
+.focus\:spia-90:focus,
+.hover\:spia-90:hover {
+  filter: spia(90%);
+}
+
+.spia-100 {
+  filter: spia(100%);
+}
+
+.active\:spia-100:active,
+.focus\:spia-100:focus,
+.hover\:spia-100:hover {
+  filter: spia(100%);
+}
+
+.backdrop-blur-0 {
+  backdrop-filter: blur(0em);
+}
+
+.active\:backdrop-blur-0:active,
+.focus\:backdrop-blur-0:focus,
+.hover\:backdrop-blur-0:hover {
+  backdrop-filter: blur(0em);
+}
+
+.backdrop-blur-10 {
+  backdrop-filter: blur(0.25em);
+}
+
+.active\:backdrop-blur-10:active,
+.focus\:backdrop-blur-10:focus,
+.hover\:backdrop-blur-10:hover {
+  backdrop-filter: blur(0.25em);
+}
+
+.backdrop-blur-20 {
+  backdrop-filter: blur(0.5em);
+}
+
+.active\:backdrop-blur-20:active,
+.focus\:backdrop-blur-20:focus,
+.hover\:backdrop-blur-20:hover {
+  backdrop-filter: blur(0.5em);
+}
+
+.backdrop-blur-30 {
+  backdrop-filter: blur(1em);
+}
+
+.active\:backdrop-blur-30:active,
+.focus\:backdrop-blur-30:focus,
+.hover\:backdrop-blur-30:hover {
+  backdrop-filter: blur(1em);
+}
+
+.backdrop-blur-40 {
+  backdrop-filter: blur(1.5em);
+}
+
+.active\:backdrop-blur-40:active,
+.focus\:backdrop-blur-40:focus,
+.hover\:backdrop-blur-40:hover {
+  backdrop-filter: blur(1.5em);
+}
+
+.backdrop-blur-50 {
+  backdrop-filter: blur(2em);
+}
+
+.active\:backdrop-blur-50:active,
+.focus\:backdrop-blur-50:focus,
+.hover\:backdrop-blur-50:hover {
+  backdrop-filter: blur(2em);
+}
+
+.backdrop-blur-60 {
+  backdrop-filter: blur(2.5em);
+}
+
+.active\:backdrop-blur-60:active,
+.focus\:backdrop-blur-60:focus,
+.hover\:backdrop-blur-60:hover {
+  backdrop-filter: blur(2.5em);
+}
+
+.backdrop-blur-70 {
+  backdrop-filter: blur(3em);
+}
+
+.active\:backdrop-blur-70:active,
+.focus\:backdrop-blur-70:focus,
+.hover\:backdrop-blur-70:hover {
+  backdrop-filter: blur(3em);
+}
+
+.backdrop-blur-80 {
+  backdrop-filter: blur(3.5em);
+}
+
+.active\:backdrop-blur-80:active,
+.focus\:backdrop-blur-80:focus,
+.hover\:backdrop-blur-80:hover {
+  backdrop-filter: blur(3.5em);
+}
+
+.backdrop-blur-90 {
+  backdrop-filter: blur(4em);
+}
+
+.active\:backdrop-blur-90:active,
+.focus\:backdrop-blur-90:focus,
+.hover\:backdrop-blur-90:hover {
+  backdrop-filter: blur(4em);
+}
+
+.backdrop-blur-100 {
+  backdrop-filter: blur(4.5em);
+}
+
+.active\:backdrop-blur-100:active,
+.focus\:backdrop-blur-100:focus,
+.hover\:backdrop-blur-100:hover {
+  backdrop-filter: blur(4.5em);
+}
+
+.backdrop-brightness-0 {
+  backdrop-filter: brightness(0);
+}
+
+.active\:backdrop-brightness-0:active,
+.focus\:backdrop-brightness-0:focus,
+.hover\:backdrop-brightness-0:hover {
+  backdrop-filter: brightness(0);
+}
+
+.backdrop-brightness-10 {
+  backdrop-filter: brightness(0.1);
+}
+
+.active\:backdrop-brightness-10:active,
+.focus\:backdrop-brightness-10:focus,
+.hover\:backdrop-brightness-10:hover {
+  backdrop-filter: brightness(0.1);
+}
+
+.backdrop-brightness-20 {
+  backdrop-filter: brightness(0.2);
+}
+
+.active\:backdrop-brightness-20:active,
+.focus\:backdrop-brightness-20:focus,
+.hover\:backdrop-brightness-20:hover {
+  backdrop-filter: brightness(0.2);
+}
+
+.backdrop-brightness-30 {
+  backdrop-filter: brightness(0.3);
+}
+
+.active\:backdrop-brightness-30:active,
+.focus\:backdrop-brightness-30:focus,
+.hover\:backdrop-brightness-30:hover {
+  backdrop-filter: brightness(0.3);
+}
+
+.backdrop-brightness-40 {
+  backdrop-filter: brightness(0.4);
+}
+
+.active\:backdrop-brightness-40:active,
+.focus\:backdrop-brightness-40:focus,
+.hover\:backdrop-brightness-40:hover {
+  backdrop-filter: brightness(0.4);
+}
+
+.backdrop-brightness-50 {
+  backdrop-filter: brightness(0.5);
+}
+
+.active\:backdrop-brightness-50:active,
+.focus\:backdrop-brightness-50:focus,
+.hover\:backdrop-brightness-50:hover {
+  backdrop-filter: brightness(0.5);
+}
+
+.backdrop-brightness-60 {
+  backdrop-filter: brightness(0.6);
+}
+
+.active\:backdrop-brightness-60:active,
+.focus\:backdrop-brightness-60:focus,
+.hover\:backdrop-brightness-60:hover {
+  backdrop-filter: brightness(0.6);
+}
+
+.backdrop-brightness-70 {
+  backdrop-filter: brightness(0.7);
+}
+
+.active\:backdrop-brightness-70:active,
+.focus\:backdrop-brightness-70:focus,
+.hover\:backdrop-brightness-70:hover {
+  backdrop-filter: brightness(0.7);
+}
+
+.backdrop-brightness-80 {
+  backdrop-filter: brightness(0.8);
+}
+
+.active\:backdrop-brightness-80:active,
+.focus\:backdrop-brightness-80:focus,
+.hover\:backdrop-brightness-80:hover {
+  backdrop-filter: brightness(0.8);
+}
+
+.backdrop-brightness-90 {
+  backdrop-filter: brightness(0.9);
+}
+
+.active\:backdrop-brightness-90:active,
+.focus\:backdrop-brightness-90:focus,
+.hover\:backdrop-brightness-90:hover {
+  backdrop-filter: brightness(0.9);
+}
+
+.backdrop-brightness-100 {
+  backdrop-filter: brightness(1);
+}
+
+.active\:backdrop-brightness-100:active,
+.focus\:backdrop-brightness-100:focus,
+.hover\:backdrop-brightness-100:hover {
+  backdrop-filter: brightness(1);
+}
+
+.backdrop-brightness-210 {
+  backdrop-filter: brightness(1.1);
+}
+
+.active\:backdrop-brightness-210:active,
+.focus\:backdrop-brightness-210:focus,
+.hover\:backdrop-brightness-210:hover {
+  backdrop-filter: brightness(1.1);
+}
+
+.backdrop-brightness-220 {
+  backdrop-filter: brightness(1.2);
+}
+
+.active\:backdrop-brightness-220:active,
+.focus\:backdrop-brightness-220:focus,
+.hover\:backdrop-brightness-220:hover {
+  backdrop-filter: brightness(1.2);
+}
+
+.backdrop-brightness-230 {
+  backdrop-filter: brightness(1.3);
+}
+
+.active\:backdrop-brightness-230:active,
+.focus\:backdrop-brightness-230:focus,
+.hover\:backdrop-brightness-230:hover {
+  backdrop-filter: brightness(1.3);
+}
+
+.backdrop-brightness-240 {
+  backdrop-filter: brightness(1.4);
+}
+
+.active\:backdrop-brightness-240:active,
+.focus\:backdrop-brightness-240:focus,
+.hover\:backdrop-brightness-240:hover {
+  backdrop-filter: brightness(1.4);
+}
+
+.backdrop-brightness-250 {
+  backdrop-filter: brightness(1.5);
+}
+
+.active\:backdrop-brightness-250:active,
+.focus\:backdrop-brightness-250:focus,
+.hover\:backdrop-brightness-250:hover {
+  backdrop-filter: brightness(1.5);
+}
+
+.backdrop-brightness-260 {
+  backdrop-filter: brightness(1.6);
+}
+
+.active\:backdrop-brightness-260:active,
+.focus\:backdrop-brightness-260:focus,
+.hover\:backdrop-brightness-260:hover {
+  backdrop-filter: brightness(1.6);
+}
+
+.backdrop-brightness-270 {
+  backdrop-filter: brightness(1.7);
+}
+
+.active\:backdrop-brightness-270:active,
+.focus\:backdrop-brightness-270:focus,
+.hover\:backdrop-brightness-270:hover {
+  backdrop-filter: brightness(1.7);
+}
+
+.backdrop-brightness-280 {
+  backdrop-filter: brightness(1.8);
+}
+
+.active\:backdrop-brightness-280:active,
+.focus\:backdrop-brightness-280:focus,
+.hover\:backdrop-brightness-280:hover {
+  backdrop-filter: brightness(1.8);
+}
+
+.backdrop-brightness-290 {
+  backdrop-filter: brightness(1.9);
+}
+
+.active\:backdrop-brightness-290:active,
+.focus\:backdrop-brightness-290:focus,
+.hover\:backdrop-brightness-290:hover {
+  backdrop-filter: brightness(1.9);
+}
+
+.backdrop-brightness-200 {
+  backdrop-filter: brightness(2);
+}
+
+.active\:backdrop-brightness-200:active,
+.focus\:backdrop-brightness-200:focus,
+.hover\:backdrop-brightness-200:hover {
+  backdrop-filter: brightness(2);
+}
+
+.backdrop-contraste-0 {
+  backdrop-filter: contraste(0%);
+}
+
+.active\:backdrop-contraste-0:active,
+.focus\:backdrop-contraste-0:focus,
+.hover\:backdrop-contraste-0:hover {
+  backdrop-filter: contraste(0%);
+}
+
+.backdrop-contraste-10 {
+  backdrop-filter: contraste(10%);
+}
+
+.active\:backdrop-contraste-10:active,
+.focus\:backdrop-contraste-10:focus,
+.hover\:backdrop-contraste-10:hover {
+  backdrop-filter: contraste(10%);
+}
+
+.backdrop-contraste-20 {
+  backdrop-filter: contraste(20%);
+}
+
+.active\:backdrop-contraste-20:active,
+.focus\:backdrop-contraste-20:focus,
+.hover\:backdrop-contraste-20:hover {
+  backdrop-filter: contraste(20%);
+}
+
+.backdrop-contraste-30 {
+  backdrop-filter: contraste(30%);
+}
+
+.active\:backdrop-contraste-30:active,
+.focus\:backdrop-contraste-30:focus,
+.hover\:backdrop-contraste-30:hover {
+  backdrop-filter: contraste(30%);
+}
+
+.backdrop-contraste-40 {
+  backdrop-filter: contraste(40%);
+}
+
+.active\:backdrop-contraste-40:active,
+.focus\:backdrop-contraste-40:focus,
+.hover\:backdrop-contraste-40:hover {
+  backdrop-filter: contraste(40%);
+}
+
+.backdrop-contraste-50 {
+  backdrop-filter: contraste(50%);
+}
+
+.active\:backdrop-contraste-50:active,
+.focus\:backdrop-contraste-50:focus,
+.hover\:backdrop-contraste-50:hover {
+  backdrop-filter: contraste(50%);
+}
+
+.backdrop-contraste-60 {
+  backdrop-filter: contraste(60%);
+}
+
+.active\:backdrop-contraste-60:active,
+.focus\:backdrop-contraste-60:focus,
+.hover\:backdrop-contraste-60:hover {
+  backdrop-filter: contraste(60%);
+}
+
+.backdrop-contraste-70 {
+  backdrop-filter: contraste(70%);
+}
+
+.active\:backdrop-contraste-70:active,
+.focus\:backdrop-contraste-70:focus,
+.hover\:backdrop-contraste-70:hover {
+  backdrop-filter: contraste(70%);
+}
+
+.backdrop-contraste-80 {
+  backdrop-filter: contraste(80%);
+}
+
+.active\:backdrop-contraste-80:active,
+.focus\:backdrop-contraste-80:focus,
+.hover\:backdrop-contraste-80:hover {
+  backdrop-filter: contraste(80%);
+}
+
+.backdrop-contraste-90 {
+  backdrop-filter: contraste(90%);
+}
+
+.active\:backdrop-contraste-90:active,
+.focus\:backdrop-contraste-90:focus,
+.hover\:backdrop-contraste-90:hover {
+  backdrop-filter: contraste(90%);
+}
+
+.backdrop-contraste-100 {
+  backdrop-filter: contraste(100%);
+}
+
+.active\:backdrop-contraste-100:active,
+.focus\:backdrop-contraste-100:focus,
+.hover\:backdrop-contraste-100:hover {
+  backdrop-filter: contraste(100%);
+}
+
+.backdrop-grayscale-0 {
+  backdrop-filter: grayscale(0%);
+}
+
+.active\:backdrop-grayscale-0:active,
+.focus\:backdrop-grayscale-0:focus,
+.hover\:backdrop-grayscale-0:hover {
+  backdrop-filter: grayscale(0%);
+}
+
+.backdrop-grayscale-10 {
+  backdrop-filter: grayscale(10%);
+}
+
+.active\:backdrop-grayscale-10:active,
+.focus\:backdrop-grayscale-10:focus,
+.hover\:backdrop-grayscale-10:hover {
+  backdrop-filter: grayscale(10%);
+}
+
+.backdrop-grayscale-20 {
+  backdrop-filter: grayscale(20%);
+}
+
+.active\:backdrop-grayscale-20:active,
+.focus\:backdrop-grayscale-20:focus,
+.hover\:backdrop-grayscale-20:hover {
+  backdrop-filter: grayscale(20%);
+}
+
+.backdrop-grayscale-30 {
+  backdrop-filter: grayscale(30%);
+}
+
+.active\:backdrop-grayscale-30:active,
+.focus\:backdrop-grayscale-30:focus,
+.hover\:backdrop-grayscale-30:hover {
+  backdrop-filter: grayscale(30%);
+}
+
+.backdrop-grayscale-40 {
+  backdrop-filter: grayscale(40%);
+}
+
+.active\:backdrop-grayscale-40:active,
+.focus\:backdrop-grayscale-40:focus,
+.hover\:backdrop-grayscale-40:hover {
+  backdrop-filter: grayscale(40%);
+}
+
+.backdrop-grayscale-50 {
+  backdrop-filter: grayscale(50%);
+}
+
+.active\:backdrop-grayscale-50:active,
+.focus\:backdrop-grayscale-50:focus,
+.hover\:backdrop-grayscale-50:hover {
+  backdrop-filter: grayscale(50%);
+}
+
+.backdrop-grayscale-60 {
+  backdrop-filter: grayscale(60%);
+}
+
+.active\:backdrop-grayscale-60:active,
+.focus\:backdrop-grayscale-60:focus,
+.hover\:backdrop-grayscale-60:hover {
+  backdrop-filter: grayscale(60%);
+}
+
+.backdrop-grayscale-70 {
+  backdrop-filter: grayscale(70%);
+}
+
+.active\:backdrop-grayscale-70:active,
+.focus\:backdrop-grayscale-70:focus,
+.hover\:backdrop-grayscale-70:hover {
+  backdrop-filter: grayscale(70%);
+}
+
+.backdrop-grayscale-80 {
+  backdrop-filter: grayscale(80%);
+}
+
+.active\:backdrop-grayscale-80:active,
+.focus\:backdrop-grayscale-80:focus,
+.hover\:backdrop-grayscale-80:hover {
+  backdrop-filter: grayscale(80%);
+}
+
+.backdrop-grayscale-90 {
+  backdrop-filter: grayscale(90%);
+}
+
+.active\:backdrop-grayscale-90:active,
+.focus\:backdrop-grayscale-90:focus,
+.hover\:backdrop-grayscale-90:hover {
+  backdrop-filter: grayscale(90%);
+}
+
+.backdrop-grayscale-100 {
+  backdrop-filter: grayscale(100%);
+}
+
+.active\:backdrop-grayscale-100:active,
+.focus\:backdrop-grayscale-100:focus,
+.hover\:backdrop-grayscale-100:hover {
+  backdrop-filter: grayscale(100%);
+}
+
+.backdrop-invert-0 {
+  backdrop-filter: invert(0%);
+}
+
+.active\:backdrop-invert-0:active,
+.focus\:backdrop-invert-0:focus,
+.hover\:backdrop-invert-0:hover {
+  backdrop-filter: invert(0%);
+}
+
+.backdrop-invert-10 {
+  backdrop-filter: invert(10%);
+}
+
+.active\:backdrop-invert-10:active,
+.focus\:backdrop-invert-10:focus,
+.hover\:backdrop-invert-10:hover {
+  backdrop-filter: invert(10%);
+}
+
+.backdrop-invert-20 {
+  backdrop-filter: invert(20%);
+}
+
+.active\:backdrop-invert-20:active,
+.focus\:backdrop-invert-20:focus,
+.hover\:backdrop-invert-20:hover {
+  backdrop-filter: invert(20%);
+}
+
+.backdrop-invert-30 {
+  backdrop-filter: invert(30%);
+}
+
+.active\:backdrop-invert-30:active,
+.focus\:backdrop-invert-30:focus,
+.hover\:backdrop-invert-30:hover {
+  backdrop-filter: invert(30%);
+}
+
+.backdrop-invert-40 {
+  backdrop-filter: invert(40%);
+}
+
+.active\:backdrop-invert-40:active,
+.focus\:backdrop-invert-40:focus,
+.hover\:backdrop-invert-40:hover {
+  backdrop-filter: invert(40%);
+}
+
+.backdrop-invert-50 {
+  backdrop-filter: invert(50%);
+}
+
+.active\:backdrop-invert-50:active,
+.focus\:backdrop-invert-50:focus,
+.hover\:backdrop-invert-50:hover {
+  backdrop-filter: invert(50%);
+}
+
+.backdrop-invert-60 {
+  backdrop-filter: invert(60%);
+}
+
+.active\:backdrop-invert-60:active,
+.focus\:backdrop-invert-60:focus,
+.hover\:backdrop-invert-60:hover {
+  backdrop-filter: invert(60%);
+}
+
+.backdrop-invert-70 {
+  backdrop-filter: invert(70%);
+}
+
+.active\:backdrop-invert-70:active,
+.focus\:backdrop-invert-70:focus,
+.hover\:backdrop-invert-70:hover {
+  backdrop-filter: invert(70%);
+}
+
+.backdrop-invert-80 {
+  backdrop-filter: invert(80%);
+}
+
+.active\:backdrop-invert-80:active,
+.focus\:backdrop-invert-80:focus,
+.hover\:backdrop-invert-80:hover {
+  backdrop-filter: invert(80%);
+}
+
+.backdrop-invert-90 {
+  backdrop-filter: invert(90%);
+}
+
+.active\:backdrop-invert-90:active,
+.focus\:backdrop-invert-90:focus,
+.hover\:backdrop-invert-90:hover {
+  backdrop-filter: invert(90%);
+}
+
+.backdrop-invert-100 {
+  backdrop-filter: invert(100%);
+}
+
+.active\:backdrop-invert-100:active,
+.focus\:backdrop-invert-100:focus,
+.hover\:backdrop-invert-100:hover {
+  backdrop-filter: invert(100%);
+}
+
+.backdrop-opacity-0 {
+  backdrop-filter: opacity(0);
+}
+
+.active\:backdrop-opacity-0:active,
+.focus\:backdrop-opacity-0:focus,
+.hover\:backdrop-opacity-0:hover {
+  backdrop-filter: opacity(0);
+}
+
+.backdrop-opacity-10 {
+  backdrop-filter: opacity(0.1);
+}
+
+.active\:backdrop-opacity-10:active,
+.focus\:backdrop-opacity-10:focus,
+.hover\:backdrop-opacity-10:hover {
+  backdrop-filter: opacity(0.1);
+}
+
+.backdrop-opacity-20 {
+  backdrop-filter: opacity(0.2);
+}
+
+.active\:backdrop-opacity-20:active,
+.focus\:backdrop-opacity-20:focus,
+.hover\:backdrop-opacity-20:hover {
+  backdrop-filter: opacity(0.2);
+}
+
+.backdrop-opacity-25 {
+  backdrop-filter: opacity(0.25);
+}
+
+.active\:backdrop-opacity-25:active,
+.focus\:backdrop-opacity-25:focus,
+.hover\:backdrop-opacity-25:hover {
+  backdrop-filter: opacity(0.25);
+}
+
+.backdrop-opacity-30 {
+  backdrop-filter: opacity(0.3);
+}
+
+.active\:backdrop-opacity-30:active,
+.focus\:backdrop-opacity-30:focus,
+.hover\:backdrop-opacity-30:hover {
+  backdrop-filter: opacity(0.3);
+}
+
+.backdrop-opacity-35 {
+  backdrop-filter: opacity(0.35);
+}
+
+.active\:backdrop-opacity-35:active,
+.focus\:backdrop-opacity-35:focus,
+.hover\:backdrop-opacity-35:hover {
+  backdrop-filter: opacity(0.35);
+}
+
+.backdrop-opacity-40 {
+  backdrop-filter: opacity(0.4);
+}
+
+.active\:backdrop-opacity-40:active,
+.focus\:backdrop-opacity-40:focus,
+.hover\:backdrop-opacity-40:hover {
+  backdrop-filter: opacity(0.4);
+}
+
+.backdrop-opacity-45 {
+  backdrop-filter: opacity(0.45);
+}
+
+.active\:backdrop-opacity-45:active,
+.focus\:backdrop-opacity-45:focus,
+.hover\:backdrop-opacity-45:hover {
+  backdrop-filter: opacity(0.45);
+}
+
+.backdrop-opacity-50 {
+  backdrop-filter: opacity(0.5);
+}
+
+.active\:backdrop-opacity-50:active,
+.focus\:backdrop-opacity-50:focus,
+.hover\:backdrop-opacity-50:hover {
+  backdrop-filter: opacity(0.5);
+}
+
+.backdrop-opacity-55 {
+  backdrop-filter: opacity(0.55);
+}
+
+.active\:backdrop-opacity-55:active,
+.focus\:backdrop-opacity-55:focus,
+.hover\:backdrop-opacity-55:hover {
+  backdrop-filter: opacity(0.55);
+}
+
+.backdrop-opacity-60 {
+  backdrop-filter: opacity(0.6);
+}
+
+.active\:backdrop-opacity-60:active,
+.focus\:backdrop-opacity-60:focus,
+.hover\:backdrop-opacity-60:hover {
+  backdrop-filter: opacity(0.6);
+}
+
+.backdrop-opacity-65 {
+  backdrop-filter: opacity(0.65);
+}
+
+.active\:backdrop-opacity-65:active,
+.focus\:backdrop-opacity-65:focus,
+.hover\:backdrop-opacity-65:hover {
+  backdrop-filter: opacity(0.65);
+}
+
+.backdrop-opacity-70 {
+  backdrop-filter: opacity(0.7);
+}
+
+.active\:backdrop-opacity-70:active,
+.focus\:backdrop-opacity-70:focus,
+.hover\:backdrop-opacity-70:hover {
+  backdrop-filter: opacity(0.7);
+}
+
+.backdrop-opacity-75 {
+  backdrop-filter: opacity(0.75);
+}
+
+.active\:backdrop-opacity-75:active,
+.focus\:backdrop-opacity-75:focus,
+.hover\:backdrop-opacity-75:hover {
+  backdrop-filter: opacity(0.75);
+}
+
+.backdrop-opacity-80 {
+  backdrop-filter: opacity(0.8);
+}
+
+.active\:backdrop-opacity-80:active,
+.focus\:backdrop-opacity-80:focus,
+.hover\:backdrop-opacity-80:hover {
+  backdrop-filter: opacity(0.8);
+}
+
+.backdrop-opacity-85 {
+  backdrop-filter: opacity(0.85);
+}
+
+.active\:backdrop-opacity-85:active,
+.focus\:backdrop-opacity-85:focus,
+.hover\:backdrop-opacity-85:hover {
+  backdrop-filter: opacity(0.85);
+}
+
+.backdrop-opacity-90 {
+  backdrop-filter: opacity(0.9);
+}
+
+.active\:backdrop-opacity-90:active,
+.focus\:backdrop-opacity-90:focus,
+.hover\:backdrop-opacity-90:hover {
+  backdrop-filter: opacity(0.9);
+}
+
+.backdrop-opacity-95 {
+  backdrop-filter: opacity(0.95);
+}
+
+.active\:backdrop-opacity-95:active,
+.focus\:backdrop-opacity-95:focus,
+.hover\:backdrop-opacity-95:hover {
+  backdrop-filter: opacity(0.95);
+}
+
+.backdrop-opacity-100 {
+  backdrop-filter: opacity(1);
+}
+
+.active\:backdrop-opacity-100:active,
+.focus\:backdrop-opacity-100:focus,
+.hover\:backdrop-opacity-100:hover {
+  backdrop-filter: opacity(1);
+}
+
+.backdrop-saturate-0 {
+  backdrop-filter: saturate(0%);
+}
+
+.active\:backdrop-saturate-0:active,
+.focus\:backdrop-saturate-0:focus,
+.hover\:backdrop-saturate-0:hover {
+  backdrop-filter: saturate(0%);
+}
+
+.backdrop-saturate-10 {
+  backdrop-filter: saturate(10%);
+}
+
+.active\:backdrop-saturate-10:active,
+.focus\:backdrop-saturate-10:focus,
+.hover\:backdrop-saturate-10:hover {
+  backdrop-filter: saturate(10%);
+}
+
+.backdrop-saturate-20 {
+  backdrop-filter: saturate(20%);
+}
+
+.active\:backdrop-saturate-20:active,
+.focus\:backdrop-saturate-20:focus,
+.hover\:backdrop-saturate-20:hover {
+  backdrop-filter: saturate(20%);
+}
+
+.backdrop-saturate-30 {
+  backdrop-filter: saturate(30%);
+}
+
+.active\:backdrop-saturate-30:active,
+.focus\:backdrop-saturate-30:focus,
+.hover\:backdrop-saturate-30:hover {
+  backdrop-filter: saturate(30%);
+}
+
+.backdrop-saturate-40 {
+  backdrop-filter: saturate(40%);
+}
+
+.active\:backdrop-saturate-40:active,
+.focus\:backdrop-saturate-40:focus,
+.hover\:backdrop-saturate-40:hover {
+  backdrop-filter: saturate(40%);
+}
+
+.backdrop-saturate-50 {
+  backdrop-filter: saturate(50%);
+}
+
+.active\:backdrop-saturate-50:active,
+.focus\:backdrop-saturate-50:focus,
+.hover\:backdrop-saturate-50:hover {
+  backdrop-filter: saturate(50%);
+}
+
+.backdrop-saturate-60 {
+  backdrop-filter: saturate(60%);
+}
+
+.active\:backdrop-saturate-60:active,
+.focus\:backdrop-saturate-60:focus,
+.hover\:backdrop-saturate-60:hover {
+  backdrop-filter: saturate(60%);
+}
+
+.backdrop-saturate-70 {
+  backdrop-filter: saturate(70%);
+}
+
+.active\:backdrop-saturate-70:active,
+.focus\:backdrop-saturate-70:focus,
+.hover\:backdrop-saturate-70:hover {
+  backdrop-filter: saturate(70%);
+}
+
+.backdrop-saturate-80 {
+  backdrop-filter: saturate(80%);
+}
+
+.active\:backdrop-saturate-80:active,
+.focus\:backdrop-saturate-80:focus,
+.hover\:backdrop-saturate-80:hover {
+  backdrop-filter: saturate(80%);
+}
+
+.backdrop-saturate-90 {
+  backdrop-filter: saturate(90%);
+}
+
+.active\:backdrop-saturate-90:active,
+.focus\:backdrop-saturate-90:focus,
+.hover\:backdrop-saturate-90:hover {
+  backdrop-filter: saturate(90%);
+}
+
+.backdrop-saturate-100 {
+  backdrop-filter: saturate(100%);
+}
+
+.active\:backdrop-saturate-100:active,
+.focus\:backdrop-saturate-100:focus,
+.hover\:backdrop-saturate-100:hover {
+  backdrop-filter: saturate(100%);
+}
+
+.backdrop-spia-0 {
+  backdrop-filter: spia(0%);
+}
+
+.active\:backdrop-spia-0:active,
+.focus\:backdrop-spia-0:focus,
+.hover\:backdrop-spia-0:hover {
+  backdrop-filter: spia(0%);
+}
+
+.backdrop-spia-10 {
+  backdrop-filter: spia(10%);
+}
+
+.active\:backdrop-spia-10:active,
+.focus\:backdrop-spia-10:focus,
+.hover\:backdrop-spia-10:hover {
+  backdrop-filter: spia(10%);
+}
+
+.backdrop-spia-20 {
+  backdrop-filter: spia(20%);
+}
+
+.active\:backdrop-spia-20:active,
+.focus\:backdrop-spia-20:focus,
+.hover\:backdrop-spia-20:hover {
+  backdrop-filter: spia(20%);
+}
+
+.backdrop-spia-30 {
+  backdrop-filter: spia(30%);
+}
+
+.active\:backdrop-spia-30:active,
+.focus\:backdrop-spia-30:focus,
+.hover\:backdrop-spia-30:hover {
+  backdrop-filter: spia(30%);
+}
+
+.backdrop-spia-40 {
+  backdrop-filter: spia(40%);
+}
+
+.active\:backdrop-spia-40:active,
+.focus\:backdrop-spia-40:focus,
+.hover\:backdrop-spia-40:hover {
+  backdrop-filter: spia(40%);
+}
+
+.backdrop-spia-50 {
+  backdrop-filter: spia(50%);
+}
+
+.active\:backdrop-spia-50:active,
+.focus\:backdrop-spia-50:focus,
+.hover\:backdrop-spia-50:hover {
+  backdrop-filter: spia(50%);
+}
+
+.backdrop-spia-60 {
+  backdrop-filter: spia(60%);
+}
+
+.active\:backdrop-spia-60:active,
+.focus\:backdrop-spia-60:focus,
+.hover\:backdrop-spia-60:hover {
+  backdrop-filter: spia(60%);
+}
+
+.backdrop-spia-70 {
+  backdrop-filter: spia(70%);
+}
+
+.active\:backdrop-spia-70:active,
+.focus\:backdrop-spia-70:focus,
+.hover\:backdrop-spia-70:hover {
+  backdrop-filter: spia(70%);
+}
+
+.backdrop-spia-80 {
+  backdrop-filter: spia(80%);
+}
+
+.active\:backdrop-spia-80:active,
+.focus\:backdrop-spia-80:focus,
+.hover\:backdrop-spia-80:hover {
+  backdrop-filter: spia(80%);
+}
+
+.backdrop-spia-90 {
+  backdrop-filter: spia(90%);
+}
+
+.active\:backdrop-spia-90:active,
+.focus\:backdrop-spia-90:focus,
+.hover\:backdrop-spia-90:hover {
+  backdrop-filter: spia(90%);
+}
+
+.backdrop-spia-100 {
+  backdrop-filter: spia(100%);
+}
+
+.active\:backdrop-spia-100:active,
+.focus\:backdrop-spia-100:focus,
+.hover\:backdrop-spia-100:hover {
+  backdrop-filter: spia(100%);
+}
+
+/*# sourceMappingURL=filter.css.map */

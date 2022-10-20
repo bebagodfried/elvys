@@ -1,0 +1,7 @@
+@import '../utilities/all';
+
+button {
+  &.bg-none {
+    color: $current
+  }
+}

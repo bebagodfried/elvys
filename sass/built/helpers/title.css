@@ -1,0 +1,453 @@
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Segoe UI";
+  font-weight: normal;
+}
+
+.title-1 {
+  font-size: calc(1.375em + 1.5vw);
+  line-height: 1.15;
+}
+.title-2 {
+  font-size: calc(1.375em + 0.9vw);
+  line-height: 1.15;
+}
+.title-3 {
+  font-size: calc(1.375em + 0.6vw);
+  line-height: 1.15;
+}
+.title-4 {
+  font-size: calc(1.375em + 0.3vw);
+  line-height: 1.15;
+}
+.title-5 {
+  font-size: calc(1.375em + 0.2vw);
+  line-height: 1.15;
+}
+.title-6 {
+  font-size: calc(1.375em + 0.1vw);
+  line-height: 1.15;
+}
+
+.title-primary {
+  color: #007cde;
+}
+.title-primary-100 {
+  color: #0070c8;
+}
+.title-primary-200 {
+  color: #0063b2;
+}
+.title-primary-300 {
+  color: #00579b;
+}
+.title-primary-400 {
+  color: #004a85;
+}
+.title-primary-500 {
+  color: #003e6f;
+}
+.title-primary-600 {
+  color: #003259;
+}
+.title-primary-700 {
+  color: #002543;
+}
+.title-primary-800 {
+  color: #00192c;
+}
+.title-primary-900 {
+  color: #000c16;
+}
+
+.title-secondary {
+  color: #333;
+}
+.title-secondary-100 {
+  color: #2e2e2e;
+}
+.title-secondary-200 {
+  color: #292929;
+}
+.title-secondary-300 {
+  color: #242424;
+}
+.title-secondary-400 {
+  color: #1f1f1f;
+}
+.title-secondary-500 {
+  color: #1a1a1a;
+}
+.title-secondary-600 {
+  color: #141414;
+}
+.title-secondary-700 {
+  color: #0f0f0f;
+}
+.title-secondary-800 {
+  color: #0a0a0a;
+}
+.title-secondary-900 {
+  color: #050505;
+}
+
+.title-success {
+  color: #198754;
+}
+.title-success-100 {
+  color: #177a4c;
+}
+.title-success-200 {
+  color: #146c43;
+}
+.title-success-300 {
+  color: #125f3b;
+}
+.title-success-400 {
+  color: #0f5132;
+}
+.title-success-500 {
+  color: #0d442a;
+}
+.title-success-600 {
+  color: #0a3622;
+}
+.title-success-700 {
+  color: #082919;
+}
+.title-success-800 {
+  color: #051b11;
+}
+.title-success-900 {
+  color: #030e08;
+}
+
+.title-info {
+  color: #0dcaf0;
+}
+.title-info-100 {
+  color: #0cb6d8;
+}
+.title-info-200 {
+  color: #0aa2c0;
+}
+.title-info-300 {
+  color: #098da8;
+}
+.title-info-400 {
+  color: #087990;
+}
+.title-info-500 {
+  color: #076578;
+}
+.title-info-600 {
+  color: #055160;
+}
+.title-info-700 {
+  color: #043d48;
+}
+.title-info-800 {
+  color: #032830;
+}
+.title-info-900 {
+  color: #011418;
+}
+
+.title-warning {
+  color: #ffc107;
+}
+.title-warning-100 {
+  color: #e6ae06;
+}
+.title-warning-200 {
+  color: #cc9a06;
+}
+.title-warning-300 {
+  color: #b38705;
+}
+.title-warning-400 {
+  color: #997404;
+}
+.title-warning-500 {
+  color: #806104;
+}
+.title-warning-600 {
+  color: #664d03;
+}
+.title-warning-700 {
+  color: #4d3a02;
+}
+.title-warning-800 {
+  color: #332701;
+}
+.title-warning-900 {
+  color: #1a1301;
+}
+
+.title-danger {
+  color: #cd3545;
+}
+.title-danger-100 {
+  color: #b9303e;
+}
+.title-danger-200 {
+  color: #a42a37;
+}
+.title-danger-300 {
+  color: #902530;
+}
+.title-danger-400 {
+  color: #7b2029;
+}
+.title-danger-500 {
+  color: #671b23;
+}
+.title-danger-600 {
+  color: #52151c;
+}
+.title-danger-700 {
+  color: #3e1015;
+}
+.title-danger-800 {
+  color: #290b0e;
+}
+.title-danger-900 {
+  color: #150507;
+}
+
+.title-light {
+  color: #f5f5f5;
+}
+.title-light-100 {
+  color: #dddddd;
+}
+.title-light-200 {
+  color: #c4c4c4;
+}
+.title-light-300 {
+  color: #acacac;
+}
+.title-light-400 {
+  color: #939393;
+}
+.title-light-500 {
+  color: #7b7b7b;
+}
+.title-light-600 {
+  color: #626262;
+}
+.title-light-700 {
+  color: #4a4a4a;
+}
+.title-light-800 {
+  color: #313131;
+}
+.title-light-900 {
+  color: #191919;
+}
+
+.title-dark {
+  color: #212529;
+}
+.title-dark-100 {
+  color: #1e2125;
+}
+.title-dark-200 {
+  color: #1a1e21;
+}
+.title-dark-300 {
+  color: #171a1d;
+}
+.title-dark-400 {
+  color: #141619;
+}
+.title-dark-500 {
+  color: #111315;
+}
+.title-dark-600 {
+  color: #0d0f10;
+}
+.title-dark-700 {
+  color: #0a0b0c;
+}
+.title-dark-800 {
+  color: #070708;
+}
+.title-dark-900 {
+  color: #030404;
+}
+
+.title-red {
+  color: #f00;
+}
+.title-red-100 {
+  color: #e60000;
+}
+.title-red-200 {
+  color: #cc0000;
+}
+.title-red-300 {
+  color: #b30000;
+}
+.title-red-400 {
+  color: #990000;
+}
+.title-red-500 {
+  color: maroon;
+}
+.title-red-600 {
+  color: #660000;
+}
+.title-red-700 {
+  color: #4d0000;
+}
+.title-red-800 {
+  color: #330000;
+}
+.title-red-900 {
+  color: #1a0000;
+}
+
+.title-green {
+  color: #0f0;
+}
+.title-green-100 {
+  color: #00e600;
+}
+.title-green-200 {
+  color: #00cc00;
+}
+.title-green-300 {
+  color: #00b300;
+}
+.title-green-400 {
+  color: #009900;
+}
+.title-green-500 {
+  color: green;
+}
+.title-green-600 {
+  color: #006600;
+}
+.title-green-700 {
+  color: #004d00;
+}
+.title-green-800 {
+  color: #003300;
+}
+.title-green-900 {
+  color: #001a00;
+}
+
+.title-blue {
+  color: #00f;
+}
+.title-blue-100 {
+  color: #0000e6;
+}
+.title-blue-200 {
+  color: #0000cc;
+}
+.title-blue-300 {
+  color: #0000b3;
+}
+.title-blue-400 {
+  color: #000099;
+}
+.title-blue-500 {
+  color: navy;
+}
+.title-blue-600 {
+  color: #000066;
+}
+.title-blue-700 {
+  color: #00004d;
+}
+.title-blue-800 {
+  color: #000033;
+}
+.title-blue-900 {
+  color: #00001a;
+}
+
+.title-black {
+  color: #000;
+}
+.title-black-100 {
+  color: black;
+}
+.title-black-200 {
+  color: black;
+}
+.title-black-300 {
+  color: black;
+}
+.title-black-400 {
+  color: black;
+}
+.title-black-500 {
+  color: black;
+}
+.title-black-600 {
+  color: black;
+}
+.title-black-700 {
+  color: black;
+}
+.title-black-800 {
+  color: black;
+}
+.title-black-900 {
+  color: black;
+}
+
+.title-white {
+  color: #fff;
+}
+.title-white-100 {
+  color: #e6e6e6;
+}
+.title-white-200 {
+  color: #cccccc;
+}
+.title-white-300 {
+  color: #b3b3b3;
+}
+.title-white-400 {
+  color: #999999;
+}
+.title-white-500 {
+  color: gray;
+}
+.title-white-600 {
+  color: #666666;
+}
+.title-white-700 {
+  color: #4d4d4d;
+}
+.title-white-800 {
+  color: #333333;
+}
+.title-white-900 {
+  color: #1a1a1a;
+}
+
+.h1 {
+  font-size: calc(1.375em + 1.5vw);
+}
+.h2 {
+  font-size: calc(1.375em + 0.9vw);
+}
+.h3 {
+  font-size: calc(1.375em + 0.6vw);
+}
+.h4 {
+  font-size: calc(1.375em + 0.3vw);
+}
+.h5 {
+  font-size: calc(1.375em + 0.2vw);
+}
+.h6 {
+  font-size: calc(1.375em + 0.1vw);
+}
+
+/*# sourceMappingURL=title.css.map */

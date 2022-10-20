@@ -1,0 +1,13 @@
+@use 'sass:map';
+@import '../utilities/all';
+
+$attribute: (
+  [href]  : 'href',
+  [type]  : 'type',
+);
+
+@each $attrib, $name in $attribute {
+  #{$attrib}:empty():before {
+    content: attr($name)
+  }
+}

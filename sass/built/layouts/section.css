@@ -1,0 +1,47 @@
+section.fit-screen, .section.fit-screen, section.min-section, .section.min-section {
+  display: flex;
+}
+
+.inner-section {
+  display: flex;
+  align-items: center;
+}
+
+section, .section {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+section, .section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+}
+section.min-section, .section.min-section {
+  flex-direction: column;
+}
+section.min-section:not([height]), .section.min-section:not([height]) {
+  min-height: 400px;
+}
+section.fit-screen, .section.fit-screen {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+section.stretch, .section.stretch {
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.inner-section {
+  width: 100%;
+}
+.inner-section div {
+  flex: 1;
+}
+.inner-section > .col {
+  align-self: stretch;
+}
+
+/*# sourceMappingURL=section.css.map */

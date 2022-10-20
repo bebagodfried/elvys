@@ -1,0 +1,468 @@
+.box-shadow {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.box-shadow-in {
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.box-shadow-in-primary {
+  box-shadow: inset 0px 0px 5px #007cde;
+}
+.box-shadow-in-secondary {
+  box-shadow: inset 0px 0px 5px #333;
+}
+.box-shadow-in-success {
+  box-shadow: inset 0px 0px 5px #198754;
+}
+.box-shadow-in-info {
+  box-shadow: inset 0px 0px 5px #0dcaf0;
+}
+.box-shadow-in-warning {
+  box-shadow: inset 0px 0px 5px #ffc107;
+}
+.box-shadow-in-danger {
+  box-shadow: inset 0px 0px 5px #cd3545;
+}
+.box-shadow-in-light {
+  box-shadow: inset 0px 0px 5px #f5f5f5;
+}
+.box-shadow-in-dark {
+  box-shadow: inset 0px 0px 5px #212529;
+}
+.box-shadow-in-red {
+  box-shadow: inset 0px 0px 5px #f00;
+}
+.box-shadow-in-green {
+  box-shadow: inset 0px 0px 5px #0f0;
+}
+.box-shadow-in-blue {
+  box-shadow: inset 0px 0px 5px #00f;
+}
+.box-shadow-in-black {
+  box-shadow: inset 0px 0px 5px #000;
+}
+.box-shadow-in-white {
+  box-shadow: inset 0px 0px 5px #fff;
+}
+.box-shadow-out {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.box-shadow-out-primary {
+  box-shadow: 0px 0px 5px #007cde;
+}
+.box-shadow-out-secondary {
+  box-shadow: 0px 0px 5px #333;
+}
+.box-shadow-out-success {
+  box-shadow: 0px 0px 5px #198754;
+}
+.box-shadow-out-info {
+  box-shadow: 0px 0px 5px #0dcaf0;
+}
+.box-shadow-out-warning {
+  box-shadow: 0px 0px 5px #ffc107;
+}
+.box-shadow-out-danger {
+  box-shadow: 0px 0px 5px #cd3545;
+}
+.box-shadow-out-light {
+  box-shadow: 0px 0px 5px #f5f5f5;
+}
+.box-shadow-out-dark {
+  box-shadow: 0px 0px 5px #212529;
+}
+.box-shadow-out-red {
+  box-shadow: 0px 0px 5px #f00;
+}
+.box-shadow-out-green {
+  box-shadow: 0px 0px 5px #0f0;
+}
+.box-shadow-out-blue {
+  box-shadow: 0px 0px 5px #00f;
+}
+.box-shadow-out-black {
+  box-shadow: 0px 0px 5px #000;
+}
+.box-shadow-out-white {
+  box-shadow: 0px 0px 5px #fff;
+}
+.box-shadow-primary {
+  box-shadow: 2px 2px 5px #007cde;
+}
+.box-shadow-secondary {
+  box-shadow: 2px 2px 5px #333;
+}
+.box-shadow-success {
+  box-shadow: 2px 2px 5px #198754;
+}
+.box-shadow-info {
+  box-shadow: 2px 2px 5px #0dcaf0;
+}
+.box-shadow-warning {
+  box-shadow: 2px 2px 5px #ffc107;
+}
+.box-shadow-danger {
+  box-shadow: 2px 2px 5px #cd3545;
+}
+.box-shadow-light {
+  box-shadow: 2px 2px 5px #f5f5f5;
+}
+.box-shadow-dark {
+  box-shadow: 2px 2px 5px #212529;
+}
+.box-shadow-red {
+  box-shadow: 2px 2px 5px #f00;
+}
+.box-shadow-green {
+  box-shadow: 2px 2px 5px #0f0;
+}
+.box-shadow-blue {
+  box-shadow: 2px 2px 5px #00f;
+}
+.box-shadow-black {
+  box-shadow: 2px 2px 5px #000;
+}
+.box-shadow-white {
+  box-shadow: 2px 2px 5px #fff;
+}
+
+.active\:box-shadow:active,
+.focus\:box-shadow:focus,
+.hover\:box-shadow:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.active\:box-shadow-in:active,
+.focus\:box-shadow-in:focus,
+.hover\:box-shadow-in:hover {
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.active\:box-shadow-out:active,
+.focus\:box-shadow-out:focus,
+.hover\:box-shadow-out:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.active\:box-shadow-primary:active,
+.focus\:box-shadow-primary:focus,
+.hover\:box-shadow-primary:hover {
+  box-shadow: 2px 2px 5px #007cde;
+}
+
+.active\:box-shadow-in-primary:active,
+.focus\:box-shadow-in-primary:focus,
+.hover\:box-shadow-in-primary:hover {
+  box-shadow: inset 0px 0px 5px #007cde;
+}
+
+.active\:box-shadow-out-primary:active,
+.focus\:box-shadow-out-primary:focus,
+.hover\:box-shadow-out-primary:hover {
+  box-shadow: 0px 0px 5px #007cde;
+}
+
+.active\:box-shadow-secondary:active,
+.focus\:box-shadow-secondary:focus,
+.hover\:box-shadow-secondary:hover {
+  box-shadow: 2px 2px 5px #333;
+}
+
+.active\:box-shadow-in-secondary:active,
+.focus\:box-shadow-in-secondary:focus,
+.hover\:box-shadow-in-secondary:hover {
+  box-shadow: inset 0px 0px 5px #333;
+}
+
+.active\:box-shadow-out-secondary:active,
+.focus\:box-shadow-out-secondary:focus,
+.hover\:box-shadow-out-secondary:hover {
+  box-shadow: 0px 0px 5px #333;
+}
+
+.active\:box-shadow-success:active,
+.focus\:box-shadow-success:focus,
+.hover\:box-shadow-success:hover {
+  box-shadow: 2px 2px 5px #198754;
+}
+
+.active\:box-shadow-in-success:active,
+.focus\:box-shadow-in-success:focus,
+.hover\:box-shadow-in-success:hover {
+  box-shadow: inset 0px 0px 5px #198754;
+}
+
+.active\:box-shadow-out-success:active,
+.focus\:box-shadow-out-success:focus,
+.hover\:box-shadow-out-success:hover {
+  box-shadow: 0px 0px 5px #198754;
+}
+
+.active\:box-shadow-info:active,
+.focus\:box-shadow-info:focus,
+.hover\:box-shadow-info:hover {
+  box-shadow: 2px 2px 5px #0dcaf0;
+}
+
+.active\:box-shadow-in-info:active,
+.focus\:box-shadow-in-info:focus,
+.hover\:box-shadow-in-info:hover {
+  box-shadow: inset 0px 0px 5px #0dcaf0;
+}
+
+.active\:box-shadow-out-info:active,
+.focus\:box-shadow-out-info:focus,
+.hover\:box-shadow-out-info:hover {
+  box-shadow: 0px 0px 5px #0dcaf0;
+}
+
+.active\:box-shadow-warning:active,
+.focus\:box-shadow-warning:focus,
+.hover\:box-shadow-warning:hover {
+  box-shadow: 2px 2px 5px #ffc107;
+}
+
+.active\:box-shadow-in-warning:active,
+.focus\:box-shadow-in-warning:focus,
+.hover\:box-shadow-in-warning:hover {
+  box-shadow: inset 0px 0px 5px #ffc107;
+}
+
+.active\:box-shadow-out-warning:active,
+.focus\:box-shadow-out-warning:focus,
+.hover\:box-shadow-out-warning:hover {
+  box-shadow: 0px 0px 5px #ffc107;
+}
+
+.active\:box-shadow-danger:active,
+.focus\:box-shadow-danger:focus,
+.hover\:box-shadow-danger:hover {
+  box-shadow: 2px 2px 5px #cd3545;
+}
+
+.active\:box-shadow-in-danger:active,
+.focus\:box-shadow-in-danger:focus,
+.hover\:box-shadow-in-danger:hover {
+  box-shadow: inset 0px 0px 5px #cd3545;
+}
+
+.active\:box-shadow-out-danger:active,
+.focus\:box-shadow-out-danger:focus,
+.hover\:box-shadow-out-danger:hover {
+  box-shadow: 0px 0px 5px #cd3545;
+}
+
+.active\:box-shadow-light:active,
+.focus\:box-shadow-light:focus,
+.hover\:box-shadow-light:hover {
+  box-shadow: 2px 2px 5px #f5f5f5;
+}
+
+.active\:box-shadow-in-light:active,
+.focus\:box-shadow-in-light:focus,
+.hover\:box-shadow-in-light:hover {
+  box-shadow: inset 0px 0px 5px #f5f5f5;
+}
+
+.active\:box-shadow-out-light:active,
+.focus\:box-shadow-out-light:focus,
+.hover\:box-shadow-out-light:hover {
+  box-shadow: 0px 0px 5px #f5f5f5;
+}
+
+.active\:box-shadow-dark:active,
+.focus\:box-shadow-dark:focus,
+.hover\:box-shadow-dark:hover {
+  box-shadow: 2px 2px 5px #212529;
+}
+
+.active\:box-shadow-in-dark:active,
+.focus\:box-shadow-in-dark:focus,
+.hover\:box-shadow-in-dark:hover {
+  box-shadow: inset 0px 0px 5px #212529;
+}
+
+.active\:box-shadow-out-dark:active,
+.focus\:box-shadow-out-dark:focus,
+.hover\:box-shadow-out-dark:hover {
+  box-shadow: 0px 0px 5px #212529;
+}
+
+.active\:box-shadow-red:active,
+.focus\:box-shadow-red:focus,
+.hover\:box-shadow-red:hover {
+  box-shadow: 2px 2px 5px #f00;
+}
+
+.active\:box-shadow-in-red:active,
+.focus\:box-shadow-in-red:focus,
+.hover\:box-shadow-in-red:hover {
+  box-shadow: inset 0px 0px 5px #f00;
+}
+
+.active\:box-shadow-out-red:active,
+.focus\:box-shadow-out-red:focus,
+.hover\:box-shadow-out-red:hover {
+  box-shadow: 0px 0px 5px #f00;
+}
+
+.active\:box-shadow-green:active,
+.focus\:box-shadow-green:focus,
+.hover\:box-shadow-green:hover {
+  box-shadow: 2px 2px 5px #0f0;
+}
+
+.active\:box-shadow-in-green:active,
+.focus\:box-shadow-in-green:focus,
+.hover\:box-shadow-in-green:hover {
+  box-shadow: inset 0px 0px 5px #0f0;
+}
+
+.active\:box-shadow-out-green:active,
+.focus\:box-shadow-out-green:focus,
+.hover\:box-shadow-out-green:hover {
+  box-shadow: 0px 0px 5px #0f0;
+}
+
+.active\:box-shadow-blue:active,
+.focus\:box-shadow-blue:focus,
+.hover\:box-shadow-blue:hover {
+  box-shadow: 2px 2px 5px #00f;
+}
+
+.active\:box-shadow-in-blue:active,
+.focus\:box-shadow-in-blue:focus,
+.hover\:box-shadow-in-blue:hover {
+  box-shadow: inset 0px 0px 5px #00f;
+}
+
+.active\:box-shadow-out-blue:active,
+.focus\:box-shadow-out-blue:focus,
+.hover\:box-shadow-out-blue:hover {
+  box-shadow: 0px 0px 5px #00f;
+}
+
+.active\:box-shadow-black:active,
+.focus\:box-shadow-black:focus,
+.hover\:box-shadow-black:hover {
+  box-shadow: 2px 2px 5px #000;
+}
+
+.active\:box-shadow-in-black:active,
+.focus\:box-shadow-in-black:focus,
+.hover\:box-shadow-in-black:hover {
+  box-shadow: inset 0px 0px 5px #000;
+}
+
+.active\:box-shadow-out-black:active,
+.focus\:box-shadow-out-black:focus,
+.hover\:box-shadow-out-black:hover {
+  box-shadow: 0px 0px 5px #000;
+}
+
+.active\:box-shadow-white:active,
+.focus\:box-shadow-white:focus,
+.hover\:box-shadow-white:hover {
+  box-shadow: 2px 2px 5px #fff;
+}
+
+.active\:box-shadow-in-white:active,
+.focus\:box-shadow-in-white:focus,
+.hover\:box-shadow-in-white:hover {
+  box-shadow: inset 0px 0px 5px #fff;
+}
+
+.active\:box-shadow-out-white:active,
+.focus\:box-shadow-out-white:focus,
+.hover\:box-shadow-out-white:hover {
+  box-shadow: 0px 0px 5px #fff;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 5px currentColor;
+}
+
+.active\:text-shadow:active,
+.focus\:text-shadow:focus,
+.hover\:text-shadow:hover {
+  text-shadow: 2px 2px 5px currentColor;
+}
+
+.active\:text-shadow-primary:active,
+.focus\:text-shadow-primary:focus,
+.hover\:text-shadow-primary:hover {
+  text-shadow: 2px 2px 5px #007cde;
+}
+
+.active\:text-shadow-secondary:active,
+.focus\:text-shadow-secondary:focus,
+.hover\:text-shadow-secondary:hover {
+  text-shadow: 2px 2px 5px #333;
+}
+
+.active\:text-shadow-success:active,
+.focus\:text-shadow-success:focus,
+.hover\:text-shadow-success:hover {
+  text-shadow: 2px 2px 5px #198754;
+}
+
+.active\:text-shadow-info:active,
+.focus\:text-shadow-info:focus,
+.hover\:text-shadow-info:hover {
+  text-shadow: 2px 2px 5px #0dcaf0;
+}
+
+.active\:text-shadow-warning:active,
+.focus\:text-shadow-warning:focus,
+.hover\:text-shadow-warning:hover {
+  text-shadow: 2px 2px 5px #ffc107;
+}
+
+.active\:text-shadow-danger:active,
+.focus\:text-shadow-danger:focus,
+.hover\:text-shadow-danger:hover {
+  text-shadow: 2px 2px 5px #cd3545;
+}
+
+.active\:text-shadow-light:active,
+.focus\:text-shadow-light:focus,
+.hover\:text-shadow-light:hover {
+  text-shadow: 2px 2px 5px #f5f5f5;
+}
+
+.active\:text-shadow-dark:active,
+.focus\:text-shadow-dark:focus,
+.hover\:text-shadow-dark:hover {
+  text-shadow: 2px 2px 5px #212529;
+}
+
+.active\:text-shadow-red:active,
+.focus\:text-shadow-red:focus,
+.hover\:text-shadow-red:hover {
+  text-shadow: 2px 2px 5px #f00;
+}
+
+.active\:text-shadow-green:active,
+.focus\:text-shadow-green:focus,
+.hover\:text-shadow-green:hover {
+  text-shadow: 2px 2px 5px #0f0;
+}
+
+.active\:text-shadow-blue:active,
+.focus\:text-shadow-blue:focus,
+.hover\:text-shadow-blue:hover {
+  text-shadow: 2px 2px 5px #00f;
+}
+
+.active\:text-shadow-black:active,
+.focus\:text-shadow-black:focus,
+.hover\:text-shadow-black:hover {
+  text-shadow: 2px 2px 5px #000;
+}
+
+.active\:text-shadow-white:active,
+.focus\:text-shadow-white:focus,
+.hover\:text-shadow-white:hover {
+  text-shadow: 2px 2px 5px #fff;
+}
+
+/*# sourceMappingURL=shadow.css.map */

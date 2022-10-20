@@ -1,0 +1,78 @@
+::selection {
+  color: currentColor;
+  background-color: #007cde;
+}
+
+::before, ::after,
+::placeholder, ::first-letter {
+  user-select: none;
+}
+
+select, .select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  user-select: none;
+}
+select *, .select * {
+  user-select: none;
+}
+select.hoverable:hover select-content, select.hoverable:hover .select-content, .select.hoverable:hover select-content, .select.hoverable:hover .select-content {
+  display: block;
+}
+select-content, .select-content {
+  border-width: 1px;
+  border-style: solid;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  width: max-content;
+  text-align: left;
+}
+select-content > li, .select-content > li {
+  position: relative;
+}
+select-content > li::before, .select-content > li::before {
+  content: "";
+  opacity: 10%;
+  height: solid;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 1;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: currentColor;
+}
+select-content:not(.show), .select-content:not(.show) {
+  display: none;
+}
+select-option, .select-option {
+  background-color: inherit;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+select-option [type=checkbox],
+select-option [type=radio], .select-option [type=checkbox],
+.select-option [type=radio] {
+  display: none;
+}
+select-option label, .select-option label {
+  width: 100%;
+  max-width: 100%;
+}
+select-option:hover, .select-option:hover {
+  color: #fff;
+  background-color: #007cde;
+}
+
+.select-none {
+  user-select: none;
+}
+
+/*# sourceMappingURL=selection.css.map */

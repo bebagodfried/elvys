@@ -1,0 +1,107 @@
+[opacity="0"]::before,
+[opacity="0"]::after {
+  opacity: 0;
+}
+
+[opacity="10"]::before,
+[opacity="10"]::after {
+  opacity: 0.1;
+}
+
+[opacity="20"]::before,
+[opacity="20"]::after {
+  opacity: 0.2;
+}
+
+[opacity="25"]::before,
+[opacity="25"]::after {
+  opacity: 0.25;
+}
+
+[opacity="30"]::before,
+[opacity="30"]::after {
+  opacity: 0.3;
+}
+
+[opacity="35"]::before,
+[opacity="35"]::after {
+  opacity: 0.35;
+}
+
+[opacity="40"]::before,
+[opacity="40"]::after {
+  opacity: 0.4;
+}
+
+[opacity="45"]::before,
+[opacity="45"]::after {
+  opacity: 0.45;
+}
+
+[opacity="50"]::before,
+[opacity="50"]::after {
+  opacity: 0.5;
+}
+
+[opacity="55"]::before,
+[opacity="55"]::after {
+  opacity: 0.55;
+}
+
+[opacity="60"]::before,
+[opacity="60"]::after {
+  opacity: 0.6;
+}
+
+[opacity="65"]::before,
+[opacity="65"]::after {
+  opacity: 0.65;
+}
+
+[opacity="70"]::before,
+[opacity="70"]::after {
+  opacity: 0.7;
+}
+
+[opacity="75"]::before,
+[opacity="75"]::after {
+  opacity: 0.75;
+}
+
+[opacity="80"]::before,
+[opacity="80"]::after {
+  opacity: 0.8;
+}
+
+[opacity="85"]::before,
+[opacity="85"]::after {
+  opacity: 0.85;
+}
+
+[opacity="90"]::before,
+[opacity="90"]::after {
+  opacity: 0.9;
+}
+
+[opacity="95"]::before,
+[opacity="95"]::after {
+  opacity: 0.95;
+}
+
+[opacity="100"]::before,
+[opacity="100"]::after {
+  opacity: 1;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+.visibility-visible {
+  visibility: visible;
+}
+
+:disabled, .disabled, .muted {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=opacity.css.map */

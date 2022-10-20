@@ -1,0 +1,11 @@
+{
+  "name": "elvys",
+  "version": "1.0.0",
+  "description": "A minimalist framework for rapid UI development",
+
+  "url": "https://elvys.github.io/",
+  "repository": "https://github.com/bebagodfried/elvys",
+
+  "license": "MIT - (c) 2022 @bebagodfried",
+  "author": "Beba Godfried <me@bebagodfried.com>"
+}

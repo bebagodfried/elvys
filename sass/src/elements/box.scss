@@ -1,0 +1,17 @@
+@import '../utilities/all';
+
+.box {
+  @extend %make-block;
+}
+
+.border {
+  &-box {
+    box-sizing: border-box
+  }
+}
+
+.content {
+  &-box {
+    box-sizing: content-box
+  }
+}

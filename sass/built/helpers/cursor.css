@@ -1,0 +1,365 @@
+.cursor-auto {
+  cursor: auto;
+}
+
+.active\:cursor-auto:active,
+.focus\:cursor-auto:focus,
+.hover\:cursor-auto:hover {
+  cursor: auto;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.active\:cursor-default:active,
+.focus\:cursor-default:focus,
+.hover\:cursor-default:hover {
+  cursor: default;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.active\:cursor-pointer:active,
+.focus\:cursor-pointer:focus,
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.cursor-wait {
+  cursor: wait;
+}
+
+.active\:cursor-wait:active,
+.focus\:cursor-wait:focus,
+.hover\:cursor-wait:hover {
+  cursor: wait;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.active\:cursor-text:active,
+.focus\:cursor-text:focus,
+.hover\:cursor-text:hover {
+  cursor: text;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.active\:cursor-move:active,
+.focus\:cursor-move:focus,
+.hover\:cursor-move:hover {
+  cursor: move;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.active\:cursor-help:active,
+.focus\:cursor-help:focus,
+.hover\:cursor-help:hover {
+  cursor: help;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.active\:cursor-not-allowed:active,
+.focus\:cursor-not-allowed:focus,
+.hover\:cursor-not-allowed:hover {
+  cursor: not-allowed;
+}
+
+.cursor-none {
+  cursor: none;
+}
+
+.active\:cursor-none:active,
+.focus\:cursor-none:focus,
+.hover\:cursor-none:hover {
+  cursor: none;
+}
+
+.cursor-context-menu {
+  cursor: context-menu;
+}
+
+.active\:cursor-context-menu:active,
+.focus\:cursor-context-menu:focus,
+.hover\:cursor-context-menu:hover {
+  cursor: context-menu;
+}
+
+.cursor-progress {
+  cursor: progress;
+}
+
+.active\:cursor-progress:active,
+.focus\:cursor-progress:focus,
+.hover\:cursor-progress:hover {
+  cursor: progress;
+}
+
+.cursor-cell {
+  cursor: cell;
+}
+
+.active\:cursor-cell:active,
+.focus\:cursor-cell:focus,
+.hover\:cursor-cell:hover {
+  cursor: cell;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
+.active\:cursor-crosshair:active,
+.focus\:cursor-crosshair:focus,
+.hover\:cursor-crosshair:hover {
+  cursor: crosshair;
+}
+
+.cursor-vertical-text {
+  cursor: vertical-text;
+}
+
+.active\:cursor-vertical-text:active,
+.focus\:cursor-vertical-text:focus,
+.hover\:cursor-vertical-text:hover {
+  cursor: vertical-text;
+}
+
+.cursor-alias {
+  cursor: alias;
+}
+
+.active\:cursor-alias:active,
+.focus\:cursor-alias:focus,
+.hover\:cursor-alias:hover {
+  cursor: alias;
+}
+
+.cursor-copy {
+  cursor: copy;
+}
+
+.active\:cursor-copy:active,
+.focus\:cursor-copy:focus,
+.hover\:cursor-copy:hover {
+  cursor: copy;
+}
+
+.cursor-no-drop {
+  cursor: no-drop;
+}
+
+.active\:cursor-no-drop:active,
+.focus\:cursor-no-drop:focus,
+.hover\:cursor-no-drop:hover {
+  cursor: no-drop;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.active\:cursor-grab:active,
+.focus\:cursor-grab:focus,
+.hover\:cursor-grab:hover {
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: grabbing;
+}
+
+.active\:cursor-grabbing:active,
+.focus\:cursor-grabbing:focus,
+.hover\:cursor-grabbing:hover {
+  cursor: grabbing;
+}
+
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+
+.active\:cursor-all-scroll:active,
+.focus\:cursor-all-scroll:focus,
+.hover\:cursor-all-scroll:hover {
+  cursor: all-scroll;
+}
+
+.cursor-col-resize {
+  cursor: col-resize;
+}
+
+.active\:cursor-col-resize:active,
+.focus\:cursor-col-resize:focus,
+.hover\:cursor-col-resize:hover {
+  cursor: col-resize;
+}
+
+.cursor-row-resize {
+  cursor: row-resize;
+}
+
+.active\:cursor-row-resize:active,
+.focus\:cursor-row-resize:focus,
+.hover\:cursor-row-resize:hover {
+  cursor: row-resize;
+}
+
+.cursor-n-resize {
+  cursor: n-resize;
+}
+
+.active\:cursor-n-resize:active,
+.focus\:cursor-n-resize:focus,
+.hover\:cursor-n-resize:hover {
+  cursor: n-resize;
+}
+
+.cursor-e-resize {
+  cursor: e-resize;
+}
+
+.active\:cursor-e-resize:active,
+.focus\:cursor-e-resize:focus,
+.hover\:cursor-e-resize:hover {
+  cursor: e-resize;
+}
+
+.cursor-s-resize {
+  cursor: s-resize;
+}
+
+.active\:cursor-s-resize:active,
+.focus\:cursor-s-resize:focus,
+.hover\:cursor-s-resize:hover {
+  cursor: s-resize;
+}
+
+.cursor-w-resize {
+  cursor: w-resize;
+}
+
+.active\:cursor-w-resize:active,
+.focus\:cursor-w-resize:focus,
+.hover\:cursor-w-resize:hover {
+  cursor: w-resize;
+}
+
+.cursor-ne-resize {
+  cursor: ne-resize;
+}
+
+.active\:cursor-ne-resize:active,
+.focus\:cursor-ne-resize:focus,
+.hover\:cursor-ne-resize:hover {
+  cursor: ne-resize;
+}
+
+.cursor-nw-resize {
+  cursor: nw-resize;
+}
+
+.active\:cursor-nw-resize:active,
+.focus\:cursor-nw-resize:focus,
+.hover\:cursor-nw-resize:hover {
+  cursor: nw-resize;
+}
+
+.cursor-se-resize {
+  cursor: se-resize;
+}
+
+.active\:cursor-se-resize:active,
+.focus\:cursor-se-resize:focus,
+.hover\:cursor-se-resize:hover {
+  cursor: se-resize;
+}
+
+.cursor-sw-resize {
+  cursor: sw-resize;
+}
+
+.active\:cursor-sw-resize:active,
+.focus\:cursor-sw-resize:focus,
+.hover\:cursor-sw-resize:hover {
+  cursor: sw-resize;
+}
+
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+
+.active\:cursor-ew-resize:active,
+.focus\:cursor-ew-resize:focus,
+.hover\:cursor-ew-resize:hover {
+  cursor: ew-resize;
+}
+
+.cursor-ns-resize {
+  cursor: ns-resize;
+}
+
+.active\:cursor-ns-resize:active,
+.focus\:cursor-ns-resize:focus,
+.hover\:cursor-ns-resize:hover {
+  cursor: ns-resize;
+}
+
+.cursor-nesw-resize {
+  cursor: nesw-resize;
+}
+
+.active\:cursor-nesw-resize:active,
+.focus\:cursor-nesw-resize:focus,
+.hover\:cursor-nesw-resize:hover {
+  cursor: nesw-resize;
+}
+
+.cursor-nwse-resize {
+  cursor: nwse-resize;
+}
+
+.active\:cursor-nwse-resize:active,
+.focus\:cursor-nwse-resize:focus,
+.hover\:cursor-nwse-resize:hover {
+  cursor: nwse-resize;
+}
+
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
+.active\:cursor-zoom-in:active,
+.focus\:cursor-zoom-in:focus,
+.hover\:cursor-zoom-in:hover {
+  cursor: zoom-in;
+}
+
+.cursor-zoom-out {
+  cursor: zoom-out;
+}
+
+.active\:cursor-zoom-out:active,
+.focus\:cursor-zoom-out:focus,
+.hover\:cursor-zoom-out:hover {
+  cursor: zoom-out;
+}
+
+:disabled, .disabled {
+  cursor: default;
+}
+
+/*# sourceMappingURL=cursor.css.map */

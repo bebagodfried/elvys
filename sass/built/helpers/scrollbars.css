@@ -1,0 +1,46 @@
+::-webkit-scrollbar {
+  background-color: to-rgba(#333, 50%);
+  height: 0px;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #007cde;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #007cde;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
+}
+::-webkit-scrollbar-thumb:hover {
+  cursor: grab;
+}
+
+.scroll {
+  overflow: scroll;
+}
+.scroll-x {
+  overflow-x: scroll;
+}
+.scroll-y {
+  overflow-y: scroll;
+}
+.scrollbar-1::-webkit-scrollbar {
+  width: 1px;
+}
+.scrollbar-2::-webkit-scrollbar {
+  width: 2px;
+}
+.scrollbar-3::-webkit-scrollbar {
+  width: 3px;
+}
+.scrollbar-4::-webkit-scrollbar {
+  width: 4px;
+}
+.scrollbar-5::-webkit-scrollbar {
+  width: 5px;
+}
+
+/*# sourceMappingURL=scrollbars.css.map */

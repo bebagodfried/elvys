@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../src/utilities/_extends.scss","../../src/elements/tag.scss","../../src/utilities/_mixins.scss","../../src/utilities/_defaults.scss"],"names":[],"mappings":"AAmCA;EACE;EACA;;;AClCF;EC6IQ,eAzBiB;EA8BnB,UA/ByF;ED/G7F;EACA,OEHoB;EFIpB;EAEE;EACA;;AAIA;EACE;;AADF;EACE;;AADF;EACE;;AADF;EACE","file":"tag.css"}

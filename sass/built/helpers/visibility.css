@@ -1,0 +1,13 @@
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.colapse {
+  visibility: collapse;
+}
+
+/*# sourceMappingURL=visibility.css.map */

@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  align-items: center;
+}
+header * {
+  display: inline-block;
+}
+header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header.bg-none, header.bg-transparent, header.tansparent {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=header.css.map */

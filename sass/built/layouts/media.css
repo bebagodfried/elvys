@@ -1,0 +1,54 @@
+.aspect-auto {
+  aspect-ratio: auto;
+}
+.aspect-square {
+  aspect-ratio: 1/1;
+}
+.aspect-video {
+  aspect-ratio: 16/9;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+.object-contain {
+  object-fit: contain;
+}
+.object-fill {
+  object-fit: fill;
+}
+.object-scale-down {
+  object-fit: scale-down;
+}
+.object-none {
+  object-fit: none;
+}
+.object-top {
+  object-position: top;
+}
+.object-left {
+  object-position: left;
+}
+.object-bottom {
+  object-position: bottom;
+}
+.object-right {
+  object-position: right;
+}
+.object-top-left {
+  object-position: top left;
+}
+.object-top-right {
+  object-position: top right;
+}
+.object-bottom-left {
+  object-position: top bottom;
+}
+.object-bottom-right {
+  object-position: left right;
+}
+.object-center {
+  object-position: center;
+}
+
+/*# sourceMappingURL=media.css.map */

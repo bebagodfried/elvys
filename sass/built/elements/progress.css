@@ -1,0 +1,8034 @@
+progress {
+  display: flex;
+  align-items: center;
+}
+
+progress {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  min-height: 3px;
+  width: 350px;
+  max-width: 100%;
+}
+progress:not([height]) {
+  height: 5px;
+}
+progress::before {
+  content: "";
+  animation: loader;
+  animation-timing-function: ease-out;
+  background-color: #007cde;
+  border-radius: inherit;
+  overflow: hidden;
+  height: 100%;
+}
+progress[value=""]::before {
+  content: "";
+  width: 1%;
+}
+progress:not([value])::before {
+  width: 100%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-10]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-20]::before {
+  animation-duration: 20ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-30]::before {
+  animation-duration: 30ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-40]::before {
+  animation-duration: 40ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-50]::before {
+  animation-duration: 50ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-60]::before {
+  animation-duration: 60ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-70]::before {
+  animation-duration: 70ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-80]::before {
+  animation-duration: 80ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-90]::before {
+  animation-duration: 90ms;
+  width: 1%;
+}
+progress[value="1"]::before {
+  animation-duration: 10ms;
+  width: 1%;
+}
+progress[value="1"][class*=speed-100]::before {
+  animation-duration: 100ms;
+  width: 1%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-10]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-20]::before {
+  animation-duration: 40ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-30]::before {
+  animation-duration: 60ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-40]::before {
+  animation-duration: 80ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-50]::before {
+  animation-duration: 100ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-60]::before {
+  animation-duration: 120ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-70]::before {
+  animation-duration: 140ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-80]::before {
+  animation-duration: 160ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-90]::before {
+  animation-duration: 180ms;
+  width: 2%;
+}
+progress[value="2"]::before {
+  animation-duration: 20ms;
+  width: 2%;
+}
+progress[value="2"][class*=speed-100]::before {
+  animation-duration: 200ms;
+  width: 2%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-10]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-20]::before {
+  animation-duration: 60ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-30]::before {
+  animation-duration: 90ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-40]::before {
+  animation-duration: 120ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-50]::before {
+  animation-duration: 150ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-60]::before {
+  animation-duration: 180ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-70]::before {
+  animation-duration: 210ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-80]::before {
+  animation-duration: 240ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-90]::before {
+  animation-duration: 270ms;
+  width: 3%;
+}
+progress[value="3"]::before {
+  animation-duration: 30ms;
+  width: 3%;
+}
+progress[value="3"][class*=speed-100]::before {
+  animation-duration: 300ms;
+  width: 3%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-10]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-20]::before {
+  animation-duration: 80ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-30]::before {
+  animation-duration: 120ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-40]::before {
+  animation-duration: 160ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-50]::before {
+  animation-duration: 200ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-60]::before {
+  animation-duration: 240ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-70]::before {
+  animation-duration: 280ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-80]::before {
+  animation-duration: 320ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-90]::before {
+  animation-duration: 360ms;
+  width: 4%;
+}
+progress[value="4"]::before {
+  animation-duration: 40ms;
+  width: 4%;
+}
+progress[value="4"][class*=speed-100]::before {
+  animation-duration: 400ms;
+  width: 4%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-10]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-20]::before {
+  animation-duration: 100ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-30]::before {
+  animation-duration: 150ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-40]::before {
+  animation-duration: 200ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-50]::before {
+  animation-duration: 250ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-60]::before {
+  animation-duration: 300ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-70]::before {
+  animation-duration: 350ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-80]::before {
+  animation-duration: 400ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-90]::before {
+  animation-duration: 450ms;
+  width: 5%;
+}
+progress[value="5"]::before {
+  animation-duration: 50ms;
+  width: 5%;
+}
+progress[value="5"][class*=speed-100]::before {
+  animation-duration: 500ms;
+  width: 5%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-10]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-20]::before {
+  animation-duration: 120ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-30]::before {
+  animation-duration: 180ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-40]::before {
+  animation-duration: 240ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-50]::before {
+  animation-duration: 300ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-60]::before {
+  animation-duration: 360ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-70]::before {
+  animation-duration: 420ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-80]::before {
+  animation-duration: 480ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-90]::before {
+  animation-duration: 540ms;
+  width: 6%;
+}
+progress[value="6"]::before {
+  animation-duration: 60ms;
+  width: 6%;
+}
+progress[value="6"][class*=speed-100]::before {
+  animation-duration: 600ms;
+  width: 6%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-10]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-20]::before {
+  animation-duration: 140ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-30]::before {
+  animation-duration: 210ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-40]::before {
+  animation-duration: 280ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-50]::before {
+  animation-duration: 350ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-60]::before {
+  animation-duration: 420ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-70]::before {
+  animation-duration: 490ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-80]::before {
+  animation-duration: 560ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-90]::before {
+  animation-duration: 630ms;
+  width: 7%;
+}
+progress[value="7"]::before {
+  animation-duration: 70ms;
+  width: 7%;
+}
+progress[value="7"][class*=speed-100]::before {
+  animation-duration: 700ms;
+  width: 7%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-10]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-20]::before {
+  animation-duration: 160ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-30]::before {
+  animation-duration: 240ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-40]::before {
+  animation-duration: 320ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-50]::before {
+  animation-duration: 400ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-60]::before {
+  animation-duration: 480ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-70]::before {
+  animation-duration: 560ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-80]::before {
+  animation-duration: 640ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-90]::before {
+  animation-duration: 720ms;
+  width: 8%;
+}
+progress[value="8"]::before {
+  animation-duration: 80ms;
+  width: 8%;
+}
+progress[value="8"][class*=speed-100]::before {
+  animation-duration: 800ms;
+  width: 8%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-10]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-20]::before {
+  animation-duration: 180ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-30]::before {
+  animation-duration: 270ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-40]::before {
+  animation-duration: 360ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-50]::before {
+  animation-duration: 450ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-60]::before {
+  animation-duration: 540ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-70]::before {
+  animation-duration: 630ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-80]::before {
+  animation-duration: 720ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-90]::before {
+  animation-duration: 810ms;
+  width: 9%;
+}
+progress[value="9"]::before {
+  animation-duration: 90ms;
+  width: 9%;
+}
+progress[value="9"][class*=speed-100]::before {
+  animation-duration: 900ms;
+  width: 9%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-10]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-20]::before {
+  animation-duration: 200ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-30]::before {
+  animation-duration: 300ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-40]::before {
+  animation-duration: 400ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-50]::before {
+  animation-duration: 500ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-60]::before {
+  animation-duration: 600ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-70]::before {
+  animation-duration: 700ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-80]::before {
+  animation-duration: 800ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-90]::before {
+  animation-duration: 900ms;
+  width: 10%;
+}
+progress[value="10"]::before {
+  animation-duration: 100ms;
+  width: 10%;
+}
+progress[value="10"][class*=speed-100]::before {
+  animation-duration: 1000ms;
+  width: 10%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-10]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-20]::before {
+  animation-duration: 220ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-30]::before {
+  animation-duration: 330ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-40]::before {
+  animation-duration: 440ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-50]::before {
+  animation-duration: 550ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-60]::before {
+  animation-duration: 660ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-70]::before {
+  animation-duration: 770ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-80]::before {
+  animation-duration: 880ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-90]::before {
+  animation-duration: 990ms;
+  width: 11%;
+}
+progress[value="11"]::before {
+  animation-duration: 110ms;
+  width: 11%;
+}
+progress[value="11"][class*=speed-100]::before {
+  animation-duration: 1100ms;
+  width: 11%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-10]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-20]::before {
+  animation-duration: 240ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-30]::before {
+  animation-duration: 360ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-40]::before {
+  animation-duration: 480ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-50]::before {
+  animation-duration: 600ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-60]::before {
+  animation-duration: 720ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-70]::before {
+  animation-duration: 840ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-80]::before {
+  animation-duration: 960ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-90]::before {
+  animation-duration: 1080ms;
+  width: 12%;
+}
+progress[value="12"]::before {
+  animation-duration: 120ms;
+  width: 12%;
+}
+progress[value="12"][class*=speed-100]::before {
+  animation-duration: 1200ms;
+  width: 12%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-10]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-20]::before {
+  animation-duration: 260ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-30]::before {
+  animation-duration: 390ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-40]::before {
+  animation-duration: 520ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-50]::before {
+  animation-duration: 650ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-60]::before {
+  animation-duration: 780ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-70]::before {
+  animation-duration: 910ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-80]::before {
+  animation-duration: 1040ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-90]::before {
+  animation-duration: 1170ms;
+  width: 13%;
+}
+progress[value="13"]::before {
+  animation-duration: 130ms;
+  width: 13%;
+}
+progress[value="13"][class*=speed-100]::before {
+  animation-duration: 1300ms;
+  width: 13%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-10]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-20]::before {
+  animation-duration: 280ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-30]::before {
+  animation-duration: 420ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-40]::before {
+  animation-duration: 560ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-50]::before {
+  animation-duration: 700ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-60]::before {
+  animation-duration: 840ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-70]::before {
+  animation-duration: 980ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-80]::before {
+  animation-duration: 1120ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-90]::before {
+  animation-duration: 1260ms;
+  width: 14%;
+}
+progress[value="14"]::before {
+  animation-duration: 140ms;
+  width: 14%;
+}
+progress[value="14"][class*=speed-100]::before {
+  animation-duration: 1400ms;
+  width: 14%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-10]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-20]::before {
+  animation-duration: 300ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-30]::before {
+  animation-duration: 450ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-40]::before {
+  animation-duration: 600ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-50]::before {
+  animation-duration: 750ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-60]::before {
+  animation-duration: 900ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-70]::before {
+  animation-duration: 1050ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-80]::before {
+  animation-duration: 1200ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-90]::before {
+  animation-duration: 1350ms;
+  width: 15%;
+}
+progress[value="15"]::before {
+  animation-duration: 150ms;
+  width: 15%;
+}
+progress[value="15"][class*=speed-100]::before {
+  animation-duration: 1500ms;
+  width: 15%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-10]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-20]::before {
+  animation-duration: 320ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-30]::before {
+  animation-duration: 480ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-40]::before {
+  animation-duration: 640ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-50]::before {
+  animation-duration: 800ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-60]::before {
+  animation-duration: 960ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-70]::before {
+  animation-duration: 1120ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-80]::before {
+  animation-duration: 1280ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-90]::before {
+  animation-duration: 1440ms;
+  width: 16%;
+}
+progress[value="16"]::before {
+  animation-duration: 160ms;
+  width: 16%;
+}
+progress[value="16"][class*=speed-100]::before {
+  animation-duration: 1600ms;
+  width: 16%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-10]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-20]::before {
+  animation-duration: 340ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-30]::before {
+  animation-duration: 510ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-40]::before {
+  animation-duration: 680ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-50]::before {
+  animation-duration: 850ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-60]::before {
+  animation-duration: 1020ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-70]::before {
+  animation-duration: 1190ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-80]::before {
+  animation-duration: 1360ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-90]::before {
+  animation-duration: 1530ms;
+  width: 17%;
+}
+progress[value="17"]::before {
+  animation-duration: 170ms;
+  width: 17%;
+}
+progress[value="17"][class*=speed-100]::before {
+  animation-duration: 1700ms;
+  width: 17%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-10]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-20]::before {
+  animation-duration: 360ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-30]::before {
+  animation-duration: 540ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-40]::before {
+  animation-duration: 720ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-50]::before {
+  animation-duration: 900ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-60]::before {
+  animation-duration: 1080ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-70]::before {
+  animation-duration: 1260ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-80]::before {
+  animation-duration: 1440ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-90]::before {
+  animation-duration: 1620ms;
+  width: 18%;
+}
+progress[value="18"]::before {
+  animation-duration: 180ms;
+  width: 18%;
+}
+progress[value="18"][class*=speed-100]::before {
+  animation-duration: 1800ms;
+  width: 18%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-10]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-20]::before {
+  animation-duration: 380ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-30]::before {
+  animation-duration: 570ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-40]::before {
+  animation-duration: 760ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-50]::before {
+  animation-duration: 950ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-60]::before {
+  animation-duration: 1140ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-70]::before {
+  animation-duration: 1330ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-80]::before {
+  animation-duration: 1520ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-90]::before {
+  animation-duration: 1710ms;
+  width: 19%;
+}
+progress[value="19"]::before {
+  animation-duration: 190ms;
+  width: 19%;
+}
+progress[value="19"][class*=speed-100]::before {
+  animation-duration: 1900ms;
+  width: 19%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-10]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-20]::before {
+  animation-duration: 400ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-30]::before {
+  animation-duration: 600ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-40]::before {
+  animation-duration: 800ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-50]::before {
+  animation-duration: 1000ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-60]::before {
+  animation-duration: 1200ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-70]::before {
+  animation-duration: 1400ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-80]::before {
+  animation-duration: 1600ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-90]::before {
+  animation-duration: 1800ms;
+  width: 20%;
+}
+progress[value="20"]::before {
+  animation-duration: 200ms;
+  width: 20%;
+}
+progress[value="20"][class*=speed-100]::before {
+  animation-duration: 2000ms;
+  width: 20%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-10]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-20]::before {
+  animation-duration: 420ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-30]::before {
+  animation-duration: 630ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-40]::before {
+  animation-duration: 840ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-50]::before {
+  animation-duration: 1050ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-60]::before {
+  animation-duration: 1260ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-70]::before {
+  animation-duration: 1470ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-80]::before {
+  animation-duration: 1680ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-90]::before {
+  animation-duration: 1890ms;
+  width: 21%;
+}
+progress[value="21"]::before {
+  animation-duration: 210ms;
+  width: 21%;
+}
+progress[value="21"][class*=speed-100]::before {
+  animation-duration: 2100ms;
+  width: 21%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-10]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-20]::before {
+  animation-duration: 440ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-30]::before {
+  animation-duration: 660ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-40]::before {
+  animation-duration: 880ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-50]::before {
+  animation-duration: 1100ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-60]::before {
+  animation-duration: 1320ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-70]::before {
+  animation-duration: 1540ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-80]::before {
+  animation-duration: 1760ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-90]::before {
+  animation-duration: 1980ms;
+  width: 22%;
+}
+progress[value="22"]::before {
+  animation-duration: 220ms;
+  width: 22%;
+}
+progress[value="22"][class*=speed-100]::before {
+  animation-duration: 2200ms;
+  width: 22%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-10]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-20]::before {
+  animation-duration: 460ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-30]::before {
+  animation-duration: 690ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-40]::before {
+  animation-duration: 920ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-50]::before {
+  animation-duration: 1150ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-60]::before {
+  animation-duration: 1380ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-70]::before {
+  animation-duration: 1610ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-80]::before {
+  animation-duration: 1840ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-90]::before {
+  animation-duration: 2070ms;
+  width: 23%;
+}
+progress[value="23"]::before {
+  animation-duration: 230ms;
+  width: 23%;
+}
+progress[value="23"][class*=speed-100]::before {
+  animation-duration: 2300ms;
+  width: 23%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-10]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-20]::before {
+  animation-duration: 480ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-30]::before {
+  animation-duration: 720ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-40]::before {
+  animation-duration: 960ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-50]::before {
+  animation-duration: 1200ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-60]::before {
+  animation-duration: 1440ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-70]::before {
+  animation-duration: 1680ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-80]::before {
+  animation-duration: 1920ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-90]::before {
+  animation-duration: 2160ms;
+  width: 24%;
+}
+progress[value="24"]::before {
+  animation-duration: 240ms;
+  width: 24%;
+}
+progress[value="24"][class*=speed-100]::before {
+  animation-duration: 2400ms;
+  width: 24%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-10]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-20]::before {
+  animation-duration: 500ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-30]::before {
+  animation-duration: 750ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-40]::before {
+  animation-duration: 1000ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-50]::before {
+  animation-duration: 1250ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-60]::before {
+  animation-duration: 1500ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-70]::before {
+  animation-duration: 1750ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-80]::before {
+  animation-duration: 2000ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-90]::before {
+  animation-duration: 2250ms;
+  width: 25%;
+}
+progress[value="25"]::before {
+  animation-duration: 250ms;
+  width: 25%;
+}
+progress[value="25"][class*=speed-100]::before {
+  animation-duration: 2500ms;
+  width: 25%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-10]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-20]::before {
+  animation-duration: 520ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-30]::before {
+  animation-duration: 780ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-40]::before {
+  animation-duration: 1040ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-50]::before {
+  animation-duration: 1300ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-60]::before {
+  animation-duration: 1560ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-70]::before {
+  animation-duration: 1820ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-80]::before {
+  animation-duration: 2080ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-90]::before {
+  animation-duration: 2340ms;
+  width: 26%;
+}
+progress[value="26"]::before {
+  animation-duration: 260ms;
+  width: 26%;
+}
+progress[value="26"][class*=speed-100]::before {
+  animation-duration: 2600ms;
+  width: 26%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-10]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-20]::before {
+  animation-duration: 540ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-30]::before {
+  animation-duration: 810ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-40]::before {
+  animation-duration: 1080ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-50]::before {
+  animation-duration: 1350ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-60]::before {
+  animation-duration: 1620ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-70]::before {
+  animation-duration: 1890ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-80]::before {
+  animation-duration: 2160ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-90]::before {
+  animation-duration: 2430ms;
+  width: 27%;
+}
+progress[value="27"]::before {
+  animation-duration: 270ms;
+  width: 27%;
+}
+progress[value="27"][class*=speed-100]::before {
+  animation-duration: 2700ms;
+  width: 27%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-10]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-20]::before {
+  animation-duration: 560ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-30]::before {
+  animation-duration: 840ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-40]::before {
+  animation-duration: 1120ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-50]::before {
+  animation-duration: 1400ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-60]::before {
+  animation-duration: 1680ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-70]::before {
+  animation-duration: 1960ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-80]::before {
+  animation-duration: 2240ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-90]::before {
+  animation-duration: 2520ms;
+  width: 28%;
+}
+progress[value="28"]::before {
+  animation-duration: 280ms;
+  width: 28%;
+}
+progress[value="28"][class*=speed-100]::before {
+  animation-duration: 2800ms;
+  width: 28%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-10]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-20]::before {
+  animation-duration: 580ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-30]::before {
+  animation-duration: 870ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-40]::before {
+  animation-duration: 1160ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-50]::before {
+  animation-duration: 1450ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-60]::before {
+  animation-duration: 1740ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-70]::before {
+  animation-duration: 2030ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-80]::before {
+  animation-duration: 2320ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-90]::before {
+  animation-duration: 2610ms;
+  width: 29%;
+}
+progress[value="29"]::before {
+  animation-duration: 290ms;
+  width: 29%;
+}
+progress[value="29"][class*=speed-100]::before {
+  animation-duration: 2900ms;
+  width: 29%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-10]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-20]::before {
+  animation-duration: 600ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-30]::before {
+  animation-duration: 900ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-40]::before {
+  animation-duration: 1200ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-50]::before {
+  animation-duration: 1500ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-60]::before {
+  animation-duration: 1800ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-70]::before {
+  animation-duration: 2100ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-80]::before {
+  animation-duration: 2400ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-90]::before {
+  animation-duration: 2700ms;
+  width: 30%;
+}
+progress[value="30"]::before {
+  animation-duration: 300ms;
+  width: 30%;
+}
+progress[value="30"][class*=speed-100]::before {
+  animation-duration: 3000ms;
+  width: 30%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-10]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-20]::before {
+  animation-duration: 620ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-30]::before {
+  animation-duration: 930ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-40]::before {
+  animation-duration: 1240ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-50]::before {
+  animation-duration: 1550ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-60]::before {
+  animation-duration: 1860ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-70]::before {
+  animation-duration: 2170ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-80]::before {
+  animation-duration: 2480ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-90]::before {
+  animation-duration: 2790ms;
+  width: 31%;
+}
+progress[value="31"]::before {
+  animation-duration: 310ms;
+  width: 31%;
+}
+progress[value="31"][class*=speed-100]::before {
+  animation-duration: 3100ms;
+  width: 31%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-10]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-20]::before {
+  animation-duration: 640ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-30]::before {
+  animation-duration: 960ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-40]::before {
+  animation-duration: 1280ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-50]::before {
+  animation-duration: 1600ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-60]::before {
+  animation-duration: 1920ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-70]::before {
+  animation-duration: 2240ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-80]::before {
+  animation-duration: 2560ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-90]::before {
+  animation-duration: 2880ms;
+  width: 32%;
+}
+progress[value="32"]::before {
+  animation-duration: 320ms;
+  width: 32%;
+}
+progress[value="32"][class*=speed-100]::before {
+  animation-duration: 3200ms;
+  width: 32%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-10]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-20]::before {
+  animation-duration: 660ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-30]::before {
+  animation-duration: 990ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-40]::before {
+  animation-duration: 1320ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-50]::before {
+  animation-duration: 1650ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-60]::before {
+  animation-duration: 1980ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-70]::before {
+  animation-duration: 2310ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-80]::before {
+  animation-duration: 2640ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-90]::before {
+  animation-duration: 2970ms;
+  width: 33%;
+}
+progress[value="33"]::before {
+  animation-duration: 330ms;
+  width: 33%;
+}
+progress[value="33"][class*=speed-100]::before {
+  animation-duration: 3300ms;
+  width: 33%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-10]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-20]::before {
+  animation-duration: 680ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-30]::before {
+  animation-duration: 1020ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-40]::before {
+  animation-duration: 1360ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-50]::before {
+  animation-duration: 1700ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-60]::before {
+  animation-duration: 2040ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-70]::before {
+  animation-duration: 2380ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-80]::before {
+  animation-duration: 2720ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-90]::before {
+  animation-duration: 3060ms;
+  width: 34%;
+}
+progress[value="34"]::before {
+  animation-duration: 340ms;
+  width: 34%;
+}
+progress[value="34"][class*=speed-100]::before {
+  animation-duration: 3400ms;
+  width: 34%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-10]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-20]::before {
+  animation-duration: 700ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-30]::before {
+  animation-duration: 1050ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-40]::before {
+  animation-duration: 1400ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-50]::before {
+  animation-duration: 1750ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-60]::before {
+  animation-duration: 2100ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-70]::before {
+  animation-duration: 2450ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-80]::before {
+  animation-duration: 2800ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-90]::before {
+  animation-duration: 3150ms;
+  width: 35%;
+}
+progress[value="35"]::before {
+  animation-duration: 350ms;
+  width: 35%;
+}
+progress[value="35"][class*=speed-100]::before {
+  animation-duration: 3500ms;
+  width: 35%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-10]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-20]::before {
+  animation-duration: 720ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-30]::before {
+  animation-duration: 1080ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-40]::before {
+  animation-duration: 1440ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-50]::before {
+  animation-duration: 1800ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-60]::before {
+  animation-duration: 2160ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-70]::before {
+  animation-duration: 2520ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-80]::before {
+  animation-duration: 2880ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-90]::before {
+  animation-duration: 3240ms;
+  width: 36%;
+}
+progress[value="36"]::before {
+  animation-duration: 360ms;
+  width: 36%;
+}
+progress[value="36"][class*=speed-100]::before {
+  animation-duration: 3600ms;
+  width: 36%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-10]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-20]::before {
+  animation-duration: 740ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-30]::before {
+  animation-duration: 1110ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-40]::before {
+  animation-duration: 1480ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-50]::before {
+  animation-duration: 1850ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-60]::before {
+  animation-duration: 2220ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-70]::before {
+  animation-duration: 2590ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-80]::before {
+  animation-duration: 2960ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-90]::before {
+  animation-duration: 3330ms;
+  width: 37%;
+}
+progress[value="37"]::before {
+  animation-duration: 370ms;
+  width: 37%;
+}
+progress[value="37"][class*=speed-100]::before {
+  animation-duration: 3700ms;
+  width: 37%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-10]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-20]::before {
+  animation-duration: 760ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-30]::before {
+  animation-duration: 1140ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-40]::before {
+  animation-duration: 1520ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-50]::before {
+  animation-duration: 1900ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-60]::before {
+  animation-duration: 2280ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-70]::before {
+  animation-duration: 2660ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-80]::before {
+  animation-duration: 3040ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-90]::before {
+  animation-duration: 3420ms;
+  width: 38%;
+}
+progress[value="38"]::before {
+  animation-duration: 380ms;
+  width: 38%;
+}
+progress[value="38"][class*=speed-100]::before {
+  animation-duration: 3800ms;
+  width: 38%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-10]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-20]::before {
+  animation-duration: 780ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-30]::before {
+  animation-duration: 1170ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-40]::before {
+  animation-duration: 1560ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-50]::before {
+  animation-duration: 1950ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-60]::before {
+  animation-duration: 2340ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-70]::before {
+  animation-duration: 2730ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-80]::before {
+  animation-duration: 3120ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-90]::before {
+  animation-duration: 3510ms;
+  width: 39%;
+}
+progress[value="39"]::before {
+  animation-duration: 390ms;
+  width: 39%;
+}
+progress[value="39"][class*=speed-100]::before {
+  animation-duration: 3900ms;
+  width: 39%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-10]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-20]::before {
+  animation-duration: 800ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-30]::before {
+  animation-duration: 1200ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-40]::before {
+  animation-duration: 1600ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-50]::before {
+  animation-duration: 2000ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-60]::before {
+  animation-duration: 2400ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-70]::before {
+  animation-duration: 2800ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-80]::before {
+  animation-duration: 3200ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-90]::before {
+  animation-duration: 3600ms;
+  width: 40%;
+}
+progress[value="40"]::before {
+  animation-duration: 400ms;
+  width: 40%;
+}
+progress[value="40"][class*=speed-100]::before {
+  animation-duration: 4000ms;
+  width: 40%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-10]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-20]::before {
+  animation-duration: 820ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-30]::before {
+  animation-duration: 1230ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-40]::before {
+  animation-duration: 1640ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-50]::before {
+  animation-duration: 2050ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-60]::before {
+  animation-duration: 2460ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-70]::before {
+  animation-duration: 2870ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-80]::before {
+  animation-duration: 3280ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-90]::before {
+  animation-duration: 3690ms;
+  width: 41%;
+}
+progress[value="41"]::before {
+  animation-duration: 410ms;
+  width: 41%;
+}
+progress[value="41"][class*=speed-100]::before {
+  animation-duration: 4100ms;
+  width: 41%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-10]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-20]::before {
+  animation-duration: 840ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-30]::before {
+  animation-duration: 1260ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-40]::before {
+  animation-duration: 1680ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-50]::before {
+  animation-duration: 2100ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-60]::before {
+  animation-duration: 2520ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-70]::before {
+  animation-duration: 2940ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-80]::before {
+  animation-duration: 3360ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-90]::before {
+  animation-duration: 3780ms;
+  width: 42%;
+}
+progress[value="42"]::before {
+  animation-duration: 420ms;
+  width: 42%;
+}
+progress[value="42"][class*=speed-100]::before {
+  animation-duration: 4200ms;
+  width: 42%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-10]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-20]::before {
+  animation-duration: 860ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-30]::before {
+  animation-duration: 1290ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-40]::before {
+  animation-duration: 1720ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-50]::before {
+  animation-duration: 2150ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-60]::before {
+  animation-duration: 2580ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-70]::before {
+  animation-duration: 3010ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-80]::before {
+  animation-duration: 3440ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-90]::before {
+  animation-duration: 3870ms;
+  width: 43%;
+}
+progress[value="43"]::before {
+  animation-duration: 430ms;
+  width: 43%;
+}
+progress[value="43"][class*=speed-100]::before {
+  animation-duration: 4300ms;
+  width: 43%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-10]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-20]::before {
+  animation-duration: 880ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-30]::before {
+  animation-duration: 1320ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-40]::before {
+  animation-duration: 1760ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-50]::before {
+  animation-duration: 2200ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-60]::before {
+  animation-duration: 2640ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-70]::before {
+  animation-duration: 3080ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-80]::before {
+  animation-duration: 3520ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-90]::before {
+  animation-duration: 3960ms;
+  width: 44%;
+}
+progress[value="44"]::before {
+  animation-duration: 440ms;
+  width: 44%;
+}
+progress[value="44"][class*=speed-100]::before {
+  animation-duration: 4400ms;
+  width: 44%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-10]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-20]::before {
+  animation-duration: 900ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-30]::before {
+  animation-duration: 1350ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-40]::before {
+  animation-duration: 1800ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-50]::before {
+  animation-duration: 2250ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-60]::before {
+  animation-duration: 2700ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-70]::before {
+  animation-duration: 3150ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-80]::before {
+  animation-duration: 3600ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-90]::before {
+  animation-duration: 4050ms;
+  width: 45%;
+}
+progress[value="45"]::before {
+  animation-duration: 450ms;
+  width: 45%;
+}
+progress[value="45"][class*=speed-100]::before {
+  animation-duration: 4500ms;
+  width: 45%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-10]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-20]::before {
+  animation-duration: 920ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-30]::before {
+  animation-duration: 1380ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-40]::before {
+  animation-duration: 1840ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-50]::before {
+  animation-duration: 2300ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-60]::before {
+  animation-duration: 2760ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-70]::before {
+  animation-duration: 3220ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-80]::before {
+  animation-duration: 3680ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-90]::before {
+  animation-duration: 4140ms;
+  width: 46%;
+}
+progress[value="46"]::before {
+  animation-duration: 460ms;
+  width: 46%;
+}
+progress[value="46"][class*=speed-100]::before {
+  animation-duration: 4600ms;
+  width: 46%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-10]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-20]::before {
+  animation-duration: 940ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-30]::before {
+  animation-duration: 1410ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-40]::before {
+  animation-duration: 1880ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-50]::before {
+  animation-duration: 2350ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-60]::before {
+  animation-duration: 2820ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-70]::before {
+  animation-duration: 3290ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-80]::before {
+  animation-duration: 3760ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-90]::before {
+  animation-duration: 4230ms;
+  width: 47%;
+}
+progress[value="47"]::before {
+  animation-duration: 470ms;
+  width: 47%;
+}
+progress[value="47"][class*=speed-100]::before {
+  animation-duration: 4700ms;
+  width: 47%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-10]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-20]::before {
+  animation-duration: 960ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-30]::before {
+  animation-duration: 1440ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-40]::before {
+  animation-duration: 1920ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-50]::before {
+  animation-duration: 2400ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-60]::before {
+  animation-duration: 2880ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-70]::before {
+  animation-duration: 3360ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-80]::before {
+  animation-duration: 3840ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-90]::before {
+  animation-duration: 4320ms;
+  width: 48%;
+}
+progress[value="48"]::before {
+  animation-duration: 480ms;
+  width: 48%;
+}
+progress[value="48"][class*=speed-100]::before {
+  animation-duration: 4800ms;
+  width: 48%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-10]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-20]::before {
+  animation-duration: 980ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-30]::before {
+  animation-duration: 1470ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-40]::before {
+  animation-duration: 1960ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-50]::before {
+  animation-duration: 2450ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-60]::before {
+  animation-duration: 2940ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-70]::before {
+  animation-duration: 3430ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-80]::before {
+  animation-duration: 3920ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-90]::before {
+  animation-duration: 4410ms;
+  width: 49%;
+}
+progress[value="49"]::before {
+  animation-duration: 490ms;
+  width: 49%;
+}
+progress[value="49"][class*=speed-100]::before {
+  animation-duration: 4900ms;
+  width: 49%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-10]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-20]::before {
+  animation-duration: 1000ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-30]::before {
+  animation-duration: 1500ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-40]::before {
+  animation-duration: 2000ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-50]::before {
+  animation-duration: 2500ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-60]::before {
+  animation-duration: 3000ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-70]::before {
+  animation-duration: 3500ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-80]::before {
+  animation-duration: 4000ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-90]::before {
+  animation-duration: 4500ms;
+  width: 50%;
+}
+progress[value="50"]::before {
+  animation-duration: 500ms;
+  width: 50%;
+}
+progress[value="50"][class*=speed-100]::before {
+  animation-duration: 5000ms;
+  width: 50%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-10]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-20]::before {
+  animation-duration: 1020ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-30]::before {
+  animation-duration: 1530ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-40]::before {
+  animation-duration: 2040ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-50]::before {
+  animation-duration: 2550ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-60]::before {
+  animation-duration: 3060ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-70]::before {
+  animation-duration: 3570ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-80]::before {
+  animation-duration: 4080ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-90]::before {
+  animation-duration: 4590ms;
+  width: 51%;
+}
+progress[value="51"]::before {
+  animation-duration: 510ms;
+  width: 51%;
+}
+progress[value="51"][class*=speed-100]::before {
+  animation-duration: 5100ms;
+  width: 51%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-10]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-20]::before {
+  animation-duration: 1040ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-30]::before {
+  animation-duration: 1560ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-40]::before {
+  animation-duration: 2080ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-50]::before {
+  animation-duration: 2600ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-60]::before {
+  animation-duration: 3120ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-70]::before {
+  animation-duration: 3640ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-80]::before {
+  animation-duration: 4160ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-90]::before {
+  animation-duration: 4680ms;
+  width: 52%;
+}
+progress[value="52"]::before {
+  animation-duration: 520ms;
+  width: 52%;
+}
+progress[value="52"][class*=speed-100]::before {
+  animation-duration: 5200ms;
+  width: 52%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-10]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-20]::before {
+  animation-duration: 1060ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-30]::before {
+  animation-duration: 1590ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-40]::before {
+  animation-duration: 2120ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-50]::before {
+  animation-duration: 2650ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-60]::before {
+  animation-duration: 3180ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-70]::before {
+  animation-duration: 3710ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-80]::before {
+  animation-duration: 4240ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-90]::before {
+  animation-duration: 4770ms;
+  width: 53%;
+}
+progress[value="53"]::before {
+  animation-duration: 530ms;
+  width: 53%;
+}
+progress[value="53"][class*=speed-100]::before {
+  animation-duration: 5300ms;
+  width: 53%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-10]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-20]::before {
+  animation-duration: 1080ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-30]::before {
+  animation-duration: 1620ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-40]::before {
+  animation-duration: 2160ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-50]::before {
+  animation-duration: 2700ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-60]::before {
+  animation-duration: 3240ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-70]::before {
+  animation-duration: 3780ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-80]::before {
+  animation-duration: 4320ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-90]::before {
+  animation-duration: 4860ms;
+  width: 54%;
+}
+progress[value="54"]::before {
+  animation-duration: 540ms;
+  width: 54%;
+}
+progress[value="54"][class*=speed-100]::before {
+  animation-duration: 5400ms;
+  width: 54%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-10]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-20]::before {
+  animation-duration: 1100ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-30]::before {
+  animation-duration: 1650ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-40]::before {
+  animation-duration: 2200ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-50]::before {
+  animation-duration: 2750ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-60]::before {
+  animation-duration: 3300ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-70]::before {
+  animation-duration: 3850ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-80]::before {
+  animation-duration: 4400ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-90]::before {
+  animation-duration: 4950ms;
+  width: 55%;
+}
+progress[value="55"]::before {
+  animation-duration: 550ms;
+  width: 55%;
+}
+progress[value="55"][class*=speed-100]::before {
+  animation-duration: 5500ms;
+  width: 55%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-10]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-20]::before {
+  animation-duration: 1120ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-30]::before {
+  animation-duration: 1680ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-40]::before {
+  animation-duration: 2240ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-50]::before {
+  animation-duration: 2800ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-60]::before {
+  animation-duration: 3360ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-70]::before {
+  animation-duration: 3920ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-80]::before {
+  animation-duration: 4480ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-90]::before {
+  animation-duration: 5040ms;
+  width: 56%;
+}
+progress[value="56"]::before {
+  animation-duration: 560ms;
+  width: 56%;
+}
+progress[value="56"][class*=speed-100]::before {
+  animation-duration: 5600ms;
+  width: 56%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-10]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-20]::before {
+  animation-duration: 1140ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-30]::before {
+  animation-duration: 1710ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-40]::before {
+  animation-duration: 2280ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-50]::before {
+  animation-duration: 2850ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-60]::before {
+  animation-duration: 3420ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-70]::before {
+  animation-duration: 3990ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-80]::before {
+  animation-duration: 4560ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-90]::before {
+  animation-duration: 5130ms;
+  width: 57%;
+}
+progress[value="57"]::before {
+  animation-duration: 570ms;
+  width: 57%;
+}
+progress[value="57"][class*=speed-100]::before {
+  animation-duration: 5700ms;
+  width: 57%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-10]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-20]::before {
+  animation-duration: 1160ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-30]::before {
+  animation-duration: 1740ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-40]::before {
+  animation-duration: 2320ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-50]::before {
+  animation-duration: 2900ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-60]::before {
+  animation-duration: 3480ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-70]::before {
+  animation-duration: 4060ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-80]::before {
+  animation-duration: 4640ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-90]::before {
+  animation-duration: 5220ms;
+  width: 58%;
+}
+progress[value="58"]::before {
+  animation-duration: 580ms;
+  width: 58%;
+}
+progress[value="58"][class*=speed-100]::before {
+  animation-duration: 5800ms;
+  width: 58%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-10]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-20]::before {
+  animation-duration: 1180ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-30]::before {
+  animation-duration: 1770ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-40]::before {
+  animation-duration: 2360ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-50]::before {
+  animation-duration: 2950ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-60]::before {
+  animation-duration: 3540ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-70]::before {
+  animation-duration: 4130ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-80]::before {
+  animation-duration: 4720ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-90]::before {
+  animation-duration: 5310ms;
+  width: 59%;
+}
+progress[value="59"]::before {
+  animation-duration: 590ms;
+  width: 59%;
+}
+progress[value="59"][class*=speed-100]::before {
+  animation-duration: 5900ms;
+  width: 59%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-10]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-20]::before {
+  animation-duration: 1200ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-30]::before {
+  animation-duration: 1800ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-40]::before {
+  animation-duration: 2400ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-50]::before {
+  animation-duration: 3000ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-60]::before {
+  animation-duration: 3600ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-70]::before {
+  animation-duration: 4200ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-80]::before {
+  animation-duration: 4800ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-90]::before {
+  animation-duration: 5400ms;
+  width: 60%;
+}
+progress[value="60"]::before {
+  animation-duration: 600ms;
+  width: 60%;
+}
+progress[value="60"][class*=speed-100]::before {
+  animation-duration: 6000ms;
+  width: 60%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-10]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-20]::before {
+  animation-duration: 1220ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-30]::before {
+  animation-duration: 1830ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-40]::before {
+  animation-duration: 2440ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-50]::before {
+  animation-duration: 3050ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-60]::before {
+  animation-duration: 3660ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-70]::before {
+  animation-duration: 4270ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-80]::before {
+  animation-duration: 4880ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-90]::before {
+  animation-duration: 5490ms;
+  width: 61%;
+}
+progress[value="61"]::before {
+  animation-duration: 610ms;
+  width: 61%;
+}
+progress[value="61"][class*=speed-100]::before {
+  animation-duration: 6100ms;
+  width: 61%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-10]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-20]::before {
+  animation-duration: 1240ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-30]::before {
+  animation-duration: 1860ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-40]::before {
+  animation-duration: 2480ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-50]::before {
+  animation-duration: 3100ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-60]::before {
+  animation-duration: 3720ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-70]::before {
+  animation-duration: 4340ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-80]::before {
+  animation-duration: 4960ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-90]::before {
+  animation-duration: 5580ms;
+  width: 62%;
+}
+progress[value="62"]::before {
+  animation-duration: 620ms;
+  width: 62%;
+}
+progress[value="62"][class*=speed-100]::before {
+  animation-duration: 6200ms;
+  width: 62%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-10]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-20]::before {
+  animation-duration: 1260ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-30]::before {
+  animation-duration: 1890ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-40]::before {
+  animation-duration: 2520ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-50]::before {
+  animation-duration: 3150ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-60]::before {
+  animation-duration: 3780ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-70]::before {
+  animation-duration: 4410ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-80]::before {
+  animation-duration: 5040ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-90]::before {
+  animation-duration: 5670ms;
+  width: 63%;
+}
+progress[value="63"]::before {
+  animation-duration: 630ms;
+  width: 63%;
+}
+progress[value="63"][class*=speed-100]::before {
+  animation-duration: 6300ms;
+  width: 63%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-10]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-20]::before {
+  animation-duration: 1280ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-30]::before {
+  animation-duration: 1920ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-40]::before {
+  animation-duration: 2560ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-50]::before {
+  animation-duration: 3200ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-60]::before {
+  animation-duration: 3840ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-70]::before {
+  animation-duration: 4480ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-80]::before {
+  animation-duration: 5120ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-90]::before {
+  animation-duration: 5760ms;
+  width: 64%;
+}
+progress[value="64"]::before {
+  animation-duration: 640ms;
+  width: 64%;
+}
+progress[value="64"][class*=speed-100]::before {
+  animation-duration: 6400ms;
+  width: 64%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-10]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-20]::before {
+  animation-duration: 1300ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-30]::before {
+  animation-duration: 1950ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-40]::before {
+  animation-duration: 2600ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-50]::before {
+  animation-duration: 3250ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-60]::before {
+  animation-duration: 3900ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-70]::before {
+  animation-duration: 4550ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-80]::before {
+  animation-duration: 5200ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-90]::before {
+  animation-duration: 5850ms;
+  width: 65%;
+}
+progress[value="65"]::before {
+  animation-duration: 650ms;
+  width: 65%;
+}
+progress[value="65"][class*=speed-100]::before {
+  animation-duration: 6500ms;
+  width: 65%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-10]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-20]::before {
+  animation-duration: 1320ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-30]::before {
+  animation-duration: 1980ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-40]::before {
+  animation-duration: 2640ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-50]::before {
+  animation-duration: 3300ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-60]::before {
+  animation-duration: 3960ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-70]::before {
+  animation-duration: 4620ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-80]::before {
+  animation-duration: 5280ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-90]::before {
+  animation-duration: 5940ms;
+  width: 66%;
+}
+progress[value="66"]::before {
+  animation-duration: 660ms;
+  width: 66%;
+}
+progress[value="66"][class*=speed-100]::before {
+  animation-duration: 6600ms;
+  width: 66%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-10]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-20]::before {
+  animation-duration: 1340ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-30]::before {
+  animation-duration: 2010ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-40]::before {
+  animation-duration: 2680ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-50]::before {
+  animation-duration: 3350ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-60]::before {
+  animation-duration: 4020ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-70]::before {
+  animation-duration: 4690ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-80]::before {
+  animation-duration: 5360ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-90]::before {
+  animation-duration: 6030ms;
+  width: 67%;
+}
+progress[value="67"]::before {
+  animation-duration: 670ms;
+  width: 67%;
+}
+progress[value="67"][class*=speed-100]::before {
+  animation-duration: 6700ms;
+  width: 67%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-10]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-20]::before {
+  animation-duration: 1360ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-30]::before {
+  animation-duration: 2040ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-40]::before {
+  animation-duration: 2720ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-50]::before {
+  animation-duration: 3400ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-60]::before {
+  animation-duration: 4080ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-70]::before {
+  animation-duration: 4760ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-80]::before {
+  animation-duration: 5440ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-90]::before {
+  animation-duration: 6120ms;
+  width: 68%;
+}
+progress[value="68"]::before {
+  animation-duration: 680ms;
+  width: 68%;
+}
+progress[value="68"][class*=speed-100]::before {
+  animation-duration: 6800ms;
+  width: 68%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-10]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-20]::before {
+  animation-duration: 1380ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-30]::before {
+  animation-duration: 2070ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-40]::before {
+  animation-duration: 2760ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-50]::before {
+  animation-duration: 3450ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-60]::before {
+  animation-duration: 4140ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-70]::before {
+  animation-duration: 4830ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-80]::before {
+  animation-duration: 5520ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-90]::before {
+  animation-duration: 6210ms;
+  width: 69%;
+}
+progress[value="69"]::before {
+  animation-duration: 690ms;
+  width: 69%;
+}
+progress[value="69"][class*=speed-100]::before {
+  animation-duration: 6900ms;
+  width: 69%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-10]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-20]::before {
+  animation-duration: 1400ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-30]::before {
+  animation-duration: 2100ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-40]::before {
+  animation-duration: 2800ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-50]::before {
+  animation-duration: 3500ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-60]::before {
+  animation-duration: 4200ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-70]::before {
+  animation-duration: 4900ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-80]::before {
+  animation-duration: 5600ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-90]::before {
+  animation-duration: 6300ms;
+  width: 70%;
+}
+progress[value="70"]::before {
+  animation-duration: 700ms;
+  width: 70%;
+}
+progress[value="70"][class*=speed-100]::before {
+  animation-duration: 7000ms;
+  width: 70%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-10]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-20]::before {
+  animation-duration: 1420ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-30]::before {
+  animation-duration: 2130ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-40]::before {
+  animation-duration: 2840ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-50]::before {
+  animation-duration: 3550ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-60]::before {
+  animation-duration: 4260ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-70]::before {
+  animation-duration: 4970ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-80]::before {
+  animation-duration: 5680ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-90]::before {
+  animation-duration: 6390ms;
+  width: 71%;
+}
+progress[value="71"]::before {
+  animation-duration: 710ms;
+  width: 71%;
+}
+progress[value="71"][class*=speed-100]::before {
+  animation-duration: 7100ms;
+  width: 71%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-10]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-20]::before {
+  animation-duration: 1440ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-30]::before {
+  animation-duration: 2160ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-40]::before {
+  animation-duration: 2880ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-50]::before {
+  animation-duration: 3600ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-60]::before {
+  animation-duration: 4320ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-70]::before {
+  animation-duration: 5040ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-80]::before {
+  animation-duration: 5760ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-90]::before {
+  animation-duration: 6480ms;
+  width: 72%;
+}
+progress[value="72"]::before {
+  animation-duration: 720ms;
+  width: 72%;
+}
+progress[value="72"][class*=speed-100]::before {
+  animation-duration: 7200ms;
+  width: 72%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-10]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-20]::before {
+  animation-duration: 1460ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-30]::before {
+  animation-duration: 2190ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-40]::before {
+  animation-duration: 2920ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-50]::before {
+  animation-duration: 3650ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-60]::before {
+  animation-duration: 4380ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-70]::before {
+  animation-duration: 5110ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-80]::before {
+  animation-duration: 5840ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-90]::before {
+  animation-duration: 6570ms;
+  width: 73%;
+}
+progress[value="73"]::before {
+  animation-duration: 730ms;
+  width: 73%;
+}
+progress[value="73"][class*=speed-100]::before {
+  animation-duration: 7300ms;
+  width: 73%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-10]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-20]::before {
+  animation-duration: 1480ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-30]::before {
+  animation-duration: 2220ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-40]::before {
+  animation-duration: 2960ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-50]::before {
+  animation-duration: 3700ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-60]::before {
+  animation-duration: 4440ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-70]::before {
+  animation-duration: 5180ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-80]::before {
+  animation-duration: 5920ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-90]::before {
+  animation-duration: 6660ms;
+  width: 74%;
+}
+progress[value="74"]::before {
+  animation-duration: 740ms;
+  width: 74%;
+}
+progress[value="74"][class*=speed-100]::before {
+  animation-duration: 7400ms;
+  width: 74%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-10]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-20]::before {
+  animation-duration: 1500ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-30]::before {
+  animation-duration: 2250ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-40]::before {
+  animation-duration: 3000ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-50]::before {
+  animation-duration: 3750ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-60]::before {
+  animation-duration: 4500ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-70]::before {
+  animation-duration: 5250ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-80]::before {
+  animation-duration: 6000ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-90]::before {
+  animation-duration: 6750ms;
+  width: 75%;
+}
+progress[value="75"]::before {
+  animation-duration: 750ms;
+  width: 75%;
+}
+progress[value="75"][class*=speed-100]::before {
+  animation-duration: 7500ms;
+  width: 75%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-10]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-20]::before {
+  animation-duration: 1520ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-30]::before {
+  animation-duration: 2280ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-40]::before {
+  animation-duration: 3040ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-50]::before {
+  animation-duration: 3800ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-60]::before {
+  animation-duration: 4560ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-70]::before {
+  animation-duration: 5320ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-80]::before {
+  animation-duration: 6080ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-90]::before {
+  animation-duration: 6840ms;
+  width: 76%;
+}
+progress[value="76"]::before {
+  animation-duration: 760ms;
+  width: 76%;
+}
+progress[value="76"][class*=speed-100]::before {
+  animation-duration: 7600ms;
+  width: 76%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-10]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-20]::before {
+  animation-duration: 1540ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-30]::before {
+  animation-duration: 2310ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-40]::before {
+  animation-duration: 3080ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-50]::before {
+  animation-duration: 3850ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-60]::before {
+  animation-duration: 4620ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-70]::before {
+  animation-duration: 5390ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-80]::before {
+  animation-duration: 6160ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-90]::before {
+  animation-duration: 6930ms;
+  width: 77%;
+}
+progress[value="77"]::before {
+  animation-duration: 770ms;
+  width: 77%;
+}
+progress[value="77"][class*=speed-100]::before {
+  animation-duration: 7700ms;
+  width: 77%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-10]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-20]::before {
+  animation-duration: 1560ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-30]::before {
+  animation-duration: 2340ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-40]::before {
+  animation-duration: 3120ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-50]::before {
+  animation-duration: 3900ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-60]::before {
+  animation-duration: 4680ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-70]::before {
+  animation-duration: 5460ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-80]::before {
+  animation-duration: 6240ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-90]::before {
+  animation-duration: 7020ms;
+  width: 78%;
+}
+progress[value="78"]::before {
+  animation-duration: 780ms;
+  width: 78%;
+}
+progress[value="78"][class*=speed-100]::before {
+  animation-duration: 7800ms;
+  width: 78%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-10]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-20]::before {
+  animation-duration: 1580ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-30]::before {
+  animation-duration: 2370ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-40]::before {
+  animation-duration: 3160ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-50]::before {
+  animation-duration: 3950ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-60]::before {
+  animation-duration: 4740ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-70]::before {
+  animation-duration: 5530ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-80]::before {
+  animation-duration: 6320ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-90]::before {
+  animation-duration: 7110ms;
+  width: 79%;
+}
+progress[value="79"]::before {
+  animation-duration: 790ms;
+  width: 79%;
+}
+progress[value="79"][class*=speed-100]::before {
+  animation-duration: 7900ms;
+  width: 79%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-10]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-20]::before {
+  animation-duration: 1600ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-30]::before {
+  animation-duration: 2400ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-40]::before {
+  animation-duration: 3200ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-50]::before {
+  animation-duration: 4000ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-60]::before {
+  animation-duration: 4800ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-70]::before {
+  animation-duration: 5600ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-80]::before {
+  animation-duration: 6400ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-90]::before {
+  animation-duration: 7200ms;
+  width: 80%;
+}
+progress[value="80"]::before {
+  animation-duration: 800ms;
+  width: 80%;
+}
+progress[value="80"][class*=speed-100]::before {
+  animation-duration: 8000ms;
+  width: 80%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-10]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-20]::before {
+  animation-duration: 1620ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-30]::before {
+  animation-duration: 2430ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-40]::before {
+  animation-duration: 3240ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-50]::before {
+  animation-duration: 4050ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-60]::before {
+  animation-duration: 4860ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-70]::before {
+  animation-duration: 5670ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-80]::before {
+  animation-duration: 6480ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-90]::before {
+  animation-duration: 7290ms;
+  width: 81%;
+}
+progress[value="81"]::before {
+  animation-duration: 810ms;
+  width: 81%;
+}
+progress[value="81"][class*=speed-100]::before {
+  animation-duration: 8100ms;
+  width: 81%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-10]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-20]::before {
+  animation-duration: 1640ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-30]::before {
+  animation-duration: 2460ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-40]::before {
+  animation-duration: 3280ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-50]::before {
+  animation-duration: 4100ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-60]::before {
+  animation-duration: 4920ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-70]::before {
+  animation-duration: 5740ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-80]::before {
+  animation-duration: 6560ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-90]::before {
+  animation-duration: 7380ms;
+  width: 82%;
+}
+progress[value="82"]::before {
+  animation-duration: 820ms;
+  width: 82%;
+}
+progress[value="82"][class*=speed-100]::before {
+  animation-duration: 8200ms;
+  width: 82%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-10]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-20]::before {
+  animation-duration: 1660ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-30]::before {
+  animation-duration: 2490ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-40]::before {
+  animation-duration: 3320ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-50]::before {
+  animation-duration: 4150ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-60]::before {
+  animation-duration: 4980ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-70]::before {
+  animation-duration: 5810ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-80]::before {
+  animation-duration: 6640ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-90]::before {
+  animation-duration: 7470ms;
+  width: 83%;
+}
+progress[value="83"]::before {
+  animation-duration: 830ms;
+  width: 83%;
+}
+progress[value="83"][class*=speed-100]::before {
+  animation-duration: 8300ms;
+  width: 83%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-10]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-20]::before {
+  animation-duration: 1680ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-30]::before {
+  animation-duration: 2520ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-40]::before {
+  animation-duration: 3360ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-50]::before {
+  animation-duration: 4200ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-60]::before {
+  animation-duration: 5040ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-70]::before {
+  animation-duration: 5880ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-80]::before {
+  animation-duration: 6720ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-90]::before {
+  animation-duration: 7560ms;
+  width: 84%;
+}
+progress[value="84"]::before {
+  animation-duration: 840ms;
+  width: 84%;
+}
+progress[value="84"][class*=speed-100]::before {
+  animation-duration: 8400ms;
+  width: 84%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-10]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-20]::before {
+  animation-duration: 1700ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-30]::before {
+  animation-duration: 2550ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-40]::before {
+  animation-duration: 3400ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-50]::before {
+  animation-duration: 4250ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-60]::before {
+  animation-duration: 5100ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-70]::before {
+  animation-duration: 5950ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-80]::before {
+  animation-duration: 6800ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-90]::before {
+  animation-duration: 7650ms;
+  width: 85%;
+}
+progress[value="85"]::before {
+  animation-duration: 850ms;
+  width: 85%;
+}
+progress[value="85"][class*=speed-100]::before {
+  animation-duration: 8500ms;
+  width: 85%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-10]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-20]::before {
+  animation-duration: 1720ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-30]::before {
+  animation-duration: 2580ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-40]::before {
+  animation-duration: 3440ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-50]::before {
+  animation-duration: 4300ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-60]::before {
+  animation-duration: 5160ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-70]::before {
+  animation-duration: 6020ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-80]::before {
+  animation-duration: 6880ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-90]::before {
+  animation-duration: 7740ms;
+  width: 86%;
+}
+progress[value="86"]::before {
+  animation-duration: 860ms;
+  width: 86%;
+}
+progress[value="86"][class*=speed-100]::before {
+  animation-duration: 8600ms;
+  width: 86%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-10]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-20]::before {
+  animation-duration: 1740ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-30]::before {
+  animation-duration: 2610ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-40]::before {
+  animation-duration: 3480ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-50]::before {
+  animation-duration: 4350ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-60]::before {
+  animation-duration: 5220ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-70]::before {
+  animation-duration: 6090ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-80]::before {
+  animation-duration: 6960ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-90]::before {
+  animation-duration: 7830ms;
+  width: 87%;
+}
+progress[value="87"]::before {
+  animation-duration: 870ms;
+  width: 87%;
+}
+progress[value="87"][class*=speed-100]::before {
+  animation-duration: 8700ms;
+  width: 87%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-10]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-20]::before {
+  animation-duration: 1760ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-30]::before {
+  animation-duration: 2640ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-40]::before {
+  animation-duration: 3520ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-50]::before {
+  animation-duration: 4400ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-60]::before {
+  animation-duration: 5280ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-70]::before {
+  animation-duration: 6160ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-80]::before {
+  animation-duration: 7040ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-90]::before {
+  animation-duration: 7920ms;
+  width: 88%;
+}
+progress[value="88"]::before {
+  animation-duration: 880ms;
+  width: 88%;
+}
+progress[value="88"][class*=speed-100]::before {
+  animation-duration: 8800ms;
+  width: 88%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-10]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-20]::before {
+  animation-duration: 1780ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-30]::before {
+  animation-duration: 2670ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-40]::before {
+  animation-duration: 3560ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-50]::before {
+  animation-duration: 4450ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-60]::before {
+  animation-duration: 5340ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-70]::before {
+  animation-duration: 6230ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-80]::before {
+  animation-duration: 7120ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-90]::before {
+  animation-duration: 8010ms;
+  width: 89%;
+}
+progress[value="89"]::before {
+  animation-duration: 890ms;
+  width: 89%;
+}
+progress[value="89"][class*=speed-100]::before {
+  animation-duration: 8900ms;
+  width: 89%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-10]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-20]::before {
+  animation-duration: 1800ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-30]::before {
+  animation-duration: 2700ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-40]::before {
+  animation-duration: 3600ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-50]::before {
+  animation-duration: 4500ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-60]::before {
+  animation-duration: 5400ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-70]::before {
+  animation-duration: 6300ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-80]::before {
+  animation-duration: 7200ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-90]::before {
+  animation-duration: 8100ms;
+  width: 90%;
+}
+progress[value="90"]::before {
+  animation-duration: 900ms;
+  width: 90%;
+}
+progress[value="90"][class*=speed-100]::before {
+  animation-duration: 9000ms;
+  width: 90%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-10]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-20]::before {
+  animation-duration: 1820ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-30]::before {
+  animation-duration: 2730ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-40]::before {
+  animation-duration: 3640ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-50]::before {
+  animation-duration: 4550ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-60]::before {
+  animation-duration: 5460ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-70]::before {
+  animation-duration: 6370ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-80]::before {
+  animation-duration: 7280ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-90]::before {
+  animation-duration: 8190ms;
+  width: 91%;
+}
+progress[value="91"]::before {
+  animation-duration: 910ms;
+  width: 91%;
+}
+progress[value="91"][class*=speed-100]::before {
+  animation-duration: 9100ms;
+  width: 91%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-10]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-20]::before {
+  animation-duration: 1840ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-30]::before {
+  animation-duration: 2760ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-40]::before {
+  animation-duration: 3680ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-50]::before {
+  animation-duration: 4600ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-60]::before {
+  animation-duration: 5520ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-70]::before {
+  animation-duration: 6440ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-80]::before {
+  animation-duration: 7360ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-90]::before {
+  animation-duration: 8280ms;
+  width: 92%;
+}
+progress[value="92"]::before {
+  animation-duration: 920ms;
+  width: 92%;
+}
+progress[value="92"][class*=speed-100]::before {
+  animation-duration: 9200ms;
+  width: 92%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-10]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-20]::before {
+  animation-duration: 1860ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-30]::before {
+  animation-duration: 2790ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-40]::before {
+  animation-duration: 3720ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-50]::before {
+  animation-duration: 4650ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-60]::before {
+  animation-duration: 5580ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-70]::before {
+  animation-duration: 6510ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-80]::before {
+  animation-duration: 7440ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-90]::before {
+  animation-duration: 8370ms;
+  width: 93%;
+}
+progress[value="93"]::before {
+  animation-duration: 930ms;
+  width: 93%;
+}
+progress[value="93"][class*=speed-100]::before {
+  animation-duration: 9300ms;
+  width: 93%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-10]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-20]::before {
+  animation-duration: 1880ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-30]::before {
+  animation-duration: 2820ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-40]::before {
+  animation-duration: 3760ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-50]::before {
+  animation-duration: 4700ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-60]::before {
+  animation-duration: 5640ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-70]::before {
+  animation-duration: 6580ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-80]::before {
+  animation-duration: 7520ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-90]::before {
+  animation-duration: 8460ms;
+  width: 94%;
+}
+progress[value="94"]::before {
+  animation-duration: 940ms;
+  width: 94%;
+}
+progress[value="94"][class*=speed-100]::before {
+  animation-duration: 9400ms;
+  width: 94%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-10]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-20]::before {
+  animation-duration: 1900ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-30]::before {
+  animation-duration: 2850ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-40]::before {
+  animation-duration: 3800ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-50]::before {
+  animation-duration: 4750ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-60]::before {
+  animation-duration: 5700ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-70]::before {
+  animation-duration: 6650ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-80]::before {
+  animation-duration: 7600ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-90]::before {
+  animation-duration: 8550ms;
+  width: 95%;
+}
+progress[value="95"]::before {
+  animation-duration: 950ms;
+  width: 95%;
+}
+progress[value="95"][class*=speed-100]::before {
+  animation-duration: 9500ms;
+  width: 95%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-10]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-20]::before {
+  animation-duration: 1920ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-30]::before {
+  animation-duration: 2880ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-40]::before {
+  animation-duration: 3840ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-50]::before {
+  animation-duration: 4800ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-60]::before {
+  animation-duration: 5760ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-70]::before {
+  animation-duration: 6720ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-80]::before {
+  animation-duration: 7680ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-90]::before {
+  animation-duration: 8640ms;
+  width: 96%;
+}
+progress[value="96"]::before {
+  animation-duration: 960ms;
+  width: 96%;
+}
+progress[value="96"][class*=speed-100]::before {
+  animation-duration: 9600ms;
+  width: 96%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-10]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-20]::before {
+  animation-duration: 1940ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-30]::before {
+  animation-duration: 2910ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-40]::before {
+  animation-duration: 3880ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-50]::before {
+  animation-duration: 4850ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-60]::before {
+  animation-duration: 5820ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-70]::before {
+  animation-duration: 6790ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-80]::before {
+  animation-duration: 7760ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-90]::before {
+  animation-duration: 8730ms;
+  width: 97%;
+}
+progress[value="97"]::before {
+  animation-duration: 970ms;
+  width: 97%;
+}
+progress[value="97"][class*=speed-100]::before {
+  animation-duration: 9700ms;
+  width: 97%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-10]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-20]::before {
+  animation-duration: 1960ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-30]::before {
+  animation-duration: 2940ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-40]::before {
+  animation-duration: 3920ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-50]::before {
+  animation-duration: 4900ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-60]::before {
+  animation-duration: 5880ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-70]::before {
+  animation-duration: 6860ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-80]::before {
+  animation-duration: 7840ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-90]::before {
+  animation-duration: 8820ms;
+  width: 98%;
+}
+progress[value="98"]::before {
+  animation-duration: 980ms;
+  width: 98%;
+}
+progress[value="98"][class*=speed-100]::before {
+  animation-duration: 9800ms;
+  width: 98%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-10]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-20]::before {
+  animation-duration: 1980ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-30]::before {
+  animation-duration: 2970ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-40]::before {
+  animation-duration: 3960ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-50]::before {
+  animation-duration: 4950ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-60]::before {
+  animation-duration: 5940ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-70]::before {
+  animation-duration: 6930ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-80]::before {
+  animation-duration: 7920ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-90]::before {
+  animation-duration: 8910ms;
+  width: 99%;
+}
+progress[value="99"]::before {
+  animation-duration: 990ms;
+  width: 99%;
+}
+progress[value="99"][class*=speed-100]::before {
+  animation-duration: 9900ms;
+  width: 99%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-10]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-20]::before {
+  animation-duration: 2000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-30]::before {
+  animation-duration: 3000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-40]::before {
+  animation-duration: 4000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-50]::before {
+  animation-duration: 5000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-60]::before {
+  animation-duration: 6000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-70]::before {
+  animation-duration: 7000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-80]::before {
+  animation-duration: 8000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-90]::before {
+  animation-duration: 9000ms;
+  width: 100%;
+}
+progress[value="100"]::before {
+  animation-duration: 1000ms;
+  width: 100%;
+}
+progress[value="100"][class*=speed-100]::before {
+  animation-duration: 10000ms;
+  width: 100%;
+}
+
+/*# sourceMappingURL=progress.css.map */

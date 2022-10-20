@@ -1,0 +1,174 @@
+form input {
+  display: block;
+}
+form input:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.searchbox {
+  display: inline-flex;
+}
+
+.form-check, .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  background-color: #fff;
+  margin: 0;
+  padding: 0.25rem;
+  text-align: center;
+  border-radius: 0.25rem;
+}
+form * {
+  font-size: 100%;
+  font-weight: 500;
+}
+form button[type=submit]:hover {
+  background-color: #0063b2;
+  transition: opacity 0.2s ease-in;
+}
+form button:not([class]) {
+  margin-top: 1rem;
+}
+form input {
+  border-radius: 0.25rem;
+  font-weight: 500;
+  padding: 0.5em 1.5em;
+}
+@media screen and (max-width: 600px) {
+  form input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}
+
+.form-block {
+  padding: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.form-control {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #4e5862;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  max-width: auto;
+}
+.form-control:not(:focus):invalid {
+  border-color: #ffc107;
+}
+.form-label {
+  margin-bottom: 0.25rem;
+}
+.form-check-label {
+  margin: 0;
+  margin-left: 0.25rem;
+}
+.form-select {
+  font-size: 100%;
+}
+
+.checkbox-label {
+  margin: 0;
+  margin-left: 0.25rem;
+}
+
+.searchbox {
+  background-color: #fff;
+  border-style: solid;
+  border-radius: 0.25rem;
+  overflow: visible !important;
+}
+.searchbox .form-control, .searchbox .form-select {
+  border-width: 0;
+  border-radius: 0;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0);
+}
+.searchbox button:not([class]) {
+  color: #007cde;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.auto-fill-primary:-webkit-autofill, .auto-fill-primary:-webkit-autofill:hover, .auto-fill-primary:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #007cde;
+  box-shadow: inset 0 0 0px 1000px #007cde;
+}
+.auto-fill-secondary:-webkit-autofill, .auto-fill-secondary:-webkit-autofill:hover, .auto-fill-secondary:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #333;
+  box-shadow: inset 0 0 0px 1000px #333;
+}
+.auto-fill-success:-webkit-autofill, .auto-fill-success:-webkit-autofill:hover, .auto-fill-success:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #198754;
+  box-shadow: inset 0 0 0px 1000px #198754;
+}
+.auto-fill-info:-webkit-autofill, .auto-fill-info:-webkit-autofill:hover, .auto-fill-info:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #0dcaf0;
+  box-shadow: inset 0 0 0px 1000px #0dcaf0;
+}
+.auto-fill-warning:-webkit-autofill, .auto-fill-warning:-webkit-autofill:hover, .auto-fill-warning:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #ffc107;
+  box-shadow: inset 0 0 0px 1000px #ffc107;
+}
+.auto-fill-danger:-webkit-autofill, .auto-fill-danger:-webkit-autofill:hover, .auto-fill-danger:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #cd3545;
+  box-shadow: inset 0 0 0px 1000px #cd3545;
+}
+.auto-fill-light:-webkit-autofill, .auto-fill-light:-webkit-autofill:hover, .auto-fill-light:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #f5f5f5;
+  box-shadow: inset 0 0 0px 1000px #f5f5f5;
+}
+.auto-fill-dark:-webkit-autofill, .auto-fill-dark:-webkit-autofill:hover, .auto-fill-dark:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #212529;
+  box-shadow: inset 0 0 0px 1000px #212529;
+}
+.auto-fill-red:-webkit-autofill, .auto-fill-red:-webkit-autofill:hover, .auto-fill-red:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #f00;
+  box-shadow: inset 0 0 0px 1000px #f00;
+}
+.auto-fill-green:-webkit-autofill, .auto-fill-green:-webkit-autofill:hover, .auto-fill-green:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #0f0;
+  box-shadow: inset 0 0 0px 1000px #0f0;
+}
+.auto-fill-blue:-webkit-autofill, .auto-fill-blue:-webkit-autofill:hover, .auto-fill-blue:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #00f;
+  box-shadow: inset 0 0 0px 1000px #00f;
+}
+.auto-fill-black:-webkit-autofill, .auto-fill-black:-webkit-autofill:hover, .auto-fill-black:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #000;
+  box-shadow: inset 0 0 0px 1000px #000;
+}
+.auto-fill-white:-webkit-autofill, .auto-fill-white:-webkit-autofill:hover, .auto-fill-white:-webkit-autofill:focus {
+  transition: 0ms;
+  -webkit-box-shadow: inset 0 0 0px 1000px #fff;
+  box-shadow: inset 0 0 0px 1000px #fff;
+}
+
+/*# sourceMappingURL=form.css.map */

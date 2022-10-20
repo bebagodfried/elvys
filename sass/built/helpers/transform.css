@@ -1,0 +1,1717 @@
+.origin-top {
+  transform-origin: top;
+}
+
+.active\:origin-top:active,
+.focus\:origin-top:focus,
+.hover\:origin-top:hover {
+  transform-origin: top;
+}
+
+.origin-right {
+  transform-origin: right;
+}
+
+.active\:origin-right:active,
+.focus\:origin-right:focus,
+.hover\:origin-right:hover {
+  transform-origin: right;
+}
+
+.origin-bottom {
+  transform-origin: top;
+}
+
+.active\:origin-bottom:active,
+.focus\:origin-bottom:focus,
+.hover\:origin-bottom:hover {
+  transform-origin: top;
+}
+
+.origin-left {
+  transform-origin: right;
+}
+
+.active\:origin-left:active,
+.focus\:origin-left:focus,
+.hover\:origin-left:hover {
+  transform-origin: right;
+}
+
+.origin-top-right {
+  transform-origin: top right;
+}
+
+.active\:origin-top-right:active,
+.focus\:origin-top-right:focus,
+.hover\:origin-top-right:hover {
+  transform-origin: top right;
+}
+
+.origin-top-left {
+  transform-origin: top left;
+}
+
+.active\:origin-top-left:active,
+.focus\:origin-top-left:focus,
+.hover\:origin-top-left:hover {
+  transform-origin: top left;
+}
+
+.origin-bottom-right {
+  transform-origin: bottom right;
+}
+
+.active\:origin-bottom-right:active,
+.focus\:origin-bottom-right:focus,
+.hover\:origin-bottom-right:hover {
+  transform-origin: bottom right;
+}
+
+.origin-bottom-left {
+  transform-origin: bottom left;
+}
+
+.active\:origin-bottom-left:active,
+.focus\:origin-bottom-left:focus,
+.hover\:origin-bottom-left:hover {
+  transform-origin: bottom left;
+}
+
+.origin-center {
+  transform-origin: center;
+}
+
+.active\:origin-center:active,
+.focus\:origin-center:focus,
+.hover\:origin-center:hover {
+  transform-origin: center;
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.active\:rotate-0:active,
+.focus\:rotate-0:focus,
+.hover\:rotate-0:hover {
+  transform: rotate(0deg);
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.active\:rotate-45:active,
+.focus\:rotate-45:focus,
+.hover\:rotate-45:hover {
+  transform: rotate(45deg);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.active\:rotate-90:active,
+.focus\:rotate-90:focus,
+.hover\:rotate-90:hover {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.active\:rotate-180:active,
+.focus\:rotate-180:focus,
+.hover\:rotate-180:hover {
+  transform: rotate(180deg);
+}
+
+.rotate-0-reverse {
+  transform: rotate(0deg);
+}
+
+.active\:rotate-0-reverse:active,
+.focus\:rotate-0-reverse:focus,
+.hover\:rotate-0-reverse:hover {
+  transform: rotate(0deg);
+}
+
+.rotate-45-reverse {
+  transform: rotate(-45deg);
+}
+
+.active\:rotate-45-reverse:active,
+.focus\:rotate-45-reverse:focus,
+.hover\:rotate-45-reverse:hover {
+  transform: rotate(-45deg);
+}
+
+.rotate-90-reverse {
+  transform: rotate(-90deg);
+}
+
+.active\:rotate-90-reverse:active,
+.focus\:rotate-90-reverse:focus,
+.hover\:rotate-90-reverse:hover {
+  transform: rotate(-90deg);
+}
+
+.rotate-180-reverse {
+  transform: rotate(-180deg);
+}
+
+.active\:rotate-180-reverse:active,
+.focus\:rotate-180-reverse:focus,
+.hover\:rotate-180-reverse:hover {
+  transform: rotate(-180deg);
+}
+
+.rotateX-0 {
+  transform: rotateX(0deg);
+}
+
+.active\:rotateX-0:active,
+.focus\:rotateX-0:focus,
+.hover\:rotateX-0:hover {
+  transform: rotateX(0deg);
+}
+
+.rotateX-45 {
+  transform: rotateX(45deg);
+}
+
+.active\:rotateX-45:active,
+.focus\:rotateX-45:focus,
+.hover\:rotateX-45:hover {
+  transform: rotateX(45deg);
+}
+
+.rotateX-90 {
+  transform: rotateX(90deg);
+}
+
+.active\:rotateX-90:active,
+.focus\:rotateX-90:focus,
+.hover\:rotateX-90:hover {
+  transform: rotateX(90deg);
+}
+
+.rotateX-180 {
+  transform: rotateX(180deg);
+}
+
+.active\:rotateX-180:active,
+.focus\:rotateX-180:focus,
+.hover\:rotateX-180:hover {
+  transform: rotateX(180deg);
+}
+
+.rotateY-0 {
+  transform: rotateY(0deg);
+}
+
+.active\:rotateY-0:active,
+.focus\:rotateY-0:focus,
+.hover\:rotateY-0:hover {
+  transform: rotateY(0deg);
+}
+
+.rotateY-45 {
+  transform: rotateY(45deg);
+}
+
+.active\:rotateY-45:active,
+.focus\:rotateY-45:focus,
+.hover\:rotateY-45:hover {
+  transform: rotateY(45deg);
+}
+
+.rotateY-90 {
+  transform: rotateY(90deg);
+}
+
+.active\:rotateY-90:active,
+.focus\:rotateY-90:focus,
+.hover\:rotateY-90:hover {
+  transform: rotateY(90deg);
+}
+
+.rotateY-180 {
+  transform: rotateY(180deg);
+}
+
+.active\:rotateY-180:active,
+.focus\:rotateY-180:focus,
+.hover\:rotateY-180:hover {
+  transform: rotateY(180deg);
+}
+
+.rotateZ-0 {
+  transform: rotateZ(0deg);
+}
+
+.active\:rotateZ-0:active,
+.focus\:rotateZ-0:focus,
+.hover\:rotateZ-0:hover {
+  transform: rotateZ(0deg);
+}
+
+.rotateZ-45 {
+  transform: rotateZ(45deg);
+}
+
+.active\:rotateZ-45:active,
+.focus\:rotateZ-45:focus,
+.hover\:rotateZ-45:hover {
+  transform: rotateZ(45deg);
+}
+
+.rotateZ-90 {
+  transform: rotateZ(90deg);
+}
+
+.active\:rotateZ-90:active,
+.focus\:rotateZ-90:focus,
+.hover\:rotateZ-90:hover {
+  transform: rotateZ(90deg);
+}
+
+.rotateZ-180 {
+  transform: rotateZ(180deg);
+}
+
+.active\:rotateZ-180:active,
+.focus\:rotateZ-180:focus,
+.hover\:rotateZ-180:hover {
+  transform: rotateZ(180deg);
+}
+
+.scale-0 {
+  transform: scale(0);
+}
+
+.active\:scale-0:active,
+.focus\:scale-0:focus,
+.hover\:scale-0:hover {
+  transform: scale(0);
+}
+
+.scale-25 {
+  transform: scale(0.25);
+}
+
+.active\:scale-25:active,
+.focus\:scale-25:focus,
+.hover\:scale-25:hover {
+  transform: scale(0.25);
+}
+
+.scale-50 {
+  transform: scale(0.5);
+}
+
+.active\:scale-50:active,
+.focus\:scale-50:focus,
+.hover\:scale-50:hover {
+  transform: scale(0.5);
+}
+
+.scale-75 {
+  transform: scale(0.75);
+}
+
+.active\:scale-75:active,
+.focus\:scale-75:focus,
+.hover\:scale-75:hover {
+  transform: scale(0.75);
+}
+
+.scale-100 {
+  transform: scale(1);
+}
+
+.active\:scale-100:active,
+.focus\:scale-100:focus,
+.hover\:scale-100:hover {
+  transform: scale(1);
+}
+
+.scale-110 {
+  transform: scale(1.1);
+}
+
+.active\:scale-110:active,
+.focus\:scale-110:focus,
+.hover\:scale-110:hover {
+  transform: scale(1.1);
+}
+
+.scale-120 {
+  transform: scale(1.2);
+}
+
+.active\:scale-120:active,
+.focus\:scale-120:focus,
+.hover\:scale-120:hover {
+  transform: scale(1.2);
+}
+
+.scale-125 {
+  transform: scale(1.25);
+}
+
+.active\:scale-125:active,
+.focus\:scale-125:focus,
+.hover\:scale-125:hover {
+  transform: scale(1.25);
+}
+
+.scale-150 {
+  transform: scale(1.5);
+}
+
+.active\:scale-150:active,
+.focus\:scale-150:focus,
+.hover\:scale-150:hover {
+  transform: scale(1.5);
+}
+
+.scale-175 {
+  transform: scale(1.75);
+}
+
+.active\:scale-175:active,
+.focus\:scale-175:focus,
+.hover\:scale-175:hover {
+  transform: scale(1.75);
+}
+
+.scale-200 {
+  transform: scale(2);
+}
+
+.active\:scale-200:active,
+.focus\:scale-200:focus,
+.hover\:scale-200:hover {
+  transform: scale(2);
+}
+
+.scaleX-0 {
+  transform: scaleX(0);
+}
+
+.active\:scaleX-0:active,
+.focus\:scaleX-0:focus,
+.hover\:scaleX-0:hover {
+  transform: scaleX(0);
+}
+
+.scaleX-25 {
+  transform: scaleX(0.25);
+}
+
+.active\:scaleX-25:active,
+.focus\:scaleX-25:focus,
+.hover\:scaleX-25:hover {
+  transform: scaleX(0.25);
+}
+
+.scaleX-50 {
+  transform: scaleX(0.5);
+}
+
+.active\:scaleX-50:active,
+.focus\:scaleX-50:focus,
+.hover\:scaleX-50:hover {
+  transform: scaleX(0.5);
+}
+
+.scaleX-75 {
+  transform: scaleX(0.75);
+}
+
+.active\:scaleX-75:active,
+.focus\:scaleX-75:focus,
+.hover\:scaleX-75:hover {
+  transform: scaleX(0.75);
+}
+
+.scaleX-100 {
+  transform: scaleX(1);
+}
+
+.active\:scaleX-100:active,
+.focus\:scaleX-100:focus,
+.hover\:scaleX-100:hover {
+  transform: scaleX(1);
+}
+
+.scaleX-110 {
+  transform: scaleX(1.1);
+}
+
+.active\:scaleX-110:active,
+.focus\:scaleX-110:focus,
+.hover\:scaleX-110:hover {
+  transform: scaleX(1.1);
+}
+
+.scaleX-120 {
+  transform: scaleX(1.2);
+}
+
+.active\:scaleX-120:active,
+.focus\:scaleX-120:focus,
+.hover\:scaleX-120:hover {
+  transform: scaleX(1.2);
+}
+
+.scaleX-125 {
+  transform: scaleX(1.25);
+}
+
+.active\:scaleX-125:active,
+.focus\:scaleX-125:focus,
+.hover\:scaleX-125:hover {
+  transform: scaleX(1.25);
+}
+
+.scaleX-150 {
+  transform: scaleX(1.5);
+}
+
+.active\:scaleX-150:active,
+.focus\:scaleX-150:focus,
+.hover\:scaleX-150:hover {
+  transform: scaleX(1.5);
+}
+
+.scaleX-175 {
+  transform: scaleX(1.75);
+}
+
+.active\:scaleX-175:active,
+.focus\:scaleX-175:focus,
+.hover\:scaleX-175:hover {
+  transform: scaleX(1.75);
+}
+
+.scaleX-200 {
+  transform: scaleX(2);
+}
+
+.active\:scaleX-200:active,
+.focus\:scaleX-200:focus,
+.hover\:scaleX-200:hover {
+  transform: scaleX(2);
+}
+
+.scaleY-0 {
+  transform: scaleY(0);
+}
+
+.active\:scaleY-0:active,
+.focus\:scaleY-0:focus,
+.hover\:scaleY-0:hover {
+  transform: scaleY(0);
+}
+
+.scaleY-25 {
+  transform: scaleY(0.25);
+}
+
+.active\:scaleY-25:active,
+.focus\:scaleY-25:focus,
+.hover\:scaleY-25:hover {
+  transform: scaleY(0.25);
+}
+
+.scaleY-50 {
+  transform: scaleY(0.5);
+}
+
+.active\:scaleY-50:active,
+.focus\:scaleY-50:focus,
+.hover\:scaleY-50:hover {
+  transform: scaleY(0.5);
+}
+
+.scaleY-75 {
+  transform: scaleY(0.75);
+}
+
+.active\:scaleY-75:active,
+.focus\:scaleY-75:focus,
+.hover\:scaleY-75:hover {
+  transform: scaleY(0.75);
+}
+
+.scaleY-100 {
+  transform: scaleY(1);
+}
+
+.active\:scaleY-100:active,
+.focus\:scaleY-100:focus,
+.hover\:scaleY-100:hover {
+  transform: scaleY(1);
+}
+
+.scaleY-110 {
+  transform: scaleY(1.1);
+}
+
+.active\:scaleY-110:active,
+.focus\:scaleY-110:focus,
+.hover\:scaleY-110:hover {
+  transform: scaleY(1.1);
+}
+
+.scaleY-120 {
+  transform: scaleY(1.2);
+}
+
+.active\:scaleY-120:active,
+.focus\:scaleY-120:focus,
+.hover\:scaleY-120:hover {
+  transform: scaleY(1.2);
+}
+
+.scaleY-125 {
+  transform: scaleY(1.25);
+}
+
+.active\:scaleY-125:active,
+.focus\:scaleY-125:focus,
+.hover\:scaleY-125:hover {
+  transform: scaleY(1.25);
+}
+
+.scaleY-150 {
+  transform: scaleY(1.5);
+}
+
+.active\:scaleY-150:active,
+.focus\:scaleY-150:focus,
+.hover\:scaleY-150:hover {
+  transform: scaleY(1.5);
+}
+
+.scaleY-175 {
+  transform: scaleY(1.75);
+}
+
+.active\:scaleY-175:active,
+.focus\:scaleY-175:focus,
+.hover\:scaleY-175:hover {
+  transform: scaleY(1.75);
+}
+
+.scaleY-200 {
+  transform: scaleY(2);
+}
+
+.active\:scaleY-200:active,
+.focus\:scaleY-200:focus,
+.hover\:scaleY-200:hover {
+  transform: scaleY(2);
+}
+
+.scaleZ-0 {
+  transform: scaleZ(0);
+}
+
+.active\:scaleZ-0:active,
+.focus\:scaleZ-0:focus,
+.hover\:scaleZ-0:hover {
+  transform: scaleZ(0);
+}
+
+.scaleZ-25 {
+  transform: scaleZ(0.25);
+}
+
+.active\:scaleZ-25:active,
+.focus\:scaleZ-25:focus,
+.hover\:scaleZ-25:hover {
+  transform: scaleZ(0.25);
+}
+
+.scaleZ-50 {
+  transform: scaleZ(0.5);
+}
+
+.active\:scaleZ-50:active,
+.focus\:scaleZ-50:focus,
+.hover\:scaleZ-50:hover {
+  transform: scaleZ(0.5);
+}
+
+.scaleZ-75 {
+  transform: scaleZ(0.75);
+}
+
+.active\:scaleZ-75:active,
+.focus\:scaleZ-75:focus,
+.hover\:scaleZ-75:hover {
+  transform: scaleZ(0.75);
+}
+
+.scaleZ-100 {
+  transform: scaleZ(1);
+}
+
+.active\:scaleZ-100:active,
+.focus\:scaleZ-100:focus,
+.hover\:scaleZ-100:hover {
+  transform: scaleZ(1);
+}
+
+.scaleZ-110 {
+  transform: scaleZ(1.1);
+}
+
+.active\:scaleZ-110:active,
+.focus\:scaleZ-110:focus,
+.hover\:scaleZ-110:hover {
+  transform: scaleZ(1.1);
+}
+
+.scaleZ-120 {
+  transform: scaleZ(1.2);
+}
+
+.active\:scaleZ-120:active,
+.focus\:scaleZ-120:focus,
+.hover\:scaleZ-120:hover {
+  transform: scaleZ(1.2);
+}
+
+.scaleZ-125 {
+  transform: scaleZ(1.25);
+}
+
+.active\:scaleZ-125:active,
+.focus\:scaleZ-125:focus,
+.hover\:scaleZ-125:hover {
+  transform: scaleZ(1.25);
+}
+
+.scaleZ-150 {
+  transform: scaleZ(1.5);
+}
+
+.active\:scaleZ-150:active,
+.focus\:scaleZ-150:focus,
+.hover\:scaleZ-150:hover {
+  transform: scaleZ(1.5);
+}
+
+.scaleZ-175 {
+  transform: scaleZ(1.75);
+}
+
+.active\:scaleZ-175:active,
+.focus\:scaleZ-175:focus,
+.hover\:scaleZ-175:hover {
+  transform: scaleZ(1.75);
+}
+
+.scaleZ-200 {
+  transform: scaleZ(2);
+}
+
+.active\:scaleZ-200:active,
+.focus\:scaleZ-200:focus,
+.hover\:scaleZ-200:hover {
+  transform: scaleZ(2);
+}
+
+.shrinkX-0 {
+  transform: scaleX(0);
+}
+
+.active\:scaleX-0:active,
+.focus\:scaleX-0:focus,
+.hover\:scaleX-0:hover {
+  transform: scaleX(0);
+}
+
+.shrinkX-25 {
+  transform: scaleX(0.25);
+}
+
+.active\:scaleX-25:active,
+.focus\:scaleX-25:focus,
+.hover\:scaleX-25:hover {
+  transform: scaleX(0.25);
+}
+
+.shrinkX-50 {
+  transform: scaleX(0.5);
+}
+
+.active\:scaleX-50:active,
+.focus\:scaleX-50:focus,
+.hover\:scaleX-50:hover {
+  transform: scaleX(0.5);
+}
+
+.shrinkX-75 {
+  transform: scaleX(0.75);
+}
+
+.active\:scaleX-75:active,
+.focus\:scaleX-75:focus,
+.hover\:scaleX-75:hover {
+  transform: scaleX(0.75);
+}
+
+.shrinkX-100 {
+  transform: scaleX(1);
+}
+
+.active\:scaleX-100:active,
+.focus\:scaleX-100:focus,
+.hover\:scaleX-100:hover {
+  transform: scaleX(1);
+}
+
+.shrinkX-110 {
+  transform: scaleX(1.1);
+}
+
+.active\:scaleX-110:active,
+.focus\:scaleX-110:focus,
+.hover\:scaleX-110:hover {
+  transform: scaleX(1.1);
+}
+
+.shrinkX-120 {
+  transform: scaleX(1.2);
+}
+
+.active\:scaleX-120:active,
+.focus\:scaleX-120:focus,
+.hover\:scaleX-120:hover {
+  transform: scaleX(1.2);
+}
+
+.shrinkX-125 {
+  transform: scaleX(1.25);
+}
+
+.active\:scaleX-125:active,
+.focus\:scaleX-125:focus,
+.hover\:scaleX-125:hover {
+  transform: scaleX(1.25);
+}
+
+.shrinkX-150 {
+  transform: scaleX(1.5);
+}
+
+.active\:scaleX-150:active,
+.focus\:scaleX-150:focus,
+.hover\:scaleX-150:hover {
+  transform: scaleX(1.5);
+}
+
+.shrinkX-175 {
+  transform: scaleX(1.75);
+}
+
+.active\:scaleX-175:active,
+.focus\:scaleX-175:focus,
+.hover\:scaleX-175:hover {
+  transform: scaleX(1.75);
+}
+
+.shrinkX-200 {
+  transform: scaleX(2);
+}
+
+.active\:scaleX-200:active,
+.focus\:scaleX-200:focus,
+.hover\:scaleX-200:hover {
+  transform: scaleX(2);
+}
+
+.shrinkY-0 {
+  transform: scaleY(0);
+}
+
+.active\:scaleY-0:active,
+.focus\:scaleY-0:focus,
+.hover\:scaleY-0:hover {
+  transform: scaleY(0);
+}
+
+.shrinkY-25 {
+  transform: scaleY(0.25);
+}
+
+.active\:scaleY-25:active,
+.focus\:scaleY-25:focus,
+.hover\:scaleY-25:hover {
+  transform: scaleY(0.25);
+}
+
+.shrinkY-50 {
+  transform: scaleY(0.5);
+}
+
+.active\:scaleY-50:active,
+.focus\:scaleY-50:focus,
+.hover\:scaleY-50:hover {
+  transform: scaleY(0.5);
+}
+
+.shrinkY-75 {
+  transform: scaleY(0.75);
+}
+
+.active\:scaleY-75:active,
+.focus\:scaleY-75:focus,
+.hover\:scaleY-75:hover {
+  transform: scaleY(0.75);
+}
+
+.shrinkY-100 {
+  transform: scaleY(1);
+}
+
+.active\:scaleY-100:active,
+.focus\:scaleY-100:focus,
+.hover\:scaleY-100:hover {
+  transform: scaleY(1);
+}
+
+.shrinkY-110 {
+  transform: scaleY(1.1);
+}
+
+.active\:scaleY-110:active,
+.focus\:scaleY-110:focus,
+.hover\:scaleY-110:hover {
+  transform: scaleY(1.1);
+}
+
+.shrinkY-120 {
+  transform: scaleY(1.2);
+}
+
+.active\:scaleY-120:active,
+.focus\:scaleY-120:focus,
+.hover\:scaleY-120:hover {
+  transform: scaleY(1.2);
+}
+
+.shrinkY-125 {
+  transform: scaleY(1.25);
+}
+
+.active\:scaleY-125:active,
+.focus\:scaleY-125:focus,
+.hover\:scaleY-125:hover {
+  transform: scaleY(1.25);
+}
+
+.shrinkY-150 {
+  transform: scaleY(1.5);
+}
+
+.active\:scaleY-150:active,
+.focus\:scaleY-150:focus,
+.hover\:scaleY-150:hover {
+  transform: scaleY(1.5);
+}
+
+.shrinkY-175 {
+  transform: scaleY(1.75);
+}
+
+.active\:scaleY-175:active,
+.focus\:scaleY-175:focus,
+.hover\:scaleY-175:hover {
+  transform: scaleY(1.75);
+}
+
+.shrinkY-200 {
+  transform: scaleY(2);
+}
+
+.active\:scaleY-200:active,
+.focus\:scaleY-200:focus,
+.hover\:scaleY-200:hover {
+  transform: scaleY(2);
+}
+
+.shrinkZ-0 {
+  transform: scaleZ(0);
+}
+
+.active\:scaleZ-0:active,
+.focus\:scaleZ-0:focus,
+.hover\:scaleZ-0:hover {
+  transform: scaleZ(0);
+}
+
+.shrinkZ-25 {
+  transform: scaleZ(0.25);
+}
+
+.active\:scaleZ-25:active,
+.focus\:scaleZ-25:focus,
+.hover\:scaleZ-25:hover {
+  transform: scaleZ(0.25);
+}
+
+.shrinkZ-50 {
+  transform: scaleZ(0.5);
+}
+
+.active\:scaleZ-50:active,
+.focus\:scaleZ-50:focus,
+.hover\:scaleZ-50:hover {
+  transform: scaleZ(0.5);
+}
+
+.shrinkZ-75 {
+  transform: scaleZ(0.75);
+}
+
+.active\:scaleZ-75:active,
+.focus\:scaleZ-75:focus,
+.hover\:scaleZ-75:hover {
+  transform: scaleZ(0.75);
+}
+
+.shrinkZ-100 {
+  transform: scaleZ(1);
+}
+
+.active\:scaleZ-100:active,
+.focus\:scaleZ-100:focus,
+.hover\:scaleZ-100:hover {
+  transform: scaleZ(1);
+}
+
+.shrinkZ-110 {
+  transform: scaleZ(1.1);
+}
+
+.active\:scaleZ-110:active,
+.focus\:scaleZ-110:focus,
+.hover\:scaleZ-110:hover {
+  transform: scaleZ(1.1);
+}
+
+.shrinkZ-120 {
+  transform: scaleZ(1.2);
+}
+
+.active\:scaleZ-120:active,
+.focus\:scaleZ-120:focus,
+.hover\:scaleZ-120:hover {
+  transform: scaleZ(1.2);
+}
+
+.shrinkZ-125 {
+  transform: scaleZ(1.25);
+}
+
+.active\:scaleZ-125:active,
+.focus\:scaleZ-125:focus,
+.hover\:scaleZ-125:hover {
+  transform: scaleZ(1.25);
+}
+
+.shrinkZ-150 {
+  transform: scaleZ(1.5);
+}
+
+.active\:scaleZ-150:active,
+.focus\:scaleZ-150:focus,
+.hover\:scaleZ-150:hover {
+  transform: scaleZ(1.5);
+}
+
+.shrinkZ-175 {
+  transform: scaleZ(1.75);
+}
+
+.active\:scaleZ-175:active,
+.focus\:scaleZ-175:focus,
+.hover\:scaleZ-175:hover {
+  transform: scaleZ(1.75);
+}
+
+.shrinkZ-200 {
+  transform: scaleZ(2);
+}
+
+.active\:scaleZ-200:active,
+.focus\:scaleZ-200:focus,
+.hover\:scaleZ-200:hover {
+  transform: scaleZ(2);
+}
+
+.skew-0 {
+  transform: skew(0deg);
+}
+
+.active\:skew-0:active,
+.focus\:skew-0:focus,
+.hover\:skew-0:hover {
+  transform: skew(0deg);
+}
+
+.skew-1 {
+  transform: skew(1deg);
+}
+
+.active\:skew-1:active,
+.focus\:skew-1:focus,
+.hover\:skew-1:hover {
+  transform: skew(1deg);
+}
+
+.skew-2 {
+  transform: skew(2deg);
+}
+
+.active\:skew-2:active,
+.focus\:skew-2:focus,
+.hover\:skew-2:hover {
+  transform: skew(2deg);
+}
+
+.skew-3 {
+  transform: skew(3deg);
+}
+
+.active\:skew-3:active,
+.focus\:skew-3:focus,
+.hover\:skew-3:hover {
+  transform: skew(3deg);
+}
+
+.skew-4 {
+  transform: skew(4deg);
+}
+
+.active\:skew-4:active,
+.focus\:skew-4:focus,
+.hover\:skew-4:hover {
+  transform: skew(4deg);
+}
+
+.skew-5 {
+  transform: skew(5deg);
+}
+
+.active\:skew-5:active,
+.focus\:skew-5:focus,
+.hover\:skew-5:hover {
+  transform: skew(5deg);
+}
+
+.skew-6 {
+  transform: skew(6deg);
+}
+
+.active\:skew-6:active,
+.focus\:skew-6:focus,
+.hover\:skew-6:hover {
+  transform: skew(6deg);
+}
+
+.skewX-0 {
+  transform: skewX(0deg);
+}
+
+.active\:skewX-0:active,
+.focus\:skewX-0:focus,
+.hover\:skewX-0:hover {
+  transform: skewX(0deg);
+}
+
+.skewX-1 {
+  transform: skewX(1deg);
+}
+
+.active\:skewX-1:active,
+.focus\:skewX-1:focus,
+.hover\:skewX-1:hover {
+  transform: skewX(1deg);
+}
+
+.skewX-2 {
+  transform: skewX(2deg);
+}
+
+.active\:skewX-2:active,
+.focus\:skewX-2:focus,
+.hover\:skewX-2:hover {
+  transform: skewX(2deg);
+}
+
+.skewX-3 {
+  transform: skewX(3deg);
+}
+
+.active\:skewX-3:active,
+.focus\:skewX-3:focus,
+.hover\:skewX-3:hover {
+  transform: skewX(3deg);
+}
+
+.skewX-4 {
+  transform: skewX(4deg);
+}
+
+.active\:skewX-4:active,
+.focus\:skewX-4:focus,
+.hover\:skewX-4:hover {
+  transform: skewX(4deg);
+}
+
+.skewX-5 {
+  transform: skewX(5deg);
+}
+
+.active\:skewX-5:active,
+.focus\:skewX-5:focus,
+.hover\:skewX-5:hover {
+  transform: skewX(5deg);
+}
+
+.skewX-6 {
+  transform: skewX(6deg);
+}
+
+.active\:skewX-6:active,
+.focus\:skewX-6:focus,
+.hover\:skewX-6:hover {
+  transform: skewX(6deg);
+}
+
+.skewY-0 {
+  transform: skewY(0deg);
+}
+
+.active\:skewY-0:active,
+.focus\:skewY-0:focus,
+.hover\:skewY-0:hover {
+  transform: skewY(0deg);
+}
+
+.skewY-1 {
+  transform: skewY(1deg);
+}
+
+.active\:skewY-1:active,
+.focus\:skewY-1:focus,
+.hover\:skewY-1:hover {
+  transform: skewY(1deg);
+}
+
+.skewY-2 {
+  transform: skewY(2deg);
+}
+
+.active\:skewY-2:active,
+.focus\:skewY-2:focus,
+.hover\:skewY-2:hover {
+  transform: skewY(2deg);
+}
+
+.skewY-3 {
+  transform: skewY(3deg);
+}
+
+.active\:skewY-3:active,
+.focus\:skewY-3:focus,
+.hover\:skewY-3:hover {
+  transform: skewY(3deg);
+}
+
+.skewY-4 {
+  transform: skewY(4deg);
+}
+
+.active\:skewY-4:active,
+.focus\:skewY-4:focus,
+.hover\:skewY-4:hover {
+  transform: skewY(4deg);
+}
+
+.skewY-5 {
+  transform: skewY(5deg);
+}
+
+.active\:skewY-5:active,
+.focus\:skewY-5:focus,
+.hover\:skewY-5:hover {
+  transform: skewY(5deg);
+}
+
+.skewY-6 {
+  transform: skewY(6deg);
+}
+
+.active\:skewY-6:active,
+.focus\:skewY-6:focus,
+.hover\:skewY-6:hover {
+  transform: skewY(6deg);
+}
+
+.translate-top {
+  box-shadow: 2px -3px 5px rgba(0, 0, 0, 0.2);
+  top: 0;
+  right: 50%;
+  transform: translate(50%, -100%);
+}
+.translate-right {
+  box-shadow: -3px 2px 5px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -50%);
+}
+.translate-bottom {
+  box-shadow: 2px -3px 5px rgba(0, 0, 0, 0.2);
+  right: 50%;
+  bottom: 0;
+  transform: translate(50%, 100%);
+}
+.translate-left {
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+}
+.translate-middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.translate-middle-x {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.translate-middle-y {
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.translate-0 {
+  transform: translate(0);
+}
+
+.translateX-0 {
+  transform: translateX(0);
+}
+
+.active\:translateX-0:active,
+.focus\:translateX-0:focus,
+.hover\:translateX-0:hover {
+  transform: translateX(0);
+}
+
+.translateY-0 {
+  transform: translateY(0);
+}
+
+.active\:translateY-0:active,
+.focus\:translateY-0:focus,
+.hover\:translateY-0:hover {
+  transform: translateY(0);
+}
+
+.translate-25 {
+  transform: translate(25%);
+}
+
+.translateX-25 {
+  transform: translateX(25%);
+}
+
+.active\:translateX-25:active,
+.focus\:translateX-25:focus,
+.hover\:translateX-25:hover {
+  transform: translateX(25%);
+}
+
+.translateY-25 {
+  transform: translateY(25%);
+}
+
+.active\:translateY-25:active,
+.focus\:translateY-25:focus,
+.hover\:translateY-25:hover {
+  transform: translateY(25%);
+}
+
+.translate-50 {
+  transform: translate(50%, 50%);
+}
+
+.translateX-50 {
+  transform: translateX(50%);
+}
+
+.active\:translateX-50:active,
+.focus\:translateX-50:focus,
+.hover\:translateX-50:hover {
+  transform: translateX(50%);
+}
+
+.translateY-50 {
+  transform: translateY(50%);
+}
+
+.active\:translateY-50:active,
+.focus\:translateY-50:focus,
+.hover\:translateY-50:hover {
+  transform: translateY(50%);
+}
+
+.translate-75 {
+  transform: translate(75%);
+}
+
+.translateX-75 {
+  transform: translateX(75%);
+}
+
+.active\:translateX-75:active,
+.focus\:translateX-75:focus,
+.hover\:translateX-75:hover {
+  transform: translateX(75%);
+}
+
+.translateY-75 {
+  transform: translateY(75%);
+}
+
+.active\:translateY-75:active,
+.focus\:translateY-75:focus,
+.hover\:translateY-75:hover {
+  transform: translateY(75%);
+}
+
+.translate-100 {
+  transform: translate(100%);
+}
+
+.translateX-100 {
+  transform: translateX(100%);
+}
+
+.active\:translateX-100:active,
+.focus\:translateX-100:focus,
+.hover\:translateX-100:hover {
+  transform: translateX(100%);
+}
+
+.translateY-100 {
+  transform: translateY(100%);
+}
+
+.active\:translateY-100:active,
+.focus\:translateY-100:focus,
+.hover\:translateY-100:hover {
+  transform: translateY(100%);
+}
+
+.translate--100 {
+  transform: translate(-100%);
+}
+
+.translateX--100 {
+  transform: translateX(-100%);
+}
+
+.active\:translateX--100:active,
+.focus\:translateX--100:focus,
+.hover\:translateX--100:hover {
+  transform: translateX(-100%);
+}
+
+.translateY--100 {
+  transform: translateY(-100%);
+}
+
+.active\:translateY--100:active,
+.focus\:translateY--100:focus,
+.hover\:translateY--100:hover {
+  transform: translateY(-100%);
+}
+
+.translate--75 {
+  transform: translate(-75%);
+}
+
+.translateX--75 {
+  transform: translateX(-75%);
+}
+
+.active\:translateX--75:active,
+.focus\:translateX--75:focus,
+.hover\:translateX--75:hover {
+  transform: translateX(-75%);
+}
+
+.translateY--75 {
+  transform: translateY(-75%);
+}
+
+.active\:translateY--75:active,
+.focus\:translateY--75:focus,
+.hover\:translateY--75:hover {
+  transform: translateY(-75%);
+}
+
+.translate--50 {
+  transform: translate(-50%, -50%);
+}
+
+.translateX--50 {
+  transform: translateX(-50%);
+}
+
+.active\:translateX--50:active,
+.focus\:translateX--50:focus,
+.hover\:translateX--50:hover {
+  transform: translateX(-50%);
+}
+
+.translateY--50 {
+  transform: translateY(-50%);
+}
+
+.active\:translateY--50:active,
+.focus\:translateY--50:focus,
+.hover\:translateY--50:hover {
+  transform: translateY(-50%);
+}
+
+.translate--25 {
+  transform: translate(-25%);
+}
+
+.translateX--25 {
+  transform: translateX(-25%);
+}
+
+.active\:translateX--25:active,
+.focus\:translateX--25:focus,
+.hover\:translateX--25:hover {
+  transform: translateX(-25%);
+}
+
+.translateY--25 {
+  transform: translateY(-25%);
+}
+
+.active\:translateY--25:active,
+.focus\:translateY--25:focus,
+.hover\:translateY--25:hover {
+  transform: translateY(-25%);
+}
+
+.transition-all {
+  transition-property: all;
+}
+
+.active\:transition-all:active,
+.focus\:transition-all:focus,
+.hover\:transition-all:hover {
+  transition-property: all;
+}
+
+.transition-background {
+  transition-property: background;
+}
+
+.active\:transition-background:active,
+.focus\:transition-background:focus,
+.hover\:transition-background:hover {
+  transition-property: background;
+}
+
+.transition-color {
+  transition-property: color;
+}
+
+.active\:transition-color:active,
+.focus\:transition-color:focus,
+.hover\:transition-color:hover {
+  transition-property: color;
+}
+
+.transition-height {
+  transition-property: height;
+}
+
+.active\:transition-height:active,
+.focus\:transition-height:focus,
+.hover\:transition-height:hover {
+  transition-property: height;
+}
+
+.transition-width {
+  transition-property: width;
+}
+
+.active\:transition-width:active,
+.focus\:transition-width:focus,
+.hover\:transition-width:hover {
+  transition-property: width;
+}
+
+.transition-transform {
+  transition-property: transform;
+}
+
+.active\:transition-transform:active,
+.focus\:transition-transform:focus,
+.hover\:transition-transform:hover {
+  transition-property: transform;
+}
+
+.transition-none {
+  transition-property: none;
+}
+
+.active\:transition-none:active,
+.focus\:transition-none:focus,
+.hover\:transition-none:hover {
+  transition-property: none;
+}
+
+.transition-100 {
+  transition-duration: 100ms;
+}
+
+.active\:transition-100:active,
+.focus\:transition-100:focus,
+.hover\:transition-100:hover {
+  transition-duration: 100ms;
+}
+
+.transition-200 {
+  transition-duration: 200ms;
+}
+
+.active\:transition-200:active,
+.focus\:transition-200:focus,
+.hover\:transition-200:hover {
+  transition-duration: 200ms;
+}
+
+.transition-300 {
+  transition-duration: 300ms;
+}
+
+.active\:transition-300:active,
+.focus\:transition-300:focus,
+.hover\:transition-300:hover {
+  transition-duration: 300ms;
+}
+
+.transition-400 {
+  transition-duration: 400ms;
+}
+
+.active\:transition-400:active,
+.focus\:transition-400:focus,
+.hover\:transition-400:hover {
+  transition-duration: 400ms;
+}
+
+.transition-500 {
+  transition-duration: 500ms;
+}
+
+.active\:transition-500:active,
+.focus\:transition-500:focus,
+.hover\:transition-500:hover {
+  transition-duration: 500ms;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+  transition-duration: 100ms;
+}
+
+.active\:ease-in:active,
+.focus\:ease-in:focus,
+.hover\:ease-in:hover {
+  transition-timing-function: ease-in;
+  transition-duration: 100ms;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+  transition-duration: 100ms;
+}
+
+.active\:ease-out:active,
+.focus\:ease-out:focus,
+.hover\:ease-out:hover {
+  transition-timing-function: ease-out;
+  transition-duration: 100ms;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+}
+
+.active\:ease-in-out:active,
+.focus\:ease-in-out:focus,
+.hover\:ease-in-out:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+}
+
+.linear {
+  transition-timing-function: linear;
+  transition-duration: 100ms;
+}
+
+.active\:linear:active,
+.focus\:linear:focus,
+.hover\:linear:hover {
+  transition-timing-function: linear;
+  transition-duration: 100ms;
+}
+
+.step-start {
+  transition-timing-function: step-start;
+  transition-duration: 100ms;
+}
+
+.active\:step-start:active,
+.focus\:step-start:focus,
+.hover\:step-start:hover {
+  transition-timing-function: step-start;
+  transition-duration: 100ms;
+}
+
+.step-end {
+  transition-timing-function: step-end;
+  transition-duration: 100ms;
+}
+
+.active\:step-end:active,
+.focus\:step-end:focus,
+.hover\:step-end:hover {
+  transition-timing-function: step-end;
+  transition-duration: 100ms;
+}
+
+/*# sourceMappingURL=transform.css.map */

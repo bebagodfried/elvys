@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  align-items: center;
+}
+footer h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer p:only-child {
+  width: 100%;
+  margin: 0;
+}
+footer.bg-none, footer.bg-transparent, footer.tansparent {
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=footer.css.map */

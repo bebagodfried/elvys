@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir"       : "dist/1.0.0/js",
+    "target"       : "ES2020",
+
+    "noEmitOnError": true,
+    "strict"       : true,
+  },
+
+  "files": [
+    "typeacript/helpers.ts",
+  ]
+}

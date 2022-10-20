@@ -1,0 +1,29 @@
+@use 'sass:map';
+@import '../utilities/all';
+
+header {
+  display: flex;
+    align-items: center;
+
+  * {
+    display: inline-block
+      }
+
+  h {
+    @for $i from 1 through 6 {
+      &#{$i} {
+        margin: {
+          top: 0;
+          bottom: 0
+        }
+      }
+    }
+  }
+
+  &.bg-none, &.bg-transparent, &.tansparent {
+    background-color: $none;
+    @include absolute {
+      z-index: 1
+    }
+  }
+}

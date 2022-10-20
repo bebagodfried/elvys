@@ -1,0 +1,33 @@
+@use 'sass:map';
+@import '../utilities/all';
+
+footer {
+  display: flex;
+    align-items: center;
+
+  h {
+    @for $i from 1 through 6 {
+      &#{$i} {
+        margin: {
+          top: 0;
+          bottom: 0
+        }
+      }
+    }
+  }
+
+  p {
+    &:only-child {
+      width: 100%;
+      margin: 0
+    }
+  }
+
+  &.bg-none, &.bg-transparent, &.tansparent {
+    background-color: $none;
+    @include border($width: 0);
+    @include absolute {
+      z-index: 1
+    }
+  }
+}
