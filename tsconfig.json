@@ -8,6 +8,6 @@
   },
 
   "files": [
-    "typeacript/helpers.ts",
+    "typeacript/ui.ts",
   ]
 }
