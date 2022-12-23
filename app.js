@@ -1,3 +1,9 @@
+/**
+ * @package: elvys - SCSS file
+ * @link   : https://github.com/bebagodfried/elvys.git
+ * @version: 1.0.0
+ * @license: CC BY 4.0, MIT
+ */
 // package informations
 let design = selectId('fwk')
     design.innerHTML = `elvys`
