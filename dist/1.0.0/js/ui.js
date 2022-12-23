@@ -5,7 +5,7 @@
  * @version: 1.0.0
  * @license: CC BY 4.0, MIT
  */
-fetch('https://github.com/bebagodfried/elvys/api.json')
+fetch('https://bebagodfried.github.io/elvys/api.json')
     .then(x => x.text())
     .then(config => sessionStorage.setItem('elvys_framework', config));
 let fwk = sessionStorage.getItem('elvys_framework');
